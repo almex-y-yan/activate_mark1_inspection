@@ -1,3 +1,5 @@
+//go:generate goversioninfo -64 -o resource.syso versioninfo.json
+
 package main
 
 import (
