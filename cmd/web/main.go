@@ -117,8 +117,16 @@ var inspectionStartServices = []string{
 }
 
 const inspectionToolPath = `d:\almex\tool\mark1_inspection\mark1_inspection.exe`
+const appLogFileName = "ini-web-tool.log"
 
 func main() {
+	logPath, err := configureLogging(os.Getenv("ALMEXPATH"))
+	if err != nil {
+		log.Printf("ログ初期化失敗: %v", err)
+	} else if logPath != "" {
+		log.Printf("ログ出力先: %s", logPath)
+	}
+
 	application, err := newApp()
 	if err != nil {
 		log.Fatalf("起動失敗: %v", err)
@@ -196,6 +204,7 @@ func (a *app) handleState(w http.ResponseWriter, r *http.Request) {
 	}
 	state, err := a.currentState()
 	if err != nil {
+		log.Printf("[state] 現在値取得失敗: %v", err)
 		writeJSON(w, http.StatusInternalServerError, apiResponse{
 			StatusError: false,
 			Message:     err.Error(),
@@ -219,6 +228,7 @@ func (a *app) handleApply(w http.ResponseWriter, r *http.Request) {
 	}
 	var request core.ApplyRequest
 	if err := json.NewDecoder(r.Body).Decode(&request); err != nil {
+		log.Printf("[apply] リクエスト形式不正: %v", err)
 		writeJSON(w, http.StatusBadRequest, apiResponse{
 			StatusError: false,
 			Message:     "リクエスト形式が不正です",
@@ -227,6 +237,7 @@ func (a *app) handleApply(w http.ResponseWriter, r *http.Request) {
 	}
 	operations, err := core.BuildOperations(request)
 	if err != nil {
+		log.Printf("[apply] 入力検証失敗: %v", err)
 		writeJSON(w, http.StatusBadRequest, apiResponse{
 			StatusError: false,
 			Message:     err.Error(),
@@ -239,6 +250,7 @@ func (a *app) handleApply(w http.ResponseWriter, r *http.Request) {
 		lines, opErr := a.applyOperation(operation)
 		logs = append(logs, lines...)
 		if opErr != nil {
+			logOperation("apply", opErr.Error(), logs)
 			writeJSON(w, http.StatusInternalServerError, apiResponse{
 				StatusError: false,
 				Message:     opErr.Error(),
@@ -250,6 +262,7 @@ func (a *app) handleApply(w http.ResponseWriter, r *http.Request) {
 
 	state, err := a.currentState()
 	if err != nil {
+		logOperation("apply", err.Error(), logs)
 		writeJSON(w, http.StatusInternalServerError, apiResponse{
 			StatusError: false,
 			Message:     err.Error(),
@@ -257,6 +270,7 @@ func (a *app) handleApply(w http.ResponseWriter, r *http.Request) {
 		})
 		return
 	}
+	logOperation("apply", "処理が完了しました", logs)
 	writeJSON(w, http.StatusOK, apiResponse{
 		StatusError: true,
 		Message:     "処理が完了しました",
@@ -277,12 +291,19 @@ func (a *app) handleInspectionStart(w http.ResponseWriter, r *http.Request) {
 	request := defaultInspectionStartRequest()
 	if err := json.NewDecoder(r.Body).Decode(&request); err != nil &&
 		!errors.Is(err, io.EOF) {
+		log.Printf("[inspection/start] リクエスト形式不正: %v", err)
 		writeJSON(w, http.StatusBadRequest, apiResponse{
 			StatusError: false,
 			Message:     "リクエスト形式が不正です",
 		})
 		return
 	}
+	log.Printf(
+		"[inspection/start] request: card=%t irs=%t nm43=%t",
+		request.Card.Selected,
+		request.IRS.Selected,
+		request.NM43.Selected,
+	)
 
 	logs := []string{"出荷検査事前処理を開始します"}
 	serviceError := false
@@ -330,6 +351,7 @@ func (a *app) handleInspectionStart(w http.ResponseWriter, r *http.Request) {
 	case serviceError:
 		message = "一部サービス操作に失敗しましたが、検査ツールを起動しました"
 	}
+	logOperation("inspection/start", message, logs)
 	writeJSON(w, http.StatusOK, apiResponse{
 		StatusError: launchErr == nil,
 		Message:     message,
@@ -348,6 +370,8 @@ func (a *app) handleInspectionComplete(w http.ResponseWriter, r *http.Request) {
 	logs := []string{"出荷検査完了処理を開始します"}
 	targetPath, err := resolveWebExePath()
 	if err != nil {
+		logOperation("inspection/complete", "web.exe の場所を特定できませんでした", append(logs,
+			fmt.Sprintf("削除対象特定失敗: %s", err.Error())))
 		writeJSON(w, http.StatusInternalServerError, apiResponse{
 			StatusError: false,
 			Message:     "web.exe の場所を特定できませんでした",
@@ -359,6 +383,8 @@ func (a *app) handleInspectionComplete(w http.ResponseWriter, r *http.Request) {
 	logs = append(logs, fmt.Sprintf("削除対象: %s", targetPath))
 	if err := scheduleDelete(targetPath); err != nil {
 		wrapped := wrapPermissionError(err, "削除予約", targetPath)
+		logOperation("inspection/complete", "web.exe の削除予約に失敗しました", append(logs,
+			fmt.Sprintf("削除予約失敗: %s", wrapped.Error())))
 		writeJSON(w, http.StatusInternalServerError, apiResponse{
 			StatusError: false,
 			Message:     "web.exe の削除予約に失敗しました",
@@ -367,6 +393,9 @@ func (a *app) handleInspectionComplete(w http.ResponseWriter, r *http.Request) {
 		})
 		return
 	}
+	logOperation("inspection/complete", "web.exe の削除を予約しました。アプリを終了します", append(logs,
+		"削除予約完了",
+		"アプリを終了します"))
 	writeJSON(w, http.StatusOK, apiResponse{
 		StatusError: true,
 		Message:     "web.exe の削除を予約しました。アプリを終了します",
@@ -592,6 +621,36 @@ func writeJSON(w http.ResponseWriter, status int, payload apiResponse) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	w.WriteHeader(status)
 	_ = json.NewEncoder(w).Encode(payload)
+}
+
+func configureLogging(almexPath string) (string, error) {
+	trimmed := strings.TrimSpace(almexPath)
+	if trimmed == "" {
+		return "", nil
+	}
+	logDir := filepath.Join(trimmed, "log")
+	if err := os.MkdirAll(logDir, 0755); err != nil {
+		return "", err
+	}
+	logPath := filepath.Join(logDir, appLogFileName)
+	file, err := os.OpenFile(
+		logPath,
+		os.O_CREATE|os.O_WRONLY|os.O_APPEND,
+		0644,
+	)
+	if err != nil {
+		return "", err
+	}
+	log.SetOutput(io.MultiWriter(os.Stdout, file))
+	log.SetFlags(log.LstdFlags | log.Lmicroseconds)
+	return logPath, nil
+}
+
+func logOperation(name string, message string, lines []string) {
+	log.Printf("[%s] %s", name, message)
+	for _, line := range lines {
+		log.Printf("[%s] %s", name, line)
+	}
 }
 
 func resolveWebDir() (string, error) {
