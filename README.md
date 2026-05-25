@@ -95,13 +95,16 @@ go build -o web.exe ./cmd/web
 
 1. `STOP` 対象サービスを停止
 2. `START` 対象サービスを開始
-3. `mark1_inspection.exe` を起動
+3. `almdevic5` の開始成功時は 2 秒待機
+4. `mark1_inspection.exe` を起動
 
 現在の実装上の注意:
 
 - `Card` / `IRS` / `NM43` は、画面のチェック状態に応じて
   `開始のみ` ユーザー制御します
 - 上記3サービスは未選択でも `停止` は行います
+- `almdevic5` (`NM43`) の開始に成功した場合は、
+  起動安定化のため `2秒` 待機してから `mark1_inspection.exe` を起動します
 - 一部サービスの停止/開始に失敗しても、
   ログを残した上で `mark1_inspection.exe` の起動は継続します
 

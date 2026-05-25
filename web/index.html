@@ -6,6 +6,10 @@
   <title>COM設定 + サービス再起動</title>
   <style>
     body { font-family: sans-serif; margin: 24px; }
+    .lead { margin-bottom: 8px; font-size: 20px; font-weight: bold; }
+    .info-box { margin: 12px 0 20px; padding: 12px; background: #f5f5f5; border: 1px solid #ddd; }
+    .info-box p { margin: 0 0 8px; }
+    .info-box ul { margin: 0; padding-left: 20px; }
     fieldset { margin-bottom: 16px; padding: 12px; }
     label { display: inline-block; min-width: 180px; }
     input[type="number"] { width: 120px; }
@@ -17,7 +21,15 @@
   </style>
 </head>
 <body>
+  <p class="lead">自己診断ツール（Mark1_inspection.exe）起動するサービスの設定</p>
   <h1>COM設定 + サービス再起動</h1>
+  <div class="info-box">
+    <p>「出荷検査ツール開始」では、Cashless PAX A35/GMO、CashMachine AD-XR、MIX Board AP-2462/CashMachine CLX-V231、PrinterThermal NP-3911、QR FC1-QOPU、Sound Standard、Camera ATM-CAM、HID Standard を固定で起動します。</p>
+    <p>
+      <code>almdevcd7</code> (Card CR-L31) / <code>almdevic2</code> (ICCard IRS-270) /
+      <code>almdevic5</code> (ICCard NM43) の3サービスは、下記の設定で「対象にする」を切り替えてカスタマイズできます。
+    </p>
+  </div>
   <p id="status">読み込み中...</p>
 
   <form id="apply-form">
