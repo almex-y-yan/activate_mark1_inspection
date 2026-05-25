@@ -118,6 +118,8 @@ var inspectionStartServices = []string{
 
 const inspectionToolPath = `d:\almex\tool\mark1_inspection\mark1_inspection.exe`
 const appLogFileName = "ini-web-tool.log"
+const nm43ServiceName = "almdevic5"
+const inspectionLaunchDelayAfterNM43Start = 2 * time.Second
 
 func main() {
 	logPath, err := configureLogging(os.Getenv("ALMEXPATH"))
@@ -330,6 +332,19 @@ func (a *app) handleInspectionStart(w http.ResponseWriter, r *http.Request) {
 			logs,
 			"サービス失敗あり: 該当サービスをスキップして検査ツール起動を継続します",
 		)
+	}
+
+	launchDelay := inspectionLaunchDelay(results)
+	if launchDelay > 0 {
+		logs = append(
+			logs,
+			fmt.Sprintf(
+				"待機: %s 起動安定化のため %d秒",
+				nm43ServiceName,
+				int(launchDelay/time.Second),
+			),
+		)
+		time.Sleep(launchDelay)
 	}
 
 	launchErr := launchInspectionTool()
@@ -572,6 +587,29 @@ func buildInspectionStartServices(
 		starts = append(starts, service)
 	}
 	return starts, logs
+}
+
+func inspectionLaunchDelay(results []shell.ServiceActionResult) time.Duration {
+	if hasSuccessfulInspectionServiceStart(results, nm43ServiceName) {
+		return inspectionLaunchDelayAfterNM43Start
+	}
+	return 0
+}
+
+func hasSuccessfulInspectionServiceStart(
+	results []shell.ServiceActionResult,
+	serviceName string,
+) bool {
+	for _, result := range results {
+		if result.Action.Type != shell.ServiceActionStart {
+			continue
+		}
+		if result.Action.Name != serviceName {
+			continue
+		}
+		return result.Err == nil
+	}
+	return false
 }
 
 func shouldSkipInspectionStartService(

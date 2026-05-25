@@ -1,6 +1,8 @@
 package main
 
 import (
+	"errors"
+	"ini-web-tool/internal/shell"
 	"slices"
 	"testing"
 )
@@ -40,5 +42,50 @@ func TestBuildInspectionStartServicesSkipsOnlyUnselectedReaders(t *testing.T) {
 	}
 	if !slices.Contains(logs, "開始スキップ: almdevic2 (IRS 未選択)") {
 		t.Fatal("expected IRS skip log")
+	}
+}
+
+func TestInspectionLaunchDelay_WhenNM43Started(t *testing.T) {
+	results := []shell.ServiceActionResult{
+		{
+			Action: shell.ServiceAction{
+				Name: "almdevcl9",
+				Type: shell.ServiceActionStart,
+			},
+		},
+		{
+			Action: shell.ServiceAction{
+				Name: nm43ServiceName,
+				Type: shell.ServiceActionStart,
+			},
+		},
+	}
+
+	delay := inspectionLaunchDelay(results)
+
+	if delay != inspectionLaunchDelayAfterNM43Start {
+		t.Fatalf(
+			"delay mismatch: got=%s want=%s",
+			delay,
+			inspectionLaunchDelayAfterNM43Start,
+		)
+	}
+}
+
+func TestInspectionLaunchDelay_WhenNM43StartFailed(t *testing.T) {
+	results := []shell.ServiceActionResult{
+		{
+			Action: shell.ServiceAction{
+				Name: nm43ServiceName,
+				Type: shell.ServiceActionStart,
+			},
+			Err: errors.New("start failed"),
+		},
+	}
+
+	delay := inspectionLaunchDelay(results)
+
+	if delay != 0 {
+		t.Fatalf("expected no delay, got=%s", delay)
 	}
 }
