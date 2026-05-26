@@ -1,0 +1,148 @@
+[DEBUG] 2026/05/26 10:50:33.203551 (MQTT) Receive,/almex/device/iccard/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_deviceiccard_248958id4"},"statusService":false,"idDevice":"0c02","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:33.230774 (MQTT) Publish,/almex/device/iccard/result_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_deviceiccard_248958id4"},"result":true}
+[TRACE] 2026/05/26 10:50:33.231292 (deviceManager) Stop IN
+[DEBUG] 2026/05/26 10:50:33.303059 (PACK TX)[(02)P(00)(03)S(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:33.319885 (PACK RX)[(02)P(01)1(03)c(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:33.420417 (PACK TX)[(02)R(00)(03)Q(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:33.438852 (PACK RX)[(02)R(04)1(a8)1(00)(03)(fd)(0d)(0a)]
+[TRACE] 2026/05/26 10:50:33.731692 (deviceHandler) Stop  IN
+[TRACE] 2026/05/26 10:50:33.732225 (deviceHandler) changePortDisable IN
+[TRACE] 2026/05/26 10:50:33.732225 (deviceHandler) changePortDisable OUT
+[TRACE] 2026/05/26 10:50:33.732225 (deviceHandler) waitPortDisable IN
+[TRACE] 2026/05/26 10:50:33.777321 (deviceHandler) checkPortDisable -> set desable
+[TRACE] 2026/05/26 10:50:33.784022 (deviceHandler) waitPortDisable OUT(true)
+[TRACE] 2026/05/26 10:50:33.784022 (deviceHandler) closeComPort    IN
+[TRACE] 2026/05/26 10:50:33.793773 (deviceHandler) closeComPort    OUT
+[DEBUG] 2026/05/26 10:50:33.794283 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":false,"statusControl":false,"statusLine":false,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[TRACE] 2026/05/26 10:50:34.294059 (deviceHandler) Stop  OUT
+[TRACE] 2026/05/26 10:50:34.355848 (deviceManager) watchJobRequest OUT
+[TRACE] 2026/05/26 10:50:34.794196 (deviceManager) Stop OUT
+[DEBUG] 2026/05/26 10:50:35.294494 (MQTT) Publish,/almex/device/iccard/notice_status_service,{"statusService":false,"idDevice":"0c02"}
+[TRACE] 2026/05/26 10:50:44.395474 (FIN) StartController requestCotrolService.Stop
+[TRACE] 2026/05/26 10:50:44.396138 (FIN) StartController requestSystemOperation.Stop
+[TRACE] 2026/05/26 10:50:44.396649 (FIN) StartController funcTbl Stop
+[TRACE] 2026/05/26 10:50:44.396649 (FIN) StartController deviceManager.Stop
+[TRACE] 2026/05/26 10:50:44.397202 (deviceManager) Stop IN
+[TRACE] 2026/05/26 10:50:44.897368 (deviceHandler) Stop  IN
+[TRACE] 2026/05/26 10:50:44.897878 (deviceHandler) changePortDisable IN
+[TRACE] 2026/05/26 10:50:44.897878 (deviceHandler) changePortDisable OUT
+[TRACE] 2026/05/26 10:50:44.897878 (deviceHandler) waitPortDisable IN
+[TRACE] 2026/05/26 10:50:44.908054 (deviceHandler) waitPortDisable OUT(true)
+[TRACE] 2026/05/26 10:50:44.908054 (deviceHandler) closeComPort    IN
+[TRACE] 2026/05/26 10:50:44.908577 (deviceHandler) closeComPort    OUT
+[DEBUG] 2026/05/26 10:50:44.909598 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":false,"statusControl":false,"statusLine":false,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[TRACE] 2026/05/26 10:50:45.409004 (deviceHandler) Stop  OUT
+[TRACE] 2026/05/26 10:50:45.909085 (deviceManager) Stop OUT
+[TRACE] 2026/05/26 10:50:45.909609 (FIN) StartController  wgExit.Done
+[TRACE] 2026/05/26 10:50:45.909609 (FIN) StartController end
+[INFO ] 2026/05/26 10:50:48.964318 (BOOT) almex_iccard_irs270 version 100.0.12.29
+[TRACE] 2026/05/26 10:50:48.980750 NewDeviceHandler IN
+[TRACE] 2026/05/26 10:50:48.981343 NewDeviceHandler OUT
+[TRACE] 2026/05/26 10:50:48.981645 (MQTT) Mqttconnect IN
+[DEBUG] 2026/05/26 10:50:48.987371 (MQTT) Broker Connected
+[TRACE] 2026/05/26 10:50:48.987371 (MQTT) Broker Connected.client  OUT
+[TRACE] 2026/05/26 10:50:48.987885 (MQTT) Mqttconnect OUT
+[TRACE] 2026/05/26 10:50:49.081974 (BOOT) StartController usecases initial
+[TRACE] 2026/05/26 10:50:49.082550 NewDeviceManager IN
+[TRACE] 2026/05/26 10:50:49.082918 NewDeviceManager OUT
+[TRACE] 2026/05/26 10:50:49.083420 (BOOT) StartController NewRequestDevice initial
+[TRACE] 2026/05/26 10:50:49.083420 (BOOT) StartController NewRequestDeviceInfo  initial
+[TRACE] 2026/05/26 10:50:49.084054 (BOOT) StartController NewRequestReset  initial
+[TRACE] 2026/05/26 10:50:49.084054 (BOOT) StartController NewRequestReadEnable  initial
+[TRACE] 2026/05/26 10:50:49.084054 (BOOT) StartController NewRequestReadDisable  initial
+[TRACE] 2026/05/26 10:50:49.084816 (BOOT) StartController NewRequestEject  initial
+[TRACE] 2026/05/26 10:50:49.084816 (BOOT) StartController NewRequestStatus  initial
+[TRACE] 2026/05/26 10:50:49.085426 (BOOT) StartController NewRequestCardData  initial
+[TRACE] 2026/05/26 10:50:49.085426 (BOOT) StartController NewRequestChangeMode  initial
+[TRACE] 2026/05/26 10:50:49.086187 (BOOT) StartController NewRequestChangeSystemOperation  initial
+[TRACE] 2026/05/26 10:50:49.086793 (BOOT) StartController NewRequestGetService  initial
+[TRACE] 2026/05/26 10:50:49.087301 (BOOT) StartController NewRequestControllService  initial
+[TRACE] 2026/05/26 10:50:49.087816 (BOOT) StartController funcTbl start!!
+[TRACE] 2026/05/26 10:50:49.088323 (deviceManager) Start IN
+[TRACE] 2026/05/26 10:50:49.088831 (deviceManager) watchJobRequest IN
+[TRACE] 2026/05/26 10:50:49.588507 (deviceHandler) Start  IN(startup:false)
+[TRACE] 2026/05/26 10:50:49.589029 (deviceHandler) Start  OUt
+[TRACE] 2026/05/26 10:50:49.589029 (deviceManager) Start OUT
+[TRACE] 2026/05/26 10:50:49.589551 (BOOT) StartController start
+[DEBUG] 2026/05/26 10:50:49.590060 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":false,"statusControl":false,"statusLine":false,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[TRACE] 2026/05/26 10:50:49.689115 (deviceHandler) initialComPort    IN
+[DEBUG] 2026/05/26 10:50:49.691198 (deviceHandler) initialComPort:COM1 OPEN OK
+[TRACE] 2026/05/26 10:50:49.691198 (deviceHandler) initialComPort    OUT,true
+[TRACE] 2026/05/26 10:50:49.691723 (deviceHandler) changePortEnable IN
+[TRACE] 2026/05/26 10:50:49.691723 (deviceHandler) changePortEnable OUT
+[DEBUG] 2026/05/26 10:50:49.692235 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":true,"statusControl":false,"statusLine":true,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[DEBUG] 2026/05/26 10:50:49.792728 (PACK TX)[(02)P(00)(03)S(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:49.809049 (PACK RX)[(02)P(01)1(03)c(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:49.909516 (PACK TX)[(02)R(00)(03)Q(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:49.927974 (PACK RX)[(02)R(04)1(a8)1(00)(03)(fd)(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:52.757552 (MQTT) Receive,/almex/device/iccard/request_device,{"ipAddrTbl":[],"requestInfo":{"processId":"00002918","requestId":"nfcReader01_0001"},"useCode":3}
+[DEBUG] 2026/05/26 10:50:52.940899 (MQTT) Receive,/almex/device/iccard/request_reset,{"deviceNo":"0a780ac90c050001","requestInfo":{"processId":"00002918","requestId":"nfcReader01_0002"}}
+[DEBUG] 2026/05/26 10:50:52.942994 (MQTT) Receive,/almex/device/iccard/request_device_info,{"deviceNo":"0a780ac90c050001","requestInfo":{"processId":"00002918","requestId":"nfcReader01_0003"}}
+[DEBUG] 2026/05/26 10:50:52.945102 (MQTT) Receive,/almex/device/iccard/request_status,{"deviceNo":"0a780ac90c050001","requestInfo":{"processId":"00002918","requestId":"nfcReader01_0004"}}
+[DEBUG] 2026/05/26 10:50:52.947215 (MQTT) Receive,/almex/device/iccard/request_enable_read,{"autoDisable":false,"autoEject":false,"deviceNo":"0a780ac90c050001","iccardType":11,"modeEject":1,"readAreaTbl":[{"blockCount":3,"blockNo":36,"keyData":"////////","keyType":0}],"requestInfo":{"processId":"00002918","requestId":"nfcReader01_0005"}}
+[TRACE] 2026/05/26 10:50:53.015678 (deviceManager) RequestDeviceInfo   IN
+[ERROR] 2026/05/26 10:50:53.016179 (deviceManager) checkDeviceinfo not find device handler!!
+[TRACE] 2026/05/26 10:50:53.016179 (deviceManager) RequestDeviceInfo   OUT
+[DEBUG] 2026/05/26 10:50:53.016179 (MQTT) Publish,/almex/device/iccard/result_device_info,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"nfcReader01_0003"},"result":false,"errorCode":"ALIC9912","errorDetail":"対象デバイスが見つからない","deviceNo":"0a780ac90c050001","deviceName":"","serialNo":"","fwVersionTbl":null,"countTotal":0,"countAllTotal":0}
+[DEBUG] 2026/05/26 10:50:53.060840 (MQTT) Receive,/almex/device/iccard/request_device,{"ipAddrTbl":[],"requestInfo":{"processId":"00002918","requestId":"icCardReader01_0001"},"useCode":1}
+[TRACE] 2026/05/26 10:50:53.067175 (deviceManager) requestStatus IN
+[TRACE] 2026/05/26 10:50:53.067701 (deviceManager) requestStatus OUT(39186)
+[DEBUG] 2026/05/26 10:50:53.068212 (MQTT) Publish,/almex/device/iccard/result_status,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"nfcReader01_0004"},"result":false,"errorCode":"ALIC9912","errorDetail":"対象デバイスが見つからない","deviceNo":"","statusReady":false,"statusControl":false,"statusLine":false,"statusError":false,"statusCover":false,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":null,"statusEnable":false}
+[TRACE] 2026/05/26 10:50:53.119054 (deviceManager) RequestReadEnable   IN
+[TRACE] 2026/05/26 10:50:53.119618 (deviceManager) checkStatusReadEnable IN
+[ERROR] 2026/05/26 10:50:53.120135 (deviceManager) checkStatusReadEnable not find device handler!!
+[TRACE] 2026/05/26 10:50:53.120671 (deviceManager) checkStatusReadEnable OUT(39186)
+[TRACE] 2026/05/26 10:50:53.120671 (deviceManager) RequestReadEnable   OUT
+[DEBUG] 2026/05/26 10:50:53.121195 (MQTT) Publish,/almex/device/iccard/result_enable_read,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"nfcReader01_0005"},"result":false,"errorCode":"ALIC9912","errorDetail":"対象デバイスが見つからない","deviceNo":"0a780ac90c050001"}
+[DEBUG] 2026/05/26 10:50:53.137103 (MQTT) Receive,/almex/device/iccard/request_device,{"ipAddrTbl":[],"requestInfo":{"processId":"00002918","requestId":"icCardReader02_0001"},"useCode":2}
+[DEBUG] 2026/05/26 10:50:53.171952 (MQTT) Publish,/almex/device/iccard/result_device,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"icCardReader01_0001"},"deviceTbl":[{"deviceNo":"0a780ac90c020001","deviceName":"ICカードリーダー(1)"}],"result":true}
+[DEBUG] 2026/05/26 10:50:53.232771 (MQTT) Receive,/almex/device/iccard/request_reset,{"deviceNo":"0a780ac90c020001","requestInfo":{"processId":"00002918","requestId":"icCardReader01_0002"}}
+[DEBUG] 2026/05/26 10:50:53.233499 (MQTT) Receive,/almex/device/iccard/request_device_info,{"deviceNo":"0a780ac90c020001","requestInfo":{"processId":"00002918","requestId":"icCardReader01_0004"}}
+[DEBUG] 2026/05/26 10:50:53.234050 (MQTT) Receive,/almex/device/iccard/request_status,{"deviceNo":"0a780ac90c020001","requestInfo":{"processId":"00002918","requestId":"icCardReader01_0009"}}
+[DEBUG] 2026/05/26 10:50:53.235090 (MQTT) Receive,/almex/device/iccard/request_enable_read,{"autoDisable":false,"autoEject":false,"cardIssue":false,"deviceNo":"0a780ac90c020001","iccardType":11,"modeEject":1,"readAreaTbl":[{"blockCount":3,"blockNo":36,"keyData":"////////","keyType":0}],"requestInfo":{"processId":"00002918","requestId":"icCardReader01_0003"}}
+[DEBUG] 2026/05/26 10:50:53.272888 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":false,"statusControl":false,"statusLine":false,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[DEBUG] 2026/05/26 10:50:53.273403 (MQTT) Publish,/almex/device/iccard/result_reset,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"icCardReader01_0002"},"result":true,"deviceNo":"0a780ac90c020001"}
+[TRACE] 2026/05/26 10:50:53.302496 (deviceManager) watchJobRequest JOBTYPE_RESET START
+[TRACE] 2026/05/26 10:50:53.302496 (deviceManager) requestReset IN
+[TRACE] 2026/05/26 10:50:53.323592 (deviceManager) RequestDeviceInfo   IN
+[TRACE] 2026/05/26 10:50:53.324101 (deviceManager) RequestDeviceInfo   OUT
+[DEBUG] 2026/05/26 10:50:53.324621 (MQTT) Publish,/almex/device/iccard/result_device_info,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"icCardReader01_0004"},"result":false,"errorCode":"ALIC9902","errorDetail":"回線断検出","deviceNo":"0a780ac90c020001","deviceName":"","serialNo":"","fwVersionTbl":null,"countTotal":0,"countAllTotal":0}
+[DEBUG] 2026/05/26 10:50:53.342763 (PACK TX)[(02)P(00)(03)S(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:53.359456 (PACK RX)[(02)P(01)1(03)c(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:53.360060 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":true,"statusControl":false,"statusLine":true,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[TRACE] 2026/05/26 10:50:53.360572 (deviceManager) readyWait IN
+[TRACE] 2026/05/26 10:50:53.374715 (deviceManager) requestStatus IN
+[TRACE] 2026/05/26 10:50:53.376217 (deviceManager) requestStatus OUT(0)
+[DEBUG] 2026/05/26 10:50:53.376217 (MQTT) Publish,/almex/device/iccard/result_status,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"icCardReader01_0009"},"result":true,"deviceNo":"0a780ac90c020001","statusReady":true,"statusControl":false,"statusLine":true,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[TRACE] 2026/05/26 10:50:53.427634 (deviceManager) RequestReadEnable   IN
+[TRACE] 2026/05/26 10:50:53.428679 (deviceManager) checkStatusReadEnable IN
+[TRACE] 2026/05/26 10:50:53.429095 (deviceManager) checkStatusReadEnable OUT(0)
+[DEBUG] 2026/05/26 10:50:53.460852 (PACK TX)[(02)R(00)(03)Q(0d)(0a)]
+[TRACE] 2026/05/26 10:50:53.461364 (deviceManager) readyWait OUT
+[TRACE] 2026/05/26 10:50:53.461364 (deviceManager) requestReset OUT(0)
+[TRACE] 2026/05/26 10:50:53.461875 (deviceManager) watchJobRequest JOBTYPE_RESET END
+[DEBUG] 2026/05/26 10:50:53.478573 (PACK RX)[(02)R(04)1(a8)1(00)(03)(fd)(0d)(0a)]
+[TRACE] 2026/05/26 10:50:53.562021 (deviceManager) watchJobRequest JOBTYPE_ENABLEREAD START
+[TRACE] 2026/05/26 10:50:53.562557 (deviceManager) requestReadEnable IN,cardIssue:false
+[DEBUG] 2026/05/26 10:50:53.578982 (PACK TX)[(02)(8e)(01)1(03)(bd)(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:53.597028 (PACK RX)[(02)(8e)(01)1(03)(bd)(0d)(0a)]
+[TRACE] 2026/05/26 10:50:53.597545 (deviceManager) requestReadEnable OUT(0)
+[TRACE] 2026/05/26 10:50:53.598061 (deviceManager) watchJobRequest JOBTYPE_ENABLEREAD END
+[TRACE] 2026/05/26 10:50:53.598571 (deviceManager) RequestReadEnable   OUT
+[DEBUG] 2026/05/26 10:50:53.598571 (MQTT) Publish,/almex/device/iccard/result_enable_read,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"icCardReader01_0003"},"result":true,"deviceNo":"0a780ac90c020001","readId":"icIRS270_readid_00000001"}
+[DEBUG] 2026/05/26 10:50:53.599570 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":true,"statusControl":false,"statusLine":true,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":true,"readId":"icIRS270_readid_00000001"}
+[DEBUG] 2026/05/26 10:50:53.697928 (PACK TX)[(02)R(00)(03)Q(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:53.718436 (PACK RX)[(02)R(04)1(a8)6(00)(03)(fa)(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:58.031516 (MQTT) Receive,/almex/device/iccard/request_disable_read,{"readId":"icIRS270_readid_00000001","requestInfo":{"processId":"00002918","requestId":"icCardReader01_0006"}}
+[TRACE] 2026/05/26 10:50:58.077090 (deviceManager) RequestReadDisable   IN
+[TRACE] 2026/05/26 10:50:58.113540 (deviceManager) watchJobRequest JOBTYPE_DISABLEREAD START
+[TRACE] 2026/05/26 10:50:58.114049 (deviceManager) requestReadDisable IN
+[DEBUG] 2026/05/26 10:50:58.200164 (PACK TX)[(02)(8e)(01)0(03)(bc)(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:58.228173 (PACK RX)[(02)(8e)(01)1(03)(bd)(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:58.229174 (MQTT) Publish,/almex/device/iccard/notice_status,{"deviceNo":"0a780ac90c020001","statusReady":true,"statusControl":false,"statusLine":true,"statusError":true,"statusCover":true,"statusCardWait":false,"statusCardHold":false,"statusCardIssue":false,"statusCardSurplus":false,"statusCardSensTbl":[],"statusEnable":false}
+[TRACE] 2026/05/26 10:50:58.229174 (deviceManager) requestReadDisable OUT(0,0a780ac90c020001,)
+[TRACE] 2026/05/26 10:50:58.229676 (deviceManager) watchJobRequest JOBTYPE_DISABLEREAD END
+[TRACE] 2026/05/26 10:50:58.229676 (deviceManager) RequestReadDisable   OUT
+[DEBUG] 2026/05/26 10:50:58.230215 (MQTT) Publish,/almex/device/iccard/result_disable_read,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"icCardReader01_0006"},"result":true,"readId":"icIRS270_readid_00000001"}
+[DEBUG] 2026/05/26 10:50:58.329005 (PACK TX)[(02)R(00)(03)Q(0d)(0a)]
+[DEBUG] 2026/05/26 10:50:58.346709 (PACK RX)[(02)R(04)1(a8)1(00)(03)(fd)(0d)(0a)]

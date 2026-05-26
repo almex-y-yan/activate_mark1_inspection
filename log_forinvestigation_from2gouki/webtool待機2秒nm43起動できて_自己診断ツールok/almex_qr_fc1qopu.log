@@ -1,0 +1,529 @@
+[DEBUG] 2026/05/26 10:50:01.798850 (MQTT) Receive,/almex/device/qr/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248859id3"},"idDevice":"0206","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:01.819491 (MQTT) Send,/almex/device/qr/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248859id3"},"result":true,"statusService":true,"idDevice":"0206"}
+[DEBUG] 2026/05/26 10:50:06.879176 (MQTT) Receive,/almex/device/qr/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248881id3"},"idDevice":"0206","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:06.908313 (MQTT) Send,/almex/device/qr/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248881id3"},"result":true,"statusService":true,"idDevice":"0206"}
+[DEBUG] 2026/05/26 10:50:11.967706 (MQTT) Receive,/almex/device/qr/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248903id3"},"idDevice":"0206","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:11.986583 (MQTT) Send,/almex/device/qr/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248903id3"},"result":true,"statusService":true,"idDevice":"0206"}
+[DEBUG] 2026/05/26 10:50:17.047931 (MQTT) Receive,/almex/device/qr/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248925id3"},"idDevice":"0206","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:17.073853 (MQTT) Send,/almex/device/qr/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_deviceqr_248925id3"},"result":true,"statusService":true,"idDevice":"0206"}
+[DEBUG] 2026/05/26 10:50:33.203551 (MQTT) Receive,/almex/device/qr/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_deviceqr_248957id3"},"statusService":false,"idDevice":"0206","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:33.215297 (MQTT) Send,/almex/device/qr/result_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_deviceqr_248957id3"},"result":true}
+[TRACE] 2026/05/26 10:50:33.216857 START (d *deviceManager) Stop()
+[TRACE] 2026/05/26 10:50:33.217870 END (d *deviceManager) Stop()
+[TRACE] 2026/05/26 10:50:33.218384 START (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 10:50:33.218899 END (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 10:50:33.218899 START (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, recvData []byte))
+[TRACE] 2026/05/26 10:50:33.219416 END (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, recvData []byte))
+[TRACE] 2026/05/26 10:50:33.219943 START (d *deviceHandler) Stop() int
+[TRACE] 2026/05/26 10:50:33.219943 START デバイス制御停止 (d *deviceControl) Stop()
+[TRACE] 2026/05/26 10:50:33.220972 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:33.221488 END (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:33.221488 START (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:33.222501 END (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:33.222501 END デバイス制御停止 (d *deviceControl) Stop()
+[TRACE] 2026/05/26 10:50:33.223035 END (d *deviceHandler) Stop() int
+[DEBUG] 2026/05/26 10:50:33.723530 (MQTT) Send,/almex/device/qr/notice_status_service,{"statusService":false,"idDevice":"0206"}
+[DEBUG] 2026/05/26 10:50:46.901895 (MQTT) Send,/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105046901,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALQR0003","logSummary":"サービス停止(QRリーダ制御)","logData":""}
+[TRACE] 2026/05/26 10:50:46.901895 START (d *deviceManager) Stop()
+[TRACE] 2026/05/26 10:50:46.902685 END (d *deviceManager) Stop()
+[TRACE] 2026/05/26 10:50:46.902685 START (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 10:50:46.903339 END (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 10:50:46.903906 START (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, recvData []byte))
+[TRACE] 2026/05/26 10:50:46.903906 END (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, recvData []byte))
+[TRACE] 2026/05/26 10:50:46.903906 START (d *deviceHandler) Stop() int
+[TRACE] 2026/05/26 10:50:46.904595 START デバイス制御停止 (d *deviceControl) Stop()
+[TRACE] 2026/05/26 10:50:46.905344 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:46.905344 END (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:46.905935 START (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:46.906336 END (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:46.906336 END デバイス制御停止 (d *deviceControl) Stop()
+[TRACE] 2026/05/26 10:50:46.906839 END (d *deviceHandler) Stop() int
+[INFO ] 2026/05/26 10:50:49.513608 almex_qr_fc1qopu アプリ起動 version: 102.1.13.17
+[INFO ] 2026/05/26 10:50:49.528747 コンフィグ情報: &{{localhost 1883} [{0a780ac902060001 {7  9600 8 0 1} [10.120.10.201] FC1-QOPU 80 [1] {0}    true true}] {4194304 16 0 1} D:\almex\etc\ini\almex_qr_fc1qopu.ini}
+[TRACE] 2026/05/26 10:50:49.529402 (MQTT) Mqttconnect IN
+[TRACE] 2026/05/26 10:50:49.529968 START (d *deviceControl) eventWatcher()
+[TRACE] 2026/05/26 10:50:49.529968 START (d *deviceControl) portSendWatcher()
+[TRACE] 2026/05/26 10:50:49.530508 START (d *deviceControl) portRecvWatcher()
+[DEBUG] 2026/05/26 10:50:49.535407 (MQTT) Broker Connected
+[TRACE] 2026/05/26 10:50:49.535933 (MQTT) Broker Connected.client  OUT
+[TRACE] 2026/05/26 10:50:49.535933 (MQTT) Mqttconnect OUT
+[INFO ] 2026/05/26 10:50:49.628885 statusService=true
+[TRACE] 2026/05/26 10:50:49.629923 START (d *deviceManager) Start()
+[TRACE] 2026/05/26 10:50:49.630429 START (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 10:50:49.630429 END (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 10:50:49.630948 START (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, recvData []byte))
+[TRACE] 2026/05/26 10:50:49.630948 END (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, recvData []byte))
+[TRACE] 2026/05/26 10:50:49.630948 START (d *deviceHandler) Start() int
+[TRACE] 2026/05/26 10:50:49.630948 START デバイス制御開始 (deviceControl) Start()
+[TRACE] 2026/05/26 10:50:49.631466 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:49.631466 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:49.631994 END デバイス制御開始 (deviceControl) Start()
+[TRACE] 2026/05/26 10:50:49.631994 END (d *deviceHandler) Start() int
+[TRACE] 2026/05/26 10:50:49.632502 END (d *deviceManager) Start()
+[TRACE] 2026/05/26 10:50:49.632502 START (d *deviceControl) timerWatcher(ticker &{0xc000179e30 true})
+[DEBUG] 2026/05/26 10:50:50.632017 d.stageIdx 0,eInfo.eventIdx 0
+[TRACE] 2026/05/26 10:50:50.632568 START  (d *deviceControl) connect(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:50.633078 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:50.633797 END (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:50.633797 END  (d *deviceControl) connect(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:51.632583 START (d *deviceHandler) InitialModeSetting() int
+[TRACE] 2026/05/26 10:50:51.633091 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:51.633626 RequestSend:4,02553203,sendData
+[DEBUG] 2026/05/26 10:50:51.633626 sendata::U2
+[DEBUG] 2026/05/26 10:50:51.633626 sendata::{U2 fc1qopusendid_00000001 true}
+[TRACE] 2026/05/26 10:50:51.634637 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:51.634637 device.handler.InitialModeSetting:true
+[TRACE] 2026/05/26 10:50:51.634637 END (d *deviceHandler) InitialModeSetting() int
+[TRACE] 2026/05/26 10:50:51.635658 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:51.636172 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:50:51.636172 conwrite::false
+[TRACE] 2026/05/26 10:50:51.636603 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:50:51.637106 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:50:52.636008 START (d *deviceHandler) ReadDisable() int
+[TRACE] 2026/05/26 10:50:52.636510 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:52.636510 RequestSend:3,025a03,sendData
+[DEBUG] 2026/05/26 10:50:52.636510 sendata::Z
+[DEBUG] 2026/05/26 10:50:52.636510 sendata::{Z fc1qopusendid_00000002 false}
+[TRACE] 2026/05/26 10:50:52.636510 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:52.636510 device.handler.ReadDisable:true
+[TRACE] 2026/05/26 10:50:52.637509 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:52.637509 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:50:52.638011 conwrite::false
+[TRACE] 2026/05/26 10:50:52.638011 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:50:52.638011 (deviceControl) portSendWatcher comWrite NG
+[DEBUG] 2026/05/26 10:50:52.758065 (MQTT) Receive,/almex/device/qr/request_device,{"ipAddrTbl":[],"requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0001"},"useCode":1}
+[DEBUG] 2026/05/26 10:50:52.759644 (MQTT) Send,/almex/device/qr/result_device,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"barcodeReader01_0001"},"result":true,"deviceTbl":[{"deviceNo":"0a780ac902060001","deviceName":"FC1-QOPU"}]}
+[TRACE] 2026/05/26 10:50:52.836893 START (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:52.836893 END (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:52.836893 END (d *deviceHandler) ReadDisable() int
+[DEBUG] 2026/05/26 10:50:52.943509 (MQTT) Receive,/almex/device/qr/request_reset,{"deviceNo":"0a780ac902060001","requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0002"}}
+[DEBUG] 2026/05/26 10:50:52.946155 (MQTT) Receive,/almex/device/qr/request_device_info,{"deviceNo":"0a780ac902060001","requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0006"}}
+[DEBUG] 2026/05/26 10:50:52.960937 ステータス通知: deviceNo=0a780ac902060001, statusReady=false, errorCode=, fwVersion=
+[DEBUG] 2026/05/26 10:50:52.961975 (MQTT) Send,/almex/device/qr/notice_status,{"deviceNo":"0a780ac902060001","statusReady":false,"statusControl":false,"statusLine":false,"statusError":true,"errorCode":"","errorDetail":"","statusEnable":false,"readId":""}
+[DEBUG] 2026/05/26 10:50:52.962488 (MQTT) Send,/almex/device/qr/result_reset,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"barcodeReader01_0002"},"result":true,"deviceNo":"0a780ac902060001"}
+[TRACE] 2026/05/26 10:50:52.963006 START (d *deviceManager) Reset(deviceNo 0a780ac902060001)
+[TRACE] 2026/05/26 10:50:52.963520 START (d *deviceHandler) Reset() int
+[TRACE] 2026/05/26 10:50:52.964037 START (d *deviceHandler) ReadDisable() int
+[TRACE] 2026/05/26 10:50:52.964557 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:52.965071 RequestSend:3,025a03,sendData
+[DEBUG] 2026/05/26 10:50:52.965071 sendata::Z
+[DEBUG] 2026/05/26 10:50:52.965601 sendata::{Z fc1qopusendid_00000003 false}
+[TRACE] 2026/05/26 10:50:52.966137 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:52.966449 device.handler.ReadDisable:true
+[TRACE] 2026/05/26 10:50:52.966449 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:52.967089 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:50:52.967603 conwrite::false
+[TRACE] 2026/05/26 10:50:52.967603 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:50:52.967603 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:50:53.166862 START (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:53.167374 END (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:53.167902 END (d *deviceHandler) ReadDisable() int
+[TRACE] 2026/05/26 10:50:53.167902 END (d *deviceHandler) Reset() int
+[TRACE] 2026/05/26 10:50:53.167902 END (d *deviceManager) Reset(deviceNo 0a780ac902060001)
+[DEBUG] 2026/05/26 10:50:53.167902 ステータス通知: deviceNo=0a780ac902060001, statusReady=true, errorCode=, fwVersion=
+[DEBUG] 2026/05/26 10:50:53.167902 (MQTT) Send,/almex/device/qr/notice_status,{"deviceNo":"0a780ac902060001","statusReady":true,"statusControl":false,"statusLine":false,"statusError":true,"errorCode":"","errorDetail":"","statusEnable":false,"readId":""}
+[TRACE] 2026/05/26 10:50:53.218356 START (d *deviceManager) SetDeviceInfo(deviceNo 0a780ac902060001)
+[TRACE] 2026/05/26 10:50:53.218879 END (d *deviceManager) SetDeviceInfo(deviceNo 0a780ac902060001)
+[DEBUG] 2026/05/26 10:50:53.218879 (MQTT) Send,/almex/device/qr/result_device_info,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"barcodeReader01_0006"},"result":true,"errorCode":"","errorDetail":"","deviceNo":"0a780ac902060001","deviceName":"FC1-QOPU","serialNo":"","fwVersionTbl":[{"title":"","version":""}]}
+[TRACE] 2026/05/26 10:50:53.838502 START (d *deviceHandler) InitialModeSettingsrialnum() int
+[TRACE] 2026/05/26 10:50:53.839004 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:53.839004 RequestSend:4,02494403,sendData
+[DEBUG] 2026/05/26 10:50:53.839004 sendata::ID
+[DEBUG] 2026/05/26 10:50:53.839522 sendata::{ID fc1qopusendid_00000004 true}
+[TRACE] 2026/05/26 10:50:53.839522 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:53.839522 sendata::ID
+[DEBUG] 2026/05/26 10:50:53.840032 device.handler.InitialModeSettingsrialnum:true
+[TRACE] 2026/05/26 10:50:53.840032 END (d *deviceHandler) InitialModeSettingsrialnum() int
+[TRACE] 2026/05/26 10:50:53.840553 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:53.840553 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:50:53.840553 conwrite::false
+[TRACE] 2026/05/26 10:50:53.840553 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:50:53.841556 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:50:54.840174 START (d *deviceHandler) InitialModeSettingfwversion() int
+[TRACE] 2026/05/26 10:50:54.840174 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:54.841173 RequestSend:5,0256455203,sendData
+[DEBUG] 2026/05/26 10:50:54.841677 sendata::VER
+[DEBUG] 2026/05/26 10:50:54.842214 sendata::{VER fc1qopusendid_00000005 true}
+[TRACE] 2026/05/26 10:50:54.842214 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:54.843237 sendata::VER
+[DEBUG] 2026/05/26 10:50:54.843771 device.handler.InitialModeSettingfwversion:true
+[TRACE] 2026/05/26 10:50:54.844891 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:54.844891 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:50:54.845423 conwrite::false
+[TRACE] 2026/05/26 10:50:54.845423 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[TRACE] 2026/05/26 10:50:54.845963 END (d *deviceHandler) InitialModeSettingfwversion() int
+[ERROR] 2026/05/26 10:50:54.846471 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:50:55.846368 START (d *deviceHandler) InitialModeSettinginfo() int
+[TRACE] 2026/05/26 10:50:55.846870 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:55.846870 RequestSend:4,02505703,sendData
+[DEBUG] 2026/05/26 10:50:55.846870 sendata::PW
+[DEBUG] 2026/05/26 10:50:55.846870 sendata::{PW fc1qopusendid_00000006 true}
+[TRACE] 2026/05/26 10:50:55.846870 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:55.846870 device.handler.InitialModeSettinginfo:true
+[TRACE] 2026/05/26 10:50:55.847869 END (d *deviceHandler) InitialModeSettinginfo() int
+[TRACE] 2026/05/26 10:50:55.847869 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:55.847869 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:50:55.848372 conwrite::false
+[TRACE] 2026/05/26 10:50:55.848372 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:50:55.848372 (deviceControl) portSendWatcher comWrite NG
+[DEBUG] 2026/05/26 10:50:56.643497 (MQTT) Receive,/almex/device/qr/request_enable_read,{"autoDisable":false,"deviceNo":"0a780ac902060001","requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0003"}}
+[DEBUG] 2026/05/26 10:50:56.644025 (MQTT) Receive,/almex/device/qr/request_status,{"deviceNo":"0a780ac902060001","requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0005"}}
+[TRACE] 2026/05/26 10:50:56.645093 START (r *requestEnable) recvRequestEnableRead(message {"autoDisable":false,"deviceNo":"0a780ac902060001","requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0003"}})
+[TRACE] 2026/05/26 10:50:56.645093 START (d *deviceManager) ReadEnable(deviceNo 0a780ac902060001, autoDisable false)
+[TRACE] 2026/05/26 10:50:56.645093 START (d *deviceManager) readEnable(deviceNo 0a780ac902060001, autoDisable false)
+[TRACE] 2026/05/26 10:50:56.645093 START (d *deviceHandler) ReadEnable() int
+[TRACE] 2026/05/26 10:50:56.646092 START (d *deviceControl) comOpen() bool
+[DEBUG] 2026/05/26 10:50:56.646092 ComPortName :COM7
+[DEBUG] 2026/05/26 10:50:56.648611 (deviceControl) comOpen SERIAL PORT CONNECTED
+[TRACE] 2026/05/26 10:50:56.648611 END (d *deviceControl) comOpen() bool
+[TRACE] 2026/05/26 10:50:56.648611 START (d *deviceHandler) cbStatusLine(statusLine true)
+[TRACE] 2026/05/26 10:50:56.649625 START (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac902060001, statusLine true)
+[DEBUG] 2026/05/26 10:50:56.649625 FwVersion が未設定のため statusReady は false のまま (deviceNo: 0a780ac902060001)
+[TRACE] 2026/05/26 10:50:56.649625 END (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac902060001, statusLine true)
+[TRACE] 2026/05/26 10:50:56.649625 END (d *deviceHandler) cbStatusLine(statusLine true)
+[DEBUG] 2026/05/26 10:50:56.649625 device.handler.ReadEnable: sending U2 command
+[TRACE] 2026/05/26 10:50:56.649625 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:56.650623 RequestSend:4,02553203,sendData
+[DEBUG] 2026/05/26 10:50:56.650623 sendata::U2
+[DEBUG] 2026/05/26 10:50:56.650623 sendata::{U2 fc1qopusendid_00000007 true}
+[TRACE] 2026/05/26 10:50:56.651125 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:56.651125 device.handler.ReadEnable: U2 result:true
+[TRACE] 2026/05/26 10:50:56.651125 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:56.651125 RequestSend:4,02535103,sendData
+[DEBUG] 2026/05/26 10:50:56.651125 sendata::SQ
+[DEBUG] 2026/05/26 10:50:56.651125 sendata::{SQ fc1qopusendid_00000008 true}
+[TRACE] 2026/05/26 10:50:56.651125 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:56.652123 device.handler.ReadEnable: SQ(QR only) sent
+[TRACE] 2026/05/26 10:50:56.652123 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:56.652123 RequestSend:4,02425203,sendData
+[DEBUG] 2026/05/26 10:50:56.652626 sendata::BR
+[DEBUG] 2026/05/26 10:50:56.652626 sendata::{BR fc1qopusendid_00000009 true}
+[TRACE] 2026/05/26 10:50:56.652626 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[TRACE] 2026/05/26 10:50:56.652626 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:56.652626 device.handler.ReadEnable:true
+[TRACE] 2026/05/26 10:50:56.652626 END (d *deviceHandler) ReadEnable() int
+[TRACE] 2026/05/26 10:50:56.653625 END (d *deviceManager) readEnable(deviceNo 0a780ac902060001, autoDisable false)
+[TRACE] 2026/05/26 10:50:56.653625 END (d *deviceManager) ReadEnable(deviceNo 0a780ac902060001, autoDisable false)
+[TRACE] 2026/05/26 10:50:56.653625 START (r *requestEnable) resultEnableResult(resInfo {{00002918  barcodeReader01_0003} true   0a780ac902060001 fc1qopureadid_00000001})
+[DEBUG] 2026/05/26 10:50:56.654127 conwrite::true
+[TRACE] 2026/05/26 10:50:56.654127 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:56.654639 (deviceControl) portSendWatcher comWrite OK
+[DEBUG] 2026/05/26 10:50:56.654639 (MQTT) Send,/almex/device/qr/result_enable_read,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"barcodeReader01_0003"},"result":true,"deviceNo":"0a780ac902060001","readId":"fc1qopureadid_00000001"}
+[TRACE] 2026/05/26 10:50:56.655173 END (r *requestEnable) resultEnableResult(resInfo {{00002918  barcodeReader01_0003} true   0a780ac902060001 fc1qopureadid_00000001})
+[DEBUG] 2026/05/26 10:50:56.655173 ステータス通知: deviceNo=0a780ac902060001, statusReady=true, errorCode=, fwVersion=
+[TRACE] 2026/05/26 10:50:56.655173 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:56.655173 (MQTT) Send,/almex/device/qr/notice_status,{"deviceNo":"0a780ac902060001","statusReady":true,"statusControl":true,"statusLine":true,"statusError":true,"errorCode":"","errorDetail":"","statusEnable":true,"readId":"fc1qopureadid_00000001"}
+[TRACE] 2026/05/26 10:50:56.655173 START (r *requestEnable) recvRequestEnableRead(message {"autoDisable":false,"deviceNo":"0a780ac902060001","requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0003"}})
+[DEBUG] 2026/05/26 10:50:56.655173 conwrite::true
+[TRACE] 2026/05/26 10:50:56.656172 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:56.656172 (deviceControl) portSendWatcher comWrite OK
+[TRACE] 2026/05/26 10:50:56.656674 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:56.656674 conwrite::true
+[TRACE] 2026/05/26 10:50:56.657193 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:56.657193 (deviceControl) portSendWatcher comWrite OK
+[DEBUG] 2026/05/26 10:50:56.666706 d.stageIdx 2,eInfo.eventIdx 3
+[TRACE] 2026/05/26 10:50:56.667211 START  (d *deviceControl) recvSTX(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.667211 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.667211 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.667211 END  (d *deviceControl) recvSTX(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.667211 d.stageIdx 3,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.667211 START  (d *deviceControl) revCmmd(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.667211 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.668209 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.668209 [2 79]
+[TRACE] 2026/05/26 10:50:56.668209 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.668710 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.668710 END  (d *deviceControl) revCmmd(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.668710 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.668710 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.668710 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.668710 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.668710 75
+[DEBUG] 2026/05/26 10:50:56.669708 recvwork::75,[2 79 75],OK
+[TRACE] 2026/05/26 10:50:56.669708 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.669708 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.669708 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.670210 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.670210 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.670210 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.670210 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.670210 3
+[DEBUG] 2026/05/26 10:50:56.670210 [79 75]
+[DEBUG] 2026/05/26 10:50:56.670210 (deviceControl) revData recvFix:[79 75]
+[TRACE] 2026/05/26 10:50:56.671207 START (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:56.671207 START (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[DEBUG] 2026/05/26 10:50:56.671207 [79 75]
+[TRACE] 2026/05/26 10:50:56.671207 END (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[TRACE] 2026/05/26 10:50:56.671709 END (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:56.671709 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.671709 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.671709 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.671709 0a780ac902060001,FC1-QOPU
+[DEBUG] 2026/05/26 10:50:56.687346 d.stageIdx 1,eInfo.eventIdx 3
+[TRACE] 2026/05/26 10:50:56.687847 START  (d *deviceControl) recvSTX(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.687847 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.687847 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.687847 END  (d *deviceControl) recvSTX(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.687847 d.stageIdx 3,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.687847 START  (d *deviceControl) revCmmd(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.687847 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.688845 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.688845 [2 79]
+[TRACE] 2026/05/26 10:50:56.688845 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.689346 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.689346 END  (d *deviceControl) revCmmd(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.689346 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.689346 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.689346 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.689346 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.689346 75
+[DEBUG] 2026/05/26 10:50:56.690344 recvwork::75,[2 79 75],OK
+[TRACE] 2026/05/26 10:50:56.690344 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.690344 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.690344 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.690846 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.690846 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.690846 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.690846 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.690846 3
+[DEBUG] 2026/05/26 10:50:56.691848 [79 75]
+[DEBUG] 2026/05/26 10:50:56.692351 (deviceControl) revData recvFix:[79 75]
+[TRACE] 2026/05/26 10:50:56.692351 START (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:56.692351 START (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[DEBUG] 2026/05/26 10:50:56.692905 [79 75]
+[TRACE] 2026/05/26 10:50:56.693425 END (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[TRACE] 2026/05/26 10:50:56.693425 END (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:56.694014 START (d *deviceControl) timerStart(value 1000)
+[DEBUG] 2026/05/26 10:50:56.694014 0a780ac902060001,FC1-QOPU
+[TRACE] 2026/05/26 10:50:56.694574 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.694574 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.705186 (MQTT) Send,/almex/device/qr/result_status,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"barcodeReader01_0005"},"result":true,"deviceNo":"0a780ac902060001","statusReady":true,"statusControl":true,"statusLine":true,"statusError":true,"statusEnable":true,"readId":"fc1qopureadid_00000001"}
+[DEBUG] 2026/05/26 10:50:56.728700 d.stageIdx 1,eInfo.eventIdx 3
+[TRACE] 2026/05/26 10:50:56.729207 START  (d *deviceControl) recvSTX(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.729207 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.729207 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.729714 END  (d *deviceControl) recvSTX(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.729714 d.stageIdx 3,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.729714 START  (d *deviceControl) revCmmd(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.730220 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.730220 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.730220 [2 79]
+[TRACE] 2026/05/26 10:50:56.730220 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.730726 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.730726 END  (d *deviceControl) revCmmd(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.730726 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.731241 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.731241 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.731241 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.731241 75
+[DEBUG] 2026/05/26 10:50:56.731758 recvwork::75,[2 79 75],OK
+[TRACE] 2026/05/26 10:50:56.731758 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.731758 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.731758 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.731758 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:56.731758 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:56.731758 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:56.731758 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:56.732756 3
+[DEBUG] 2026/05/26 10:50:56.732756 [79 75]
+[DEBUG] 2026/05/26 10:50:56.732756 (deviceControl) revData recvFix:[79 75]
+[TRACE] 2026/05/26 10:50:56.733257 START (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:56.733257 START (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[DEBUG] 2026/05/26 10:50:56.733257 [79 75]
+[TRACE] 2026/05/26 10:50:56.733257 END (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[TRACE] 2026/05/26 10:50:56.733772 END (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:56.733772 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.733772 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:56.734276 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:56.734276 0a780ac902060001,FC1-QOPU
+[DEBUG] 2026/05/26 10:50:56.848048 ステータス通知: deviceNo=0a780ac902060001, statusReady=false, errorCode=, fwVersion=
+[DEBUG] 2026/05/26 10:50:56.848554 (MQTT) Send,/almex/device/qr/notice_status,{"deviceNo":"0a780ac902060001","statusReady":false,"statusControl":true,"statusLine":true,"statusError":true,"errorCode":"","errorDetail":"","statusEnable":true,"readId":"fc1qopureadid_00000001"}
+[DEBUG] 2026/05/26 10:50:56.848554 (MQTT) Send,/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105056848,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALQR0001","logSummary":"サービス開始(QRリーダ制御)","logData":""}
+[DEBUG] 2026/05/26 10:50:57.734385 d.stageIdx 1,eInfo.eventIdx 0
+[TRACE] 2026/05/26 10:50:57.734888 START (d *deviceControl)timeout(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:57.734888 タイムアウト：0s
+[TRACE] 2026/05/26 10:50:57.734888 END (d *deviceControl)timeout(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.031516 (MQTT) Receive,/almex/device/qr/request_disable_read,{"readId":"fc1qopureadid_00000001","requestInfo":{"processId":"00002918","requestId":"barcodeReader01_0004"}}
+[TRACE] 2026/05/26 10:50:58.065796 START (d *deviceManager) ReadDisable(readId fc1qopureadid_00000001)
+[TRACE] 2026/05/26 10:50:58.065796 START (d *deviceHandler) ReadDisable() int
+[TRACE] 2026/05/26 10:50:58.065796 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:58.065796 RequestSend:4,02534f03,sendData
+[DEBUG] 2026/05/26 10:50:58.066795 sendata::SO
+[DEBUG] 2026/05/26 10:50:58.066795 sendata::{SO fc1qopusendid_00000010 true}
+[TRACE] 2026/05/26 10:50:58.067296 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:58.067296 device.handler.ReadDisable: SO(OCR only) mode set
+[TRACE] 2026/05/26 10:50:58.067296 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:58.067817 RequestSend:3,025a03,sendData
+[DEBUG] 2026/05/26 10:50:58.067817 sendata::Z
+[DEBUG] 2026/05/26 10:50:58.067817 sendata::{Z fc1qopusendid_00000011 false}
+[TRACE] 2026/05/26 10:50:58.067817 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:50:58.068322 device.handler.ReadDisable:true
+[TRACE] 2026/05/26 10:50:58.068322 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:58.068322 conwrite::true
+[TRACE] 2026/05/26 10:50:58.068322 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:58.068322 (deviceControl) portSendWatcher comWrite OK
+[TRACE] 2026/05/26 10:50:58.069821 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:58.070336 conwrite::true
+[TRACE] 2026/05/26 10:50:58.070336 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:50:58.070336 (deviceControl) portSendWatcher comWrite OK
+[DEBUG] 2026/05/26 10:50:58.078197 d.stageIdx 2,eInfo.eventIdx 3
+[TRACE] 2026/05/26 10:50:58.079199 START  (d *deviceControl) recvSTX(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.079199 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.079701 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.079701 END  (d *deviceControl) recvSTX(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.079701 d.stageIdx 3,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:58.079701 START  (d *deviceControl) revCmmd(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.079701 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:58.079701 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:58.080700 [2 79]
+[TRACE] 2026/05/26 10:50:58.080700 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.080700 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.081203 END  (d *deviceControl) revCmmd(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.081203 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:58.081203 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.081716 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:58.081716 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:58.081716 75
+[DEBUG] 2026/05/26 10:50:58.081716 recvwork::75,[2 79 75],OK
+[TRACE] 2026/05/26 10:50:58.081716 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.081716 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.081716 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.082714 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:58.082714 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.082714 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:58.083217 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:58.083217 3
+[DEBUG] 2026/05/26 10:50:58.083217 [79 75]
+[DEBUG] 2026/05/26 10:50:58.083217 (deviceControl) revData recvFix:[79 75]
+[TRACE] 2026/05/26 10:50:58.083217 START (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:58.083217 START (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[DEBUG] 2026/05/26 10:50:58.083217 [79 75]
+[DEBUG] 2026/05/26 10:50:58.084216 deviceManager.disableFlag, 0
+[TRACE] 2026/05/26 10:50:58.084216 END (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[TRACE] 2026/05/26 10:50:58.084216 END (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:58.084718 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.084718 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.084718 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.117068 d.stageIdx 1,eInfo.eventIdx 3
+[TRACE] 2026/05/26 10:50:58.118065 START  (d *deviceControl) recvSTX(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.118065 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.118065 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.118065 END  (d *deviceControl) recvSTX(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.118567 d.stageIdx 3,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:58.118567 START  (d *deviceControl) revCmmd(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.118567 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:58.119087 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:58.119087 [2 79]
+[TRACE] 2026/05/26 10:50:58.119087 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.119087 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.119591 END  (d *deviceControl) revCmmd(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.119591 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:58.119591 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.119591 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:58.120100 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:58.120100 75
+[DEBUG] 2026/05/26 10:50:58.120100 recvwork::75,[2 79 75],OK
+[TRACE] 2026/05/26 10:50:58.120100 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.120100 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.120100 END (d *deviceControl) revData(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:50:58.120100 d.stageIdx 1,eInfo.eventIdx 2
+[TRACE] 2026/05/26 10:50:58.120100 START (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.121098 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:50:58.121098 END (d *deviceControl) timerStop()
+[DEBUG] 2026/05/26 10:50:58.121098 3
+[DEBUG] 2026/05/26 10:50:58.121098 [79 75]
+[DEBUG] 2026/05/26 10:50:58.121599 (deviceControl) revData recvFix:[79 75]
+[TRACE] 2026/05/26 10:50:58.121599 START (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:58.121599 START (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[DEBUG] 2026/05/26 10:50:58.121599 [79 75]
+[DEBUG] 2026/05/26 10:50:58.122115 deviceManager.disableFlag, 0
+[TRACE] 2026/05/26 10:50:58.122115 END (d *deviceManager) cbDetectReceiveData(deviceNo 0a780ac902060001, recvData [79 75])
+[TRACE] 2026/05/26 10:50:58.122115 END (d *deviceHandler) cbDeviceReceiveData(recvData []byte)
+[TRACE] 2026/05/26 10:50:58.122620 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.122620 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:50:58.123143 END (d *deviceControl) revData(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.268911 START (d *deviceControl) comClose()
+[ERROR] 2026/05/26 10:50:58.269413 (deviceControl) d.serialPort.Read(Port has been closed: The I/O operation has been aborted because of either a thread exit or an application request.)
+[TRACE] 2026/05/26 10:50:58.269413 START (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:58.269413 END (d *deviceControl) comClose()
+[DEBUG] 2026/05/26 10:50:58.270412 d.stageIdx 1,eInfo.eventIdx 1
+[TRACE] 2026/05/26 10:50:58.270412 START (d *deviceControl) disconn(eInfo eventInfo)
+[TRACE] 2026/05/26 10:50:58.270412 START (d *deviceHandler) cbStatusLine(statusLine false)
+[TRACE] 2026/05/26 10:50:58.270914 START (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac902060001, statusLine false)
+[TRACE] 2026/05/26 10:50:58.270914 END (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:50:58.270914 END (d *deviceHandler) ReadDisable() int
+[TRACE] 2026/05/26 10:50:58.270914 END (d *deviceManager) ReadDisable(readId fc1qopureadid_00000001)
+[DEBUG] 2026/05/26 10:50:58.270914 deviceManager.ReadDisable:0
+[DEBUG] 2026/05/26 10:50:58.270914 deviceManager.ReadDisable.result:true
+[DEBUG] 2026/05/26 10:50:58.271913 (MQTT) Send,/almex/device/qr/result_disable_read,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"barcodeReader01_0004"},"result":true,"readId":"fc1qopureadid_00000001"}
+[DEBUG] 2026/05/26 10:50:58.271913 ステータス通知: deviceNo=0a780ac902060001, statusReady=false, errorCode=, fwVersion=
+[DEBUG] 2026/05/26 10:50:58.271913 (MQTT) Send,/almex/device/qr/notice_status,{"deviceNo":"0a780ac902060001","statusReady":false,"statusControl":false,"statusLine":false,"statusError":true,"errorCode":"","errorDetail":"","statusEnable":false,"readId":""}
+[TRACE] 2026/05/26 10:51:00.271351 START (d *deviceHandler) ReadDisable() int
+[TRACE] 2026/05/26 10:51:00.271351 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:00.271351 RequestSend:3,025a03,sendData
+[DEBUG] 2026/05/26 10:51:00.271351 sendata::Z
+[DEBUG] 2026/05/26 10:51:00.272357 sendata::{Z fc1qopusendid_00000012 false}
+[TRACE] 2026/05/26 10:51:00.272357 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:00.272357 device.handler.ReadDisable:true
+[TRACE] 2026/05/26 10:51:00.272867 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:51:00.272867 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:51:00.272867 conwrite::false
+[TRACE] 2026/05/26 10:51:00.272867 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:51:00.272867 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:51:00.472976 START (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:51:00.472976 END (d *deviceControl) comClose()
+[TRACE] 2026/05/26 10:51:00.473514 END (d *deviceHandler) ReadDisable() int
+[TRACE] 2026/05/26 10:51:01.473523 START (d *deviceHandler) InitialModeSettingsrialnum() int
+[TRACE] 2026/05/26 10:51:01.474069 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:01.474577 RequestSend:4,02494403,sendData
+[DEBUG] 2026/05/26 10:51:01.474577 sendata::ID
+[DEBUG] 2026/05/26 10:51:01.475086 sendata::{ID fc1qopusendid_00000013 true}
+[TRACE] 2026/05/26 10:51:01.475701 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:01.475701 sendata::ID
+[DEBUG] 2026/05/26 10:51:01.476210 device.handler.InitialModeSettingsrialnum:true
+[TRACE] 2026/05/26 10:51:01.476210 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:51:01.476898 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:51:01.476898 conwrite::false
+[TRACE] 2026/05/26 10:51:01.477408 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[TRACE] 2026/05/26 10:51:01.477408 END (d *deviceHandler) InitialModeSettingsrialnum() int
+[ERROR] 2026/05/26 10:51:01.478167 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:51:02.477796 START (d *deviceHandler) InitialModeSettingfwversion() int
+[TRACE] 2026/05/26 10:51:02.478306 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:02.478306 RequestSend:5,0256455203,sendData
+[DEBUG] 2026/05/26 10:51:02.478306 sendata::VER
+[DEBUG] 2026/05/26 10:51:02.478843 sendata::{VER fc1qopusendid_00000014 true}
+[TRACE] 2026/05/26 10:51:02.478843 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:02.478843 sendata::VER
+[DEBUG] 2026/05/26 10:51:02.479352 device.handler.InitialModeSettingfwversion:true
+[TRACE] 2026/05/26 10:51:02.479352 END (d *deviceHandler) InitialModeSettingfwversion() int
+[TRACE] 2026/05/26 10:51:02.479352 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:51:02.479861 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:51:02.479861 conwrite::false
+[TRACE] 2026/05/26 10:51:02.479861 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:51:02.479861 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:51:03.479711 START (d *deviceHandler) InitialModeSettinginfo() int
+[TRACE] 2026/05/26 10:51:03.479711 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:03.480216 RequestSend:4,02505703,sendData
+[DEBUG] 2026/05/26 10:51:03.480216 sendata::PW
+[DEBUG] 2026/05/26 10:51:03.480216 sendata::{PW fc1qopusendid_00000015 true}
+[TRACE] 2026/05/26 10:51:03.480727 START データ送信要求(コマンド) (d *deviceControl) RequestSend(sendData string, waitFlag bool) bool
+[DEBUG] 2026/05/26 10:51:03.480727 device.handler.InitialModeSettinginfo:true
+[TRACE] 2026/05/26 10:51:03.480727 END (d *deviceHandler) InitialModeSettinginfo() int
+[DEBUG] 2026/05/26 10:51:03.480727 ステータス通知: deviceNo=0a780ac902060001, statusReady=false, errorCode=, fwVersion=
+[TRACE] 2026/05/26 10:51:03.481736 START (d *deviceControl) comWrite(bytesSend []byte) bool
+[DEBUG] 2026/05/26 10:51:03.481736 (deviceControl) comWrite serialPort is nil
+[DEBUG] 2026/05/26 10:51:03.481736 (MQTT) Send,/almex/device/qr/notice_status,{"deviceNo":"0a780ac902060001","statusReady":false,"statusControl":false,"statusLine":false,"statusError":true,"errorCode":"","errorDetail":"","statusEnable":false,"readId":""}
+[DEBUG] 2026/05/26 10:51:03.482246 FwVersion が未設定のため statusReady は false のまま (deviceNo: 0a780ac902060001)
+[TRACE] 2026/05/26 10:51:03.482246 END (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac902060001, statusLine false)
+[TRACE] 2026/05/26 10:51:03.482246 END (d *deviceHandler) cbStatusLine(statusLine false)
+[TRACE] 2026/05/26 10:51:03.482246 START (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:51:03.482246 END (d *deviceControl) timerStart(value 1000)
+[TRACE] 2026/05/26 10:51:03.482246 END (d *deviceControl) disconn(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:51:03.483254 d.stageIdx 0,eInfo.eventIdx 0
+[TRACE] 2026/05/26 10:51:03.483254 START  (d *deviceControl) connect(eInfo eventInfo)
+[DEBUG] 2026/05/26 10:51:03.483761 conwrite::false
+[TRACE] 2026/05/26 10:51:03.483761 END (d *deviceControl) comWrite(bytesSend []byte) bool
+[ERROR] 2026/05/26 10:51:03.484273 (deviceControl) portSendWatcher comWrite NG
+[TRACE] 2026/05/26 10:51:03.484273 START (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:51:03.484273 END (d *deviceControl) timerStop()
+[TRACE] 2026/05/26 10:51:03.484273 END  (d *deviceControl) connect(eInfo eventInfo)

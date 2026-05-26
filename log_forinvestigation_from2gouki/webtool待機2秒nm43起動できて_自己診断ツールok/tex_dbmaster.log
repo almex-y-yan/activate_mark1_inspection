@@ -1,0 +1,23 @@
+[INFO ] 2026/05/26 10:50:01.799383 [Recv](MQTT)/tex/helper/dbmaster/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbmaster_248873id17"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:01.801498 [Send](MQTT)/tex/helper/dbmaster/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbmaster_248873id17","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:01.803050 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:01.803568 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105001797,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXMS1400","logSummary":"サービス実行状況を通知(動作マスター管理)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:06.879703 [Recv](MQTT)/tex/helper/dbmaster/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbmaster_248895id17"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:06.881205 [Send](MQTT)/tex/helper/dbmaster/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbmaster_248895id17","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:06.882707 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:06.883745 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105006877,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXMS1400","logSummary":"サービス実行状況を通知(動作マスター管理)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:11.967706 [Recv](MQTT)/tex/helper/dbmaster/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbmaster_248917id17"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:11.969305 [Send](MQTT)/tex/helper/dbmaster/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbmaster_248917id17","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:11.971322 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:11.971837 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105011966,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXMS1400","logSummary":"サービス実行状況を通知(動作マスター管理)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:17.048527 [Recv](MQTT)/tex/helper/dbmaster/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbmaster_248939id17"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:17.048527 [Send](MQTT)/tex/helper/dbmaster/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbmaster_248939id17","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:17.050030 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:17.051060 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105017046,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXMS1400","logSummary":"サービス実行状況を通知(動作マスター管理)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:32.671241 [Recv](MQTT)/tex/helper/dbmaster/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helperdbmaster_248951id17"},"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.675641 [Send](MQTT)/tex/helper/dbmaster/result_control_service,{"requestInfo":{"processId":"000018c0","requestId":"rqCtrSv_helperdbmaster_248951id17","pcId":""},"result":true}
+[INFO ] 2026/05/26 10:50:32.677706 'RequestControlService' Result Send to ResultControlServicePub
+[INFO ] 2026/05/26 10:50:32.678222 [Send](MQTT)/tex/helper/dbmaster/notice_status_service,{"statusService":false}
+[INFO ] 2026/05/26 10:50:32.679240 'RequestControlService' Result Send to ResultNoticeStatusServicePub
+[INFO ] 2026/05/26 10:50:32.680339 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105032677,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXMS1500","logSummary":"サービス実行状態更新(動作マスター管理)","logData":"サービス実行状態更新 Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:40.372320 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105040371,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXMS0003","logSummary":"サービス停止(動作マスター管理)","logData":" "}

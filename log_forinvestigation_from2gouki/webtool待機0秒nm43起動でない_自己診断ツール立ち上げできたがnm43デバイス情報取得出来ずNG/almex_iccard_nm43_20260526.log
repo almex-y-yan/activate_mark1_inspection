@@ -1,0 +1,688 @@
+[TRACE] 2026/05/26 11:03:24.652229 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:24.652752 read before :a
+[TRACE] 2026/05/26 11:03:24.960176 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:24.960700 read before :a
+[TRACE] 2026/05/26 11:03:25.268815 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:25.269338 read before :a
+[TRACE] 2026/05/26 11:03:25.576302 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:25.576822 read before :a
+[TRACE] 2026/05/26 11:03:25.885603 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:25.886133 read before :a
+[TRACE] 2026/05/26 11:03:26.195504 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:26.196025 read before :a
+[TRACE] 2026/05/26 11:03:26.503561 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:26.504081 read before :a
+[TRACE] 2026/05/26 11:03:26.811640 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:26.811640 read before :a
+[TRACE] 2026/05/26 11:03:27.121823 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:27.122843 read before :a
+[TRACE] 2026/05/26 11:03:27.427610 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:27.428131 read before :a
+[TRACE] 2026/05/26 11:03:27.736270 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:27.736792 read before :a
+[TRACE] 2026/05/26 11:03:28.044612 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:28.045135 read before :a
+[TRACE] 2026/05/26 11:03:28.352802 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:28.353324 read before :a
+[TRACE] 2026/05/26 11:03:28.661358 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:28.661358 read before :a
+[TRACE] 2026/05/26 11:03:28.970711 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:28.971783 read before :a
+[TRACE] 2026/05/26 11:03:29.282180 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:29.282180 read before :a
+[TRACE] 2026/05/26 11:03:29.590712 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:29.591239 read before :a
+[TRACE] 2026/05/26 11:03:29.898246 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:29.898779 read before :a
+[TRACE] 2026/05/26 11:03:30.203088 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:30.203591 read before :a
+[TRACE] 2026/05/26 11:03:30.515019 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:30.515554 read before :a
+[TRACE] 2026/05/26 11:03:30.820286 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:30.820804 read before :a
+[TRACE] 2026/05/26 11:03:31.132873 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:31.133397 read before :a
+[TRACE] 2026/05/26 11:03:31.441229 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:31.441757 read before :a
+[TRACE] 2026/05/26 11:03:31.744724 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:31.744724 read before :a
+[TRACE] 2026/05/26 11:03:32.052158 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:32.052683 read before :a
+[TRACE] 2026/05/26 11:03:32.359777 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:32.360301 read before :a
+[TRACE] 2026/05/26 11:03:32.669548 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:32.669548 read before :a
+[TRACE] 2026/05/26 11:03:32.979444 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:32.979968 read before :a
+[TRACE] 2026/05/26 11:03:33.288335 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:33.288867 read before :a
+[TRACE] 2026/05/26 11:03:33.596117 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:33.596640 read before :a
+[TRACE] 2026/05/26 11:03:33.903552 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:33.904074 read before :a
+[TRACE] 2026/05/26 11:03:34.212329 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:34.212847 read before :a
+[TRACE] 2026/05/26 11:03:34.521602 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:34.522120 read before :a
+[TRACE] 2026/05/26 11:03:34.822238 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:34.822740 read before :a
+[TRACE] 2026/05/26 11:03:35.135042 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:35.135569 read before :a
+[TRACE] 2026/05/26 11:03:35.444245 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:35.444245 read before :a
+[TRACE] 2026/05/26 11:03:35.754087 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:35.754087 read before :a
+[INFO ] 2026/05/26 11:03:35.808162 {"generateDate":20260526,"generateTime":110335807,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0003","logSummary":"サービス停止(ICカードリーダ制御)","logData":""}
+[TRACE] 2026/05/26 11:03:35.808674 START (d *deviceManager) Stop()
+[TRACE] 2026/05/26 11:03:35.809185 END (d *deviceManager) Stop()
+[TRACE] 2026/05/26 11:03:35.809185 START (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 11:03:35.809867 END (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 11:03:35.809867 START (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, uid []byte, recvData [][]byte))
+[TRACE] 2026/05/26 11:03:35.810379 END (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, uid []byte, recvData [][]byte))
+[TRACE] 2026/05/26 11:03:35.810379 START (d *deviceHandler) Stop() int
+[TRACE] 2026/05/26 11:03:35.810907 START デバイス制御停止 (d *deviceControl) Stop()
+[TRACE] 2026/05/26 11:03:35.810907 devCtrl timerStop()
+[INFO ] 2026/05/26 11:03:35.811444 Card data ready loop stopped
+[TRACE] 2026/05/26 11:03:35.811444 START devCtrl comClose
+[TRACE] 2026/05/26 11:03:35.811953 END devCtrl comClose
+[TRACE] 2026/05/26 11:03:35.811953 devCtrl changeStageIndex:1 -> 0
+[TRACE] 2026/05/26 11:03:35.811953 END デバイス制御停止 (d *deviceControl) Stop()
+[TRACE] 2026/05/26 11:03:35.812952 END (d *deviceHandler) Stop() int
+[TRACE] 2026/05/26 11:03:35.812952 read after:ab bufWork:, recvSize:0
+[INFO ] 2026/05/26 11:03:35.813455 {"generateDate":20260526,"generateTime":110335812,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0012","logSummary":"ICカードリーダー制御停止","logData":"DeviceNo:0a780ac90c050001 Result:true"}
+[INFO ] 2026/05/26 11:03:35.813455 Start Contoller end
+[INFO ] 2026/05/26 11:03:39.995446 almex_iccard_nm43 アプリ起動 version: 200.0.0.1
+[INFO ] 2026/05/26 11:03:39.995446 コンフィグ情報: &{{{localhost 1883} {4194304 16 0 0} [{0a780ac90c050001 {3  115200 8 0 1} [10.120.10.201] NM43 80 [3]     0 0 3000}] {1 1} {100 10 5 1000 200 300 100} D:\almex\etc/ini/almex_iccard_nm43.ini} 0x7ff66ebc7e20}
+[INFO ] 2026/05/26 11:03:39.995964 (BOOT) MQTT WAIT CONNECT type:0
+[INFO ] 2026/05/26 11:03:40.000566 (MQTT EVENT) Broker Connected.client  IN
+[INFO ] 2026/05/26 11:03:40.096954 (BOOT) MQTT CONNECTED type:0
+[INFO ] 2026/05/26 11:03:40.096954 (BOOT) MQTT WAIT CONNECT type:1
+[INFO ] 2026/05/26 11:03:40.097976 (MQTT EVENT) Broker Connected.client  IN
+[INFO ] 2026/05/26 11:03:40.197864 (BOOT) MQTT CONNECTED type:1
+[INFO ] 2026/05/26 11:03:40.198385 Start Contoller
+[INFO ] 2026/05/26 11:03:40.198909 Start Contoller start.
+[TRACE] 2026/05/26 11:03:40.198909 devCtrl portSendWatcher()
+[TRACE] 2026/05/26 11:03:40.199562 devCtrl portRecvWatcher()
+[TRACE] 2026/05/26 11:03:40.199562 read port is nil
+[INFO ] 2026/05/26 11:03:40.200071 {"generateDate":20260526,"generateTime":110340198,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0001","logSummary":"サービス開始(ICカードリーダ制御)","logData":""}
+[TRACE] 2026/05/26 11:03:40.201246 START (d *deviceManager) Start()
+[TRACE] 2026/05/26 11:03:40.201246 devCtrl eventWatcher()
+[TRACE] 2026/05/26 11:03:40.201758 START (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 11:03:40.201758 END (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 11:03:40.202312 START (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, uid []byte, recvData [][]byte))
+[TRACE] 2026/05/26 11:03:40.202838 END (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, uid []byte, recvData [][]byte))
+[TRACE] 2026/05/26 11:03:40.202838 START (d *deviceHandler) RegistOnStatusCardHoldChanged
+[TRACE] 2026/05/26 11:03:40.202838 END (d *deviceHandler) RegistOnStatusCardHoldChanged
+[TRACE] 2026/05/26 11:03:40.203380 START (d *deviceHandler) Start() int
+[TRACE] 2026/05/26 11:03:40.203890 START デバイス制御開始 (deviceControl) Start()
+[TRACE] 2026/05/26 11:03:40.203890 devCtrl changeStageIndex:0 -> 0
+[TRACE] 2026/05/26 11:03:40.203890 devCtrl timerStart(value 1000)
+[TRACE] 2026/05/26 11:03:40.204584 END デバイス制御開始 (deviceControl) Start()
+[TRACE] 2026/05/26 11:03:40.205096 END (d *deviceHandler) Start() int
+[TRACE] 2026/05/26 11:03:40.205096 devCtrl timerWatcher(ticker &{0xc00017cee0 true})
+[INFO ] 2026/05/26 11:03:40.205655 {"generateDate":20260526,"generateTime":110340205,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0010","logSummary":"ICカードリーダー制御開始","logData":"DeviceNo:0a780ac90c050001 Result:true"}
+[TRACE] 2026/05/26 11:03:40.205655 END (d *deviceManager) Start()
+[TRACE] 2026/05/26 11:03:40.300288 read port is nil
+[TRACE] 2026/05/26 11:03:40.400357 read port is nil
+[TRACE] 2026/05/26 11:03:40.500491 read port is nil
+[TRACE] 2026/05/26 11:03:40.600756 read port is nil
+[TRACE] 2026/05/26 11:03:40.701116 read port is nil
+[TRACE] 2026/05/26 11:03:40.802127 read port is nil
+[TRACE] 2026/05/26 11:03:40.902765 read port is nil
+[TRACE] 2026/05/26 11:03:41.003217 read port is nil
+[TRACE] 2026/05/26 11:03:41.103584 read port is nil
+[TRACE] 2026/05/26 11:03:41.203713 read port is nil
+[TRACE] 2026/05/26 11:03:41.205763 devCtrl connect sIdx:0, eInfo idx:0, data:0x00
+[TRACE] 2026/05/26 11:03:41.205763 devCtrl timerStop()
+[TRACE] 2026/05/26 11:03:41.206762 devCtrl comOpen() bool
+[DEBUG] 2026/05/26 11:03:41.207264 ComPortName :COM3
+[DEBUG] 2026/05/26 11:03:41.208804 devCtrl comOpen SERIAL PORT CONNECTED
+[TRACE] 2026/05/26 11:03:41.208804 devCtrl changeStageIndex:0 -> 1
+[TRACE] 2026/05/26 11:03:41.209803 START (d *deviceHandler) cbStatusLine(statusLine true)
+[TRACE] 2026/05/26 11:03:41.209803 START (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90c050001, statusLine true)
+[DEBUG] 2026/05/26 11:03:41.210306 pd::
+[DEBUG] 2026/05/26 11:03:41.210818 sr::
+[DEBUG] 2026/05/26 11:03:41.210818 fw::
+[INFO ] 2026/05/26 11:03:41.211329 {"generateDate":20260526,"generateTime":110341211,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0021","logSummary":"ICカードリーダー回線接続","logData":"DeviceNo:0a780ac90c050001"}
+[TRACE] 2026/05/26 11:03:41.211857 END (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90c050001, statusLine true)
+[TRACE] 2026/05/26 11:03:41.211857 END (d *deviceHandler) cbStatusLine(statusLine true)
+[TRACE] 2026/05/26 11:03:41.305788 read before :a
+[TRACE] 2026/05/26 11:03:41.608097 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:41.608609 read before :a
+[TRACE] 2026/05/26 11:03:41.914434 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:41.914944 read before :a
+[INFO ] 2026/05/26 11:03:42.205959 device setting start.
+[DEBUG] 2026/05/26 11:03:42.206491 DebugSerial is enabled(1)
+[INFO ] 2026/05/26 11:03:42.207494 rooter serialPort is OK, retryCount:0
+[TRACE] 2026/05/26 11:03:42.208519 start Reset()
+[TRACE] 2026/05/26 11:03:42.209595 START devCtrl Reset()
+[TRACE] 2026/05/26 11:03:42.211105 devCtrl changeStageIndex:1 -> 0
+[TRACE] 2026/05/26 11:03:42.211105 END devCtrl Reset()
+[TRACE] 2026/05/26 11:03:42.211664 start Reset()
+[TRACE] 2026/05/26 11:03:42.212180 end Reset()
+[TRACE] 2026/05/26 11:03:42.212180 start Reset()
+[TRACE] 2026/05/26 11:03:42.212712 end Reset()
+[INFO ] 2026/05/26 11:03:42.213224 Device control reset completed
+[DEBUG] 2026/05/26 11:03:42.213737 start RequestSend,   ��t�  recvLock waitFlag:true
+[DEBUG] 2026/05/26 11:03:42.213737 start RequestSend(  ��t� , true) sndLock data:0000ff01ff748c00
+[DEBUG] 2026/05/26 11:03:42.213737 RequestSend start. waitFlg:true, waitTime:3000, waitId1:0000ff00ff00 datalen:8 sendData:  ��t� 
+[TRACE] 2026/05/26 11:03:42.214737 start MakeResultWaitInfo().
+[TRACE] 2026/05/26 11:03:42.215240 end MakeResultWaitInfo().
+[DEBUG] 2026/05/26 11:03:42.215240 end RequestSend,   ��t�  recvLock waitFlag:true
+[TRACE] 2026/05/26 11:03:42.215780 devCtrl changeStageIndex:0 -> 3
+[TRACE] 2026/05/26 11:03:42.216310 start WaitResultInfo().
+[DEBUG] 2026/05/26 11:03:42.216821 devCtrl portSendWatcher get job.
+[DEBUG] 2026/05/26 11:03:42.216821 devCtrl portSendWatcher comWrite OK:0000ff01ff748c00
+[TRACE] 2026/05/26 11:03:42.218883 read after:ab bufWork:00, recvSize:1
+[TRACE] 2026/05/26 11:03:42.218883 portRecvWatcher recvSize:1, bufWork:[00]
+[TRACE] 2026/05/26 11:03:42.219391 devCtrl revCmmd sIdx:3, eInfo idx:2, data:0x00
+[TRACE] 2026/05/26 11:03:42.319428 portRecvWatcher readData end, waitedTime:0, recvSize:1, DoneRecvSize:1
+[TRACE] 2026/05/26 11:03:42.319934 read before :a
+[TRACE] 2026/05/26 11:03:42.320448 read after:ab bufWork:00 ff 00 ff 00 00 00 ff 02 fe 75 00 8b 00, recvSize:14
+[TRACE] 2026/05/26 11:03:42.320448 portRecvWatcher recvSize:14, bufWork:[00 ff 00 ff 00 00 00 ff 02 fe 75 00 8b 00]
+[TRACE] 2026/05/26 11:03:42.320448 devCtrl revCmmd sIdx:3, eInfo idx:2, data:0x00
+[TRACE] 2026/05/26 11:03:42.320448 devCtrl revCmmd sIdx:3, eInfo idx:2, data:0xff
+[TRACE] 2026/05/26 11:03:42.321447 devCtrl revCmmd sIdx:3, eInfo idx:2, data:0x00
+[TRACE] 2026/05/26 11:03:42.321447 devCtrl revCmmd sIdx:3, eInfo idx:2, data:0xff
+[TRACE] 2026/05/26 11:03:42.321949 devCtrl revCmmd sIdx:3, eInfo idx:2, data:0x00
+[TRACE] 2026/05/26 11:03:42.321949 devCtrl timerStop()
+[TRACE] 2026/05/26 11:03:42.322458 devCtrl revCmmd recvWork:00 00 ff 00 ff 00
+[DEBUG] 2026/05/26 11:03:42.322458 revCmmd >= 6 recv OK, hex:00 00 ff 00 ff 00
+[DEBUG] 2026/05/26 11:03:42.322458 revCmmd(1) waitId1:0000ff00ff00
+[DEBUG] 2026/05/26 11:03:42.322969 lock SetResultWaitInfo start processId:0000ff00ff00, requestid:, result:true
+[DEBUG] 2026/05/26 11:03:42.322969 in SetResultWaitInfo send ch:0000ff00ff00-%!(EXTRA wait.WaitInfo={0000ff00ff00  0000ff01ff748c00 <nil> 0xc0002b61c0 <nil>})
+[DEBUG] 2026/05/26 11:03:42.323502 unlock SetResultWaitInfo(true) id:0000ff00ff00-, waitInfo:{0000ff00ff00  0000ff01ff748c00 <nil> 0xc0002b61c0 <nil>}
+[DEBUG] 2026/05/26 11:03:42.323502 revCmmd(2) waitId1:0000ff00ff00
+[TRACE] 2026/05/26 11:03:42.324030 devCtrl changeStageIndex:3 -> 1
+[DEBUG] 2026/05/26 11:03:42.324568 serial 0 1 2 00 00 ff 00 ff 00
+[TRACE] 2026/05/26 11:03:42.324568 WaitResultInfo done:abcdeg
+[TRACE] 2026/05/26 11:03:42.325084 end WaitResultInfo().
+[DEBUG] 2026/05/26 11:03:42.326153 RequestSend result. retSend:true, sendData:0000ff01ff748c00
+[TRACE] 2026/05/26 11:03:42.326153 start GetResultWaitInfo().
+[TRACE] 2026/05/26 11:03:42.327157 end GetResultWaitInfo().
+[TRACE] 2026/05/26 11:03:42.327661 serial 1 1 2 00 00 ff 00 ff 00 00
+[DEBUG] 2026/05/26 11:03:42.327661 serial 0 1 2 00 00 ff 00 ff 00 00
+[TRACE] 2026/05/26 11:03:42.327661 serial 1 1 2 00 00 ff 00 ff 00 00 00
+[DEBUG] 2026/05/26 11:03:42.328190 serial 0 1 2 00 00 ff 00 ff 00 00 00
+[TRACE] 2026/05/26 11:03:42.328190 serial 1 1 2 00 00 ff 00 ff 00 00 00 ff
+[DEBUG] 2026/05/26 11:03:42.328190 serial 0 1 2 00 00 ff 00 ff 00 00 00 ff
+[TRACE] 2026/05/26 11:03:42.328701 serial 3 1 2 00 00 ff 00 ff 00 00 00 ff 02
+[TRACE] 2026/05/26 11:03:42.328701 start DelResultWaitInfo().
+[DEBUG] 2026/05/26 11:03:42.329217 serial 0 1 2 00 00 ff 00 ff 00 00 00 ff 02
+[TRACE] 2026/05/26 11:03:42.329217 serial 3 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe
+[DEBUG] 2026/05/26 11:03:42.329217 serial 0 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe
+[TRACE] 2026/05/26 11:03:42.329217 serial 3 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe 75
+[DEBUG] 2026/05/26 11:03:42.329217 serial 0 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe 75
+[TRACE] 2026/05/26 11:03:42.330215 serial 3 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe 75 00
+[DEBUG] 2026/05/26 11:03:42.330215 serial 0 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe 75 00
+[TRACE] 2026/05/26 11:03:42.330718 DelResultWaitInfo() sendResult:true, {0000ff00ff00  0000ff01ff748c00 true 0xc0002b61c0 <nil>}
+[TRACE] 2026/05/26 11:03:42.330718 end DelResultWaitInfo().
+[DEBUG] 2026/05/26 11:03:42.330718 end RequestSend(  ��t� , true) sndLock data:0000ff01ff748c00
+[DEBUG] 2026/05/26 11:03:42.330718 send(ret:true) sendData:00 00 ff 01 ff 74 8c 00
+[TRACE] 2026/05/26 11:03:42.330718 end Reset()
+[TRACE] 2026/05/26 11:03:42.331717 serial 3 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe 75 00 8b
+[DEBUG] 2026/05/26 11:03:42.331717 serial 0 1 2 00 00 ff 00 ff 00 00 00 ff 02 fe 75 00 8b
+[TRACE] 2026/05/26 11:03:42.332219 START (d *deviceManager) GetDeviceInfo(deviceNo 0a780ac90c050001)
+[TRACE] 2026/05/26 11:03:42.332219 END (d *deviceManager) GetDeviceInfo(deviceNo 0a780ac90c050001)
+[TRACE] 2026/05/26 11:03:42.332730 START (d *deviceManager) Start()
+[TRACE] 2026/05/26 11:03:42.332730 START (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 11:03:42.333241 END (d *deviceHandler) RegistStatusLineCallback(cbFunc func(deviceNo string, statusLine bool))
+[TRACE] 2026/05/26 11:03:42.333241 START (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, uid []byte, recvData [][]byte))
+[TRACE] 2026/05/26 11:03:42.333758 END (d *deviceHandler) RegistReceiveCallback(cbFunc func(deviceNo string, uid []byte, recvData [][]byte))
+[TRACE] 2026/05/26 11:03:42.333758 START (d *deviceHandler) RegistOnStatusCardHoldChanged
+[INFO ] 2026/05/26 11:03:42.333758 snd /almex/device/iccard/notice_status {"deviceNo":"0a780ac90c050001","statusReady":true,"statusControl":true,"statusLine":true,"statusError":true,"errorCode":"","errorDetail":"","statusEnable":false,"readId":"","statusCardHold":false}
+[TRACE] 2026/05/26 11:03:42.333758 END (d *deviceHandler) RegistOnStatusCardHoldChanged
+[TRACE] 2026/05/26 11:03:42.333758 START (d *deviceHandler) Start() int
+[TRACE] 2026/05/26 11:03:42.334757 START デバイス制御開始 (deviceControl) Start()
+[TRACE] 2026/05/26 11:03:42.334757 devCtrl changeStageIndex:1 -> 0
+[TRACE] 2026/05/26 11:03:42.334757 devCtrl timerStart(value 1000)
+[TRACE] 2026/05/26 11:03:42.335260 END デバイス制御開始 (deviceControl) Start()
+[TRACE] 2026/05/26 11:03:42.335260 END (d *deviceHandler) Start() int
+[INFO ] 2026/05/26 11:03:42.335260 {"generateDate":20260526,"generateTime":110342333,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0300","logSummary":"ICカードリーダーステータス通知","logData":"DeviceNo:0a780ac90c050001"}
+[INFO ] 2026/05/26 11:03:42.335792 program is idle.
+[INFO ] 2026/05/26 11:03:42.335792 {"generateDate":20260526,"generateTime":110342335,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0010","logSummary":"ICカードリーダー制御開始","logData":"DeviceNo:0a780ac90c050001 Result:true"}
+[TRACE] 2026/05/26 11:03:42.335792 END (d *deviceManager) Start()
+[TRACE] 2026/05/26 11:03:42.431775 portRecvWatcher readData end, waitedTime:0, recvSize:14, DoneRecvSize:14
+[TRACE] 2026/05/26 11:03:42.432277 read before :a
+[TRACE] 2026/05/26 11:03:42.741987 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:42.742514 read before :a
+[INFO ] 2026/05/26 11:03:42.836242 snd /almex/device/iccard/notice_status_service {"statusService":true,"idDevice":"0c05"}
+[INFO ] 2026/05/26 11:03:42.836753 {"generateDate":20260526,"generateTime":110342836,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0005","logSummary":"サービス実行制御要求(ICカードリーダ制御)","logData":"StatusService:true"}
+[TRACE] 2026/05/26 11:03:43.047324 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:43.047834 read before :a
+[TRACE] 2026/05/26 11:03:43.335191 devCtrl connect sIdx:0, eInfo idx:0, data:0x00
+[TRACE] 2026/05/26 11:03:43.335710 devCtrl timerStop()
+[TRACE] 2026/05/26 11:03:43.336218 devCtrl comOpen() bool
+[DEBUG] 2026/05/26 11:03:43.336218 ComPortName :COM3
+[TRACE] 2026/05/26 11:03:43.336218 devCtrl comOpen 既にOPEN済(COM3)
+[TRACE] 2026/05/26 11:03:43.336740 devCtrl changeStageIndex:0 -> 1
+[TRACE] 2026/05/26 11:03:43.336740 START (d *deviceHandler) cbStatusLine(statusLine true)
+[TRACE] 2026/05/26 11:03:43.336740 START (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90c050001, statusLine true)
+[TRACE] 2026/05/26 11:03:43.337246 start ReadDisable()
+[INFO ] 2026/05/26 11:03:43.337246 Card ejection detected
+[INFO ] 2026/05/26 11:03:43.337754 No active card type to disable.
+[TRACE] 2026/05/26 11:03:43.338263 START devCtrl Reset()
+[TRACE] 2026/05/26 11:03:43.338263 devCtrl changeStageIndex:1 -> 0
+[TRACE] 2026/05/26 11:03:43.338786 END devCtrl Reset()
+[TRACE] 2026/05/26 11:03:43.338786 start Reset()
+[TRACE] 2026/05/26 11:03:43.339295 end Reset()
+[TRACE] 2026/05/26 11:03:43.339295 start Reset()
+[TRACE] 2026/05/26 11:03:43.339295 end Reset()
+[INFO ] 2026/05/26 11:03:43.339295 Device control reset completed
+[TRACE] 2026/05/26 11:03:43.339802 end ReadDisable()
+[DEBUG] 2026/05/26 11:03:43.339802 pd::
+[DEBUG] 2026/05/26 11:03:43.339802 sr::
+[DEBUG] 2026/05/26 11:03:43.340320 fw::
+[INFO ] 2026/05/26 11:03:43.340320 {"generateDate":20260526,"generateTime":110343340,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALIC0021","logSummary":"ICカードリーダー回線接続","logData":"DeviceNo:0a780ac90c050001"}
+[DEBUG] 2026/05/26 11:03:43.341320 get device info(in cbDetectStatusLine):0a780ac90c050001(false)
+[TRACE] 2026/05/26 11:03:43.341823 END (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90c050001, statusLine true)
+[TRACE] 2026/05/26 11:03:43.342348 END (d *deviceHandler) cbStatusLine(statusLine true)
+[TRACE] 2026/05/26 11:03:43.353546 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:43.354080 read before :a
+[TRACE] 2026/05/26 11:03:43.657458 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:43.658555 read before :a
+[TRACE] 2026/05/26 11:03:43.959860 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:43.960376 read before :a
+[TRACE] 2026/05/26 11:03:44.264076 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:44.264604 read before :a
+[TRACE] 2026/05/26 11:03:44.567751 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:44.568253 read before :a
+[TRACE] 2026/05/26 11:03:44.875704 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:44.875704 read before :a
+[TRACE] 2026/05/26 11:03:45.180608 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:45.181128 read before :a
+[TRACE] 2026/05/26 11:03:45.491119 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:45.491835 read before :a
+[TRACE] 2026/05/26 11:03:45.795334 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:45.795859 read before :a
+[TRACE] 2026/05/26 11:03:46.101244 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:46.101775 read before :a
+[TRACE] 2026/05/26 11:03:46.408579 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:46.409089 read before :a
+[TRACE] 2026/05/26 11:03:46.711647 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:46.712171 read before :a
+[TRACE] 2026/05/26 11:03:47.017991 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:47.018494 read before :a
+[TRACE] 2026/05/26 11:03:47.325404 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:47.325924 read before :a
+[TRACE] 2026/05/26 11:03:47.629024 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:47.629024 read before :a
+[TRACE] 2026/05/26 11:03:47.934613 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:47.935144 read before :a
+[TRACE] 2026/05/26 11:03:48.243259 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:48.243777 read before :a
+[TRACE] 2026/05/26 11:03:48.548339 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:48.548856 read before :a
+[TRACE] 2026/05/26 11:03:48.854311 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:48.854847 read before :a
+[TRACE] 2026/05/26 11:03:49.161120 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:49.161120 read before :a
+[TRACE] 2026/05/26 11:03:49.466507 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:49.467163 read before :a
+[TRACE] 2026/05/26 11:03:49.771541 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:49.772064 read before :a
+[TRACE] 2026/05/26 11:03:50.077907 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:50.077907 read before :a
+[TRACE] 2026/05/26 11:03:50.382104 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:50.382607 read before :a
+[TRACE] 2026/05/26 11:03:50.686088 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:50.686622 read before :a
+[TRACE] 2026/05/26 11:03:50.993442 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:50.993974 read before :a
+[TRACE] 2026/05/26 11:03:51.299375 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:51.299895 read before :a
+[TRACE] 2026/05/26 11:03:51.604789 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:51.605291 read before :a
+[TRACE] 2026/05/26 11:03:51.911142 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:51.911643 read before :a
+[TRACE] 2026/05/26 11:03:52.215569 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:52.216092 read before :a
+[TRACE] 2026/05/26 11:03:52.520260 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:52.520785 read before :a
+[TRACE] 2026/05/26 11:03:52.827953 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:52.828476 read before :a
+[TRACE] 2026/05/26 11:03:53.132766 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:53.133269 read before :a
+[TRACE] 2026/05/26 11:03:53.436435 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:53.436938 read before :a
+[TRACE] 2026/05/26 11:03:53.742049 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:53.742558 read before :a
+[TRACE] 2026/05/26 11:03:54.046607 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:54.047110 read before :a
+[TRACE] 2026/05/26 11:03:54.351191 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:54.351713 read before :a
+[TRACE] 2026/05/26 11:03:54.655607 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:54.656129 read before :a
+[TRACE] 2026/05/26 11:03:54.960657 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:54.960657 read before :a
+[TRACE] 2026/05/26 11:03:55.267457 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:55.267960 read before :a
+[TRACE] 2026/05/26 11:03:55.573818 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:55.574668 read before :a
+[TRACE] 2026/05/26 11:03:55.878455 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:55.878957 read before :a
+[TRACE] 2026/05/26 11:03:56.184128 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:56.184644 read before :a
+[TRACE] 2026/05/26 11:03:56.491371 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:56.492600 read before :a
+[TRACE] 2026/05/26 11:03:56.797394 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:56.797394 read before :a
+[TRACE] 2026/05/26 11:03:57.102788 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:57.103306 read before :a
+[TRACE] 2026/05/26 11:03:57.409699 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:57.410740 read before :a
+[TRACE] 2026/05/26 11:03:57.715584 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:57.716115 read before :a
+[TRACE] 2026/05/26 11:03:58.020301 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:58.020803 read before :a
+[TRACE] 2026/05/26 11:03:58.327414 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:58.327933 read before :a
+[TRACE] 2026/05/26 11:03:58.633730 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:58.634232 read before :a
+[TRACE] 2026/05/26 11:03:58.939485 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:58.939987 read before :a
+[TRACE] 2026/05/26 11:03:59.244433 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:59.244961 read before :a
+[TRACE] 2026/05/26 11:03:59.549891 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:59.549891 read before :a
+[TRACE] 2026/05/26 11:03:59.855685 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:03:59.856187 read before :a
+[TRACE] 2026/05/26 11:04:00.160592 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:00.161106 read before :a
+[TRACE] 2026/05/26 11:04:00.464320 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:00.464822 read before :a
+[TRACE] 2026/05/26 11:04:00.773905 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:00.774852 read before :a
+[TRACE] 2026/05/26 11:04:01.078183 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:01.078183 read before :a
+[TRACE] 2026/05/26 11:04:01.382188 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:01.382691 read before :a
+[TRACE] 2026/05/26 11:04:01.687033 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:01.687560 read before :a
+[TRACE] 2026/05/26 11:04:01.988792 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:01.989294 read before :a
+[TRACE] 2026/05/26 11:04:02.293057 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:02.293597 read before :a
+[TRACE] 2026/05/26 11:04:02.598061 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:02.598563 read before :a
+[TRACE] 2026/05/26 11:04:02.903491 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:02.903994 read before :a
+[TRACE] 2026/05/26 11:04:03.211196 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:03.211196 read before :a
+[TRACE] 2026/05/26 11:04:03.515479 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:03.515994 read before :a
+[TRACE] 2026/05/26 11:04:03.820675 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:03.821200 read before :a
+[TRACE] 2026/05/26 11:04:04.127073 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:04.127612 read before :a
+[TRACE] 2026/05/26 11:04:04.431670 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:04.432193 read before :a
+[TRACE] 2026/05/26 11:04:04.739063 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:04.739565 read before :a
+[TRACE] 2026/05/26 11:04:05.044307 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:05.044307 read before :a
+[TRACE] 2026/05/26 11:04:05.350810 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:05.351337 read before :a
+[TRACE] 2026/05/26 11:04:05.654968 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:05.655496 read before :a
+[TRACE] 2026/05/26 11:04:05.958952 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:05.959518 read before :a
+[TRACE] 2026/05/26 11:04:06.263991 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:06.264515 read before :a
+[TRACE] 2026/05/26 11:04:06.570029 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:06.570554 read before :a
+[TRACE] 2026/05/26 11:04:06.877021 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:06.877534 read before :a
+[TRACE] 2026/05/26 11:04:07.182878 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:07.182878 read before :a
+[TRACE] 2026/05/26 11:04:07.489570 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:07.489570 read before :a
+[TRACE] 2026/05/26 11:04:07.796189 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:07.796715 read before :a
+[TRACE] 2026/05/26 11:04:08.102553 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:08.103074 read before :a
+[TRACE] 2026/05/26 11:04:08.410126 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:08.410662 read before :a
+[INFO ] 2026/05/26 11:04:08.579872 rcv /almex/device/iccard/request_disable_read {"readId":"icIRS270_readid_00000001","requestInfo":{"processId":"000029EC","requestId":"icCardReader01_0006"}}
+[TRACE] 2026/05/26 11:04:08.714944 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:08.715467 read before :a
+[TRACE] 2026/05/26 11:04:09.018633 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:09.019135 read before :a
+[TRACE] 2026/05/26 11:04:09.323499 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:09.324070 read before :a
+[TRACE] 2026/05/26 11:04:09.627295 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:09.627829 read before :a
+[TRACE] 2026/05/26 11:04:09.938254 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:09.938785 read before :a
+[TRACE] 2026/05/26 11:04:10.244851 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:10.245368 read before :a
+[TRACE] 2026/05/26 11:04:10.553284 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:10.553284 read before :a
+[TRACE] 2026/05/26 11:04:10.862823 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:10.862823 read before :a
+[TRACE] 2026/05/26 11:04:11.173145 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:11.173145 read before :a
+[TRACE] 2026/05/26 11:04:11.480878 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:11.480878 read before :a
+[TRACE] 2026/05/26 11:04:11.790004 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:11.790004 read before :a
+[TRACE] 2026/05/26 11:04:12.099305 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:12.099829 read before :a
+[TRACE] 2026/05/26 11:04:12.408034 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:12.408552 read before :a
+[TRACE] 2026/05/26 11:04:12.716801 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:12.716801 read before :a
+[TRACE] 2026/05/26 11:04:13.024857 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:13.024857 read before :a
+[TRACE] 2026/05/26 11:04:13.333563 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:13.333563 read before :a
+[TRACE] 2026/05/26 11:04:13.640650 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:13.640650 read before :a
+[TRACE] 2026/05/26 11:04:13.949413 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:13.949937 read before :a
+[TRACE] 2026/05/26 11:04:14.257955 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:14.257955 read before :a
+[TRACE] 2026/05/26 11:04:14.565701 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:14.566720 read before :a
+[TRACE] 2026/05/26 11:04:14.875617 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:14.875617 read before :a
+[TRACE] 2026/05/26 11:04:15.182771 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:15.183453 read before :a
+[TRACE] 2026/05/26 11:04:15.493954 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:15.494599 read before :a
+[TRACE] 2026/05/26 11:04:15.803320 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:15.803843 read before :a
+[TRACE] 2026/05/26 11:04:16.112976 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:16.112976 read before :a
+[TRACE] 2026/05/26 11:04:16.420249 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:16.420774 read before :a
+[TRACE] 2026/05/26 11:04:16.728807 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:16.729328 read before :a
+[TRACE] 2026/05/26 11:04:17.036574 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:17.037099 read before :a
+[TRACE] 2026/05/26 11:04:17.345180 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:17.345180 read before :a
+[TRACE] 2026/05/26 11:04:17.653878 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:17.654410 read before :a
+[TRACE] 2026/05/26 11:04:17.962828 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:17.963350 read before :a
+[TRACE] 2026/05/26 11:04:18.272256 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:18.272778 read before :a
+[TRACE] 2026/05/26 11:04:18.581890 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:18.582412 read before :a
+[TRACE] 2026/05/26 11:04:18.890521 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:18.891043 read before :a
+[TRACE] 2026/05/26 11:04:19.200079 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:19.200079 read before :a
+[TRACE] 2026/05/26 11:04:19.506740 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:19.507264 read before :a
+[TRACE] 2026/05/26 11:04:19.815935 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:19.816457 read before :a
+[TRACE] 2026/05/26 11:04:20.127288 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:20.127288 read before :a
+[TRACE] 2026/05/26 11:04:20.434709 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:20.435246 read before :a
+[TRACE] 2026/05/26 11:04:20.742217 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:20.742810 read before :a
+[TRACE] 2026/05/26 11:04:21.051188 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:21.051707 read before :a
+[TRACE] 2026/05/26 11:04:21.359844 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:21.360353 read before :a
+[TRACE] 2026/05/26 11:04:21.669041 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:21.669041 read before :a
+[TRACE] 2026/05/26 11:04:21.978222 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:21.978799 read before :a
+[TRACE] 2026/05/26 11:04:22.289283 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:22.289283 read before :a
+[TRACE] 2026/05/26 11:04:22.597306 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:22.597831 read before :a
+[TRACE] 2026/05/26 11:04:22.906376 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:22.906376 read before :a
+[TRACE] 2026/05/26 11:04:23.215670 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:23.216200 read before :a
+[TRACE] 2026/05/26 11:04:23.524182 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:23.524708 read before :a
+[TRACE] 2026/05/26 11:04:23.830715 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:23.831041 read before :a
+[TRACE] 2026/05/26 11:04:24.140307 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:24.140307 read before :a
+[TRACE] 2026/05/26 11:04:24.449896 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:24.449896 read before :a
+[TRACE] 2026/05/26 11:04:24.756913 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:24.757580 read before :a
+[TRACE] 2026/05/26 11:04:25.066090 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:25.066090 read before :a
+[TRACE] 2026/05/26 11:04:25.377101 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:25.377101 read before :a
+[TRACE] 2026/05/26 11:04:25.684435 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:25.684958 read before :a
+[TRACE] 2026/05/26 11:04:25.992185 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:25.992716 read before :a
+[TRACE] 2026/05/26 11:04:26.300626 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:26.301150 read before :a
+[TRACE] 2026/05/26 11:04:26.609206 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:26.609206 read before :a
+[TRACE] 2026/05/26 11:04:26.918403 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:26.918929 read before :a
+[TRACE] 2026/05/26 11:04:27.227430 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:27.227980 read before :a
+[TRACE] 2026/05/26 11:04:27.537805 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:27.538316 read before :a
+[TRACE] 2026/05/26 11:04:27.845035 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:27.845559 read before :a
+[TRACE] 2026/05/26 11:04:28.154476 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:28.155038 read before :a
+[TRACE] 2026/05/26 11:04:28.463863 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:28.464382 read before :a
+[TRACE] 2026/05/26 11:04:28.770111 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:28.770639 read before :a
+[TRACE] 2026/05/26 11:04:29.077992 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:29.078577 read before :a
+[TRACE] 2026/05/26 11:04:29.387762 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:29.387762 read before :a
+[TRACE] 2026/05/26 11:04:29.695439 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:29.695961 read before :a
+[TRACE] 2026/05/26 11:04:30.005882 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:30.006423 read before :a
+[TRACE] 2026/05/26 11:04:30.313232 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:30.313761 read before :a
+[TRACE] 2026/05/26 11:04:30.621328 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:30.621849 read before :a
+[TRACE] 2026/05/26 11:04:30.928052 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:30.928569 read before :a
+[TRACE] 2026/05/26 11:04:31.236100 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:31.236621 read before :a
+[TRACE] 2026/05/26 11:04:31.545454 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:31.545454 read before :a
+[TRACE] 2026/05/26 11:04:31.853906 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:31.854543 read before :a
+[TRACE] 2026/05/26 11:04:32.162113 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:32.162113 read before :a
+[TRACE] 2026/05/26 11:04:32.470694 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:32.471278 read before :a
+[TRACE] 2026/05/26 11:04:32.781960 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:32.782585 read before :a
+[TRACE] 2026/05/26 11:04:33.091208 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:33.091739 read before :a
+[TRACE] 2026/05/26 11:04:33.400309 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:33.400834 read before :a
+[TRACE] 2026/05/26 11:04:33.708027 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:33.708551 read before :a
+[TRACE] 2026/05/26 11:04:34.019165 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:34.019701 read before :a
+[TRACE] 2026/05/26 11:04:34.329238 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:34.329238 read before :a
+[TRACE] 2026/05/26 11:04:34.638497 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:34.638497 read before :a
+[TRACE] 2026/05/26 11:04:34.947899 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:34.948581 read before :a
+[TRACE] 2026/05/26 11:04:35.256351 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:35.256914 read before :a
+[TRACE] 2026/05/26 11:04:35.566145 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:35.566733 read before :a
+[TRACE] 2026/05/26 11:04:35.873885 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:35.874416 read before :a
+[TRACE] 2026/05/26 11:04:36.184422 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:36.184976 read before :a
+[TRACE] 2026/05/26 11:04:36.493744 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:36.494266 read before :a
+[TRACE] 2026/05/26 11:04:36.800902 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:36.800902 read before :a
+[TRACE] 2026/05/26 11:04:37.109584 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:37.109584 read before :a
+[TRACE] 2026/05/26 11:04:37.418108 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:37.418108 read before :a
+[TRACE] 2026/05/26 11:04:37.726649 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:37.727265 read before :a
+[TRACE] 2026/05/26 11:04:38.035465 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:38.035993 read before :a
+[TRACE] 2026/05/26 11:04:38.344184 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:38.344709 read before :a
+[TRACE] 2026/05/26 11:04:38.652700 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:38.652700 read before :a
+[TRACE] 2026/05/26 11:04:38.961036 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:38.961560 read before :a
+[TRACE] 2026/05/26 11:04:39.270065 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:39.270583 read before :a
+[TRACE] 2026/05/26 11:04:39.577760 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:39.578279 read before :a
+[TRACE] 2026/05/26 11:04:39.885105 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:39.885636 read before :a
+[TRACE] 2026/05/26 11:04:40.193928 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:40.194445 read before :a
+[TRACE] 2026/05/26 11:04:40.501320 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:40.501320 read before :a
+[TRACE] 2026/05/26 11:04:40.811906 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:40.811906 read before :a
+[TRACE] 2026/05/26 11:04:41.119910 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:41.120422 read before :a
+[TRACE] 2026/05/26 11:04:41.428475 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:41.428475 read before :a
+[TRACE] 2026/05/26 11:04:41.736166 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:41.736685 read before :a
+[TRACE] 2026/05/26 11:04:42.045299 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:42.045838 read before :a
+[TRACE] 2026/05/26 11:04:42.354762 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:42.355282 read before :a
+[TRACE] 2026/05/26 11:04:42.663582 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:42.664413 read before :a
+[TRACE] 2026/05/26 11:04:42.972887 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:42.973411 read before :a
+[TRACE] 2026/05/26 11:04:43.283558 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:43.284082 read before :a
+[TRACE] 2026/05/26 11:04:43.593012 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:43.593533 read before :a
+[TRACE] 2026/05/26 11:04:43.903018 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:43.903018 read before :a
+[TRACE] 2026/05/26 11:04:44.211604 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:44.212125 read before :a
+[TRACE] 2026/05/26 11:04:44.520368 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:44.520708 read before :a
+[TRACE] 2026/05/26 11:04:44.828159 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:44.828159 read before :a
+[TRACE] 2026/05/26 11:04:45.136709 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:45.137228 read before :a
+[TRACE] 2026/05/26 11:04:45.446011 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:45.446538 read before :a
+[TRACE] 2026/05/26 11:04:45.755600 read after:ab bufWork:, recvSize:0
+[TRACE] 2026/05/26 11:04:45.755600 read before :a

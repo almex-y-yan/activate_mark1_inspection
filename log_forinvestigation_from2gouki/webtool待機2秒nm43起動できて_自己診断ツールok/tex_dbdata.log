@@ -1,0 +1,22 @@
+[INFO ] 2026/05/26 10:50:01.799897 [Send](MQTT)/tex/helper/dbdata/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbdata_248874id18","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:01.802017 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:01.803568 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105001797,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXDT1400","logSummary":"サービス実行状況を通知(稼働データ制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:01.804150 [Recv](MQTT)/tex/helper/dbdata/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbdata_248874id18"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:06.879703 [Send](MQTT)/tex/helper/dbdata/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbdata_248896id18","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:06.881205 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:06.883229 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105006876,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXDT1400","logSummary":"サービス実行状況を通知(稼働データ制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:06.884259 [Recv](MQTT)/tex/helper/dbdata/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbdata_248896id18"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:11.968274 [Send](MQTT)/tex/helper/dbdata/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbdata_248918id18","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:11.969305 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:11.970807 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105011966,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXDT1400","logSummary":"サービス実行状況を通知(稼働データ制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:11.971837 [Recv](MQTT)/tex/helper/dbdata/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbdata_248918id18"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:17.048527 [Send](MQTT)/tex/helper/dbdata/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helperdbdata_248940id18","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:17.050030 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:17.051060 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105017046,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXDT1400","logSummary":"サービス実行状況を通知(稼働データ制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:17.051588 [Recv](MQTT)/tex/helper/dbdata/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helperdbdata_248940id18"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.672925 [Send](MQTT)/tex/helper/dbdata/result_control_service,{"requestInfo":{"processId":"000018c0","requestId":"rqCtrSv_helperdbdata_248952id18","pcId":""},"result":true}
+[INFO ] 2026/05/26 10:50:32.676157 'RequestControlService' Result Send to ResultControlServicePub
+[INFO ] 2026/05/26 10:50:32.678222 [Send](MQTT)/tex/helper/dbdata/notice_status_service,{"statusService":false}
+[INFO ] 2026/05/26 10:50:32.678222 'RequestControlService' Result Send to ResultNoticeStatusServicePub
+[INFO ] 2026/05/26 10:50:32.679812 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105032676,"forceEncrypt":false,"logLevel":"TRACE","requestId":"TXDT1500","logSummary":"サービス実行状態更新(稼働データ制御)","logData":"サービス実行状態更新 Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:32.680339 [Recv](MQTT)/tex/helper/dbdata/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helperdbdata_248952id18"},"statusService":false,"idDevice":"","idExtSys":""}

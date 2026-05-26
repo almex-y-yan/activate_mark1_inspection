@@ -1,0 +1,1645 @@
+[DEBUG] 2026/05/26 10:53:53.989577 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:53.989577 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:53.989577 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:53.990088 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:53.990088 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:53.990088 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:53.990088 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:53.990853 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:53.991367 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:53.991367 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:53.991367 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:53.991878 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:53.991878 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:53.992389 manageSendData IN
+[INFO ] 2026/05/26 10:53:53.992389 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.010186 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.010186 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.010695 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.010695 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.010695 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.010695 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.010695 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.010695 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.011706 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.012215 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.012215 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.012722 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.012722 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.013234 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.013234 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.013234 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.013745 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.013745 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.014253 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.014253 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.014253 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.014253 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.014253 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.014253 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.014253 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.015263 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.015263 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.015263 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.015773 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.015773 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.016292 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.016292 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.016292 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.016292 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.016292 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.016292 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.017305 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.017305 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.017305 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.017816 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.017816 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.017816 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.017816 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.018326 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.018326 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.036103 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.036103 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.036613 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.036613 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.036613 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.036613 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.036613 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.037625 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.037625 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.037625 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.038172 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.038681 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.038681 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.039194 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.039194 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.039194 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.039194 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.039194 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.039194 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.040207 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.040207 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.040207 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.040746 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.040746 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.040746 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.040746 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.041255 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.041255 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.041255 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.041794 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.041794 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.041794 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.041794 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.042304 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.042304 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.042304 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.042843 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.042843 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.042843 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.043354 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.043354 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.043354 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.043354 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.043898 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.043898 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.062209 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.062209 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.062728 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.062728 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.063245 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.063245 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.063756 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.063756 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.063756 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.063756 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.063756 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.063756 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.063756 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.064767 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.064767 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.064767 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.065304 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.065304 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.065304 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.065814 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.065814 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.065814 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.066346 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.066346 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.066346 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.066856 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.066856 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.066856 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.066856 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.067367 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.067367 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.067367 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.067367 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.067367 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.067367 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.068377 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.068377 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.068377 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.068887 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.068887 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.069398 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.069398 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.069398 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.069909 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.069909 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.088198 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.088198 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.088198 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.088198 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.088198 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.088198 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.089208 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.089208 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.089208 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.089719 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.089719 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.089719 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.090231 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.090231 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.090231 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.090742 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.090742 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.090742 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.090742 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.090742 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.090742 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.090742 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.091754 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.091754 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.091754 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.091754 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.092290 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.092290 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.092290 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.092801 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.092801 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.092801 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.093324 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.093324 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.093324 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.093324 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.093324 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.093324 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.093324 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.094338 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.094338 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.094338 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.094880 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.094880 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.094880 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.113885 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.113885 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.113885 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.113885 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.114894 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.114894 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.114894 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.115428 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.115428 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.115936 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.115936 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.115936 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.116461 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.116461 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.116461 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.116461 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.116970 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.116970 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.116970 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.117482 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.117482 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.117482 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.117482 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.118494 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.118494 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.118494 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.119001 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.119001 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.119001 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.119001 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.119001 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.119001 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.120011 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.120011 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.120011 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.120011 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.120523 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.120523 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.120523 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.120523 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.120523 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.120523 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.120523 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.121533 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.121533 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.140283 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.140283 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.140790 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.140790 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.140790 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.141302 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.141302 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.141302 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.141813 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.141813 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.142323 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.142323 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.142323 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.142323 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.142323 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.142323 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.143333 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.143333 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.143333 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.143874 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.143874 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.144383 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.144383 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.144383 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.144383 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.144926 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.144926 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.144926 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.145438 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.145438 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.145438 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.145975 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.145975 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.145975 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.145975 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.146484 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.146484 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.146484 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.147029 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.147029 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.147029 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.147029 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.147538 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.147538 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.147538 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.165933 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.166517 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.166517 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.167027 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.167027 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.167027 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.167554 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.167554 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.167554 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.168065 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.168065 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.168065 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.168576 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.168576 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.169245 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.169759 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.169759 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.169759 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.169759 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.170784 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.170784 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.170784 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.171298 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.171298 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.171298 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.171812 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.171812 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.171812 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.171812 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.171812 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.171812 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.171812 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.172829 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.172829 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.172829 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.173346 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.173346 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.173346 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.173346 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.173346 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.173346 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.173346 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.174358 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.174358 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.174358 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.192141 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.192141 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.192650 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.192650 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.192650 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.193160 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.193160 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.193160 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.193160 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.194173 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.194173 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.194173 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.194713 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.194713 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.194713 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.195222 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.195222 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.195222 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.195222 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.195733 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.195733 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.195733 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.195733 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.195733 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.195733 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.195733 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.196742 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.196742 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.196742 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.196742 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.197280 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.197280 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.197280 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.197790 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.197790 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.197790 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.197790 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.198326 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.198326 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.198326 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.198835 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.198835 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.198835 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.199370 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.199370 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.218140 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.218140 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.218140 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.219152 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.219729 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.219729 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.220239 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.220239 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.220750 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.220750 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.220750 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.221763 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.222275 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.222275 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.222786 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.223298 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.223298 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.223920 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.223920 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.223920 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.224930 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.224930 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.225513 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.226023 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.226023 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.226534 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.227043 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.227043 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.227553 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.228133 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.228133 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.228642 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.228642 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.229305 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.229833 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.229833 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.230343 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.230343 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.230855 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.230855 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.231623 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.231623 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.232136 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.232773 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.234305 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.250010 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.250524 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.250524 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.250524 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.251061 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.251061 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.251061 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.251571 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.251571 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.251571 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.252109 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.252109 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.252109 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.252617 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.252617 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.252617 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.253151 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.253151 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.253151 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.253151 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.253660 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.253660 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.253660 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.254170 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.254170 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.254170 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.254170 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.254170 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.254170 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.254170 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.255179 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.255179 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.255179 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.255179 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.255719 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.255719 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.255719 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.256228 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.256228 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.256228 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.256228 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.256768 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.256768 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.256768 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.257276 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.276259 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.276259 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.276767 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.276767 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.276767 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.277304 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.277304 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.277304 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.277812 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.277812 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.277812 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.278358 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.278358 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.278358 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.278867 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.278867 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.279388 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.279388 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.279388 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.280395 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.280395 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.280395 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.280934 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.280934 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.280934 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.281446 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.281446 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.281446 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.281446 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.281990 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.281990 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.281990 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.282500 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.282500 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.282500 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.282500 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.283037 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.283037 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.283037 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.283547 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.283547 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.283547 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.284086 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.284599 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.284599 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.301934 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.302446 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.302446 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.302446 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.302957 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.302957 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.302957 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.303469 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.303469 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.303469 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.303469 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.304481 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.304481 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.304481 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.305019 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.305019 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.305529 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.305529 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.305529 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.306062 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.306062 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.306062 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.306573 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.306573 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.306573 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.307108 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.307108 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.307108 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.307108 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.307619 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.307619 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.307619 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.308159 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.308159 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.308159 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.308159 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.308667 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.308667 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.308667 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.309204 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.309204 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.309204 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.309204 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.309712 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.310299 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.328199 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.328199 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.328719 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.328719 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.328719 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.329229 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.329229 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.329229 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.329772 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.329772 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.329772 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.330282 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.330282 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.330282 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.330820 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.330820 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.330820 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.330820 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.331330 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.331330 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.331330 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.331866 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.331866 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.331866 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.331866 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.332376 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.332376 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.332916 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.332916 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.332916 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.333425 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.333425 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.333425 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.333425 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.333934 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.333934 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.333934 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.334444 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.334444 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.334444 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.334954 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.334954 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.334954 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.334954 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.334954 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.354137 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.354652 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.354652 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.355161 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.355671 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.355671 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.356251 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.356251 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.356770 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.357282 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.357591 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.357591 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.358098 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.358098 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.358609 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.358609 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.358609 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.359621 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.359621 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.360137 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.360137 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.360137 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.361148 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.361148 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.361659 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.362171 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.362171 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.362682 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.363192 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.363192 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.363702 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.364212 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.364212 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.364723 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.364723 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.364723 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.365735 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.365735 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.366246 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.366246 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.366246 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.367257 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.367257 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.367769 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.367769 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.385649 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.385649 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.386657 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.386657 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.387167 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.387167 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.387167 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.387688 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.387688 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.388256 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.388256 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.388256 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.388765 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.388765 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.388765 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.389274 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.389274 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.389274 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.389274 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.389274 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.389274 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.389274 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.390283 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.390283 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.390283 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.390283 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.390825 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.390825 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.390825 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.391334 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.391334 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.391334 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.391334 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.391865 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.391865 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.391865 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.392374 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.392374 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.392374 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.392374 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.392911 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.392911 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.392911 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.393420 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.393420 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.412259 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.412259 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.412259 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.412259 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.412259 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.413269 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.413269 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.413269 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.413779 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.413779 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.413779 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.413779 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.413779 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.413779 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.414790 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.414790 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.414790 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.415300 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.415300 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.415300 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.415300 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.415810 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.415810 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.415810 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.415810 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.415810 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.416821 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.416821 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.417332 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.417332 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.417332 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.417332 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.417332 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.417332 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.418342 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.418342 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.418865 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.419378 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.419378 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.419378 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.419888 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.419888 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.419888 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.419888 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.419888 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.437870 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.438377 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.438377 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.438887 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.438887 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.438887 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.438887 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.438887 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.438887 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.439897 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.439897 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.440428 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.440428 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.440939 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.440939 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.440939 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.441451 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.441451 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.441451 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.442460 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.442460 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.442460 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.443004 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.443004 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.443004 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.443512 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.443512 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.444047 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.444047 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.444554 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.444554 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.445093 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.445093 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.445610 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.445610 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.446145 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.446654 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.446654 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.447183 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.447183 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.447183 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.447692 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.447692 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.447692 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.448230 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.466212 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.466212 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.466212 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.466212 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.466212 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.467225 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.467225 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.467736 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.467736 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.467736 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.467736 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.467736 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.467736 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.468746 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.468746 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.468746 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.469259 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.469259 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.469771 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.469771 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.469771 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.470302 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.470302 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.470302 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.470302 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.470816 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.470816 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.470816 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.471338 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.471338 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.471338 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.471338 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.472347 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.472347 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.472347 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.472347 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.472887 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.472887 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.472887 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.473398 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.473398 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.473398 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.473398 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.473936 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.473936 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.491831 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.492354 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.492354 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.492863 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.492863 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.492863 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.492863 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.493388 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.493388 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.493897 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.493897 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.493897 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.493897 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.494406 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.494406 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.494406 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.494406 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.494406 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.494406 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.495414 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.495414 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.495414 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.495939 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.495939 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.495939 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.495939 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.495939 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.495939 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.495939 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.496948 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.496948 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.496948 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.496948 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.497485 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.497485 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.497485 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.497485 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.497995 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.498533 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.498533 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.499046 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.499046 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.499046 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.499578 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.499578 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.517964 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.518519 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.518519 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.518519 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.518519 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.518519 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.518519 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.519529 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.519529 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.520060 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.520060 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.520060 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.520581 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.520581 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.521091 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.521091 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.521091 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.521091 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.521602 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.521602 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.521602 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.522137 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.522137 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.522137 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.522137 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.522647 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.522647 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.522647 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.523158 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.523158 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.523158 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.523670 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.523670 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.523670 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.523670 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.524219 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.524219 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.524219 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.524730 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.524730 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.524730 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.524730 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.524730 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.525741 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.525741 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.543820 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.544329 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.544329 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.544840 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.544840 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.545350 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.545350 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.545882 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.545882 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.545882 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.546394 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.546394 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.546394 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.546394 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.546394 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.546394 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.546394 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.547406 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.547406 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.547406 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.547918 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.547918 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.547918 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.548431 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.548431 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.548431 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.548431 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.548976 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.548976 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.548976 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.549487 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.549487 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.549487 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.549487 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.550011 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.550011 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.550011 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.550521 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.550521 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.550521 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.551034 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.551034 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.551034 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.551034 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.551034 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.569853 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.570375 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.570375 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.570885 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.570885 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.570885 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.571393 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.571393 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.571393 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.571902 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.571902 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.571902 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.571902 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.572412 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.572412 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.572412 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.572926 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.572926 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.572926 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.572926 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.572926 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.572926 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.572926 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.573936 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.573936 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.573936 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.574446 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.574446 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.574957 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.574957 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.574957 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.575492 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.575492 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.575492 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.576002 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.576002 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.576002 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.576523 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.576523 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.576523 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.576523 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.577033 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.577033 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.577033 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.577542 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.595861 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.595861 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.596872 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.597385 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.597385 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.597893 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.598403 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.598403 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.598911 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.599420 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.599420 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.599933 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.600444 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.600444 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.600444 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.601457 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.601457 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.602165 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.602165 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.602673 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.602673 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.603186 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.603718 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.603718 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.604228 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.604740 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.604740 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.605250 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.605250 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.605762 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.605762 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.605762 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.606773 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.606773 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.607285 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.607285 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.607285 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.607285 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.607285 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.608296 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.608296 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.608810 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.608810 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.609324 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.609324 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.628213 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.628213 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.628722 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.628722 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.628722 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.629260 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.629260 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.629260 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.629260 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.629769 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.629769 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.630302 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.630302 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.630302 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.630812 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.630812 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.630812 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.630812 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.631321 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.631321 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.631321 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.631321 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.631321 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.631321 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.631321 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.632331 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.632331 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.632331 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.632866 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.632866 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.632866 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.633373 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.633373 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.633373 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.633373 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.633906 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.633906 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.633906 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.633906 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.634414 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.634414 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.634934 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.634934 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.634934 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.634934 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.654348 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.654348 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.654348 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.654348 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.654348 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.655355 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.655355 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.655888 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.655888 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.655888 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.656398 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.656398 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.656398 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.656944 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.656944 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.656944 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.657453 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.657992 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.657992 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.657992 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.658498 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.658498 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.658498 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.659042 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.659042 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.659042 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.659551 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.659551 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.659551 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.660087 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.660087 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.660087 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.660087 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.660597 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.660597 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.660597 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.661135 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.661135 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.661135 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.661135 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.661646 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.661646 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.661646 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.662159 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.662159 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.679978 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.680547 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.680547 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.680547 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.680547 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.680547 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.680547 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.681558 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.681558 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.682084 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.682084 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.682597 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.682597 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.683107 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.683107 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.683107 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.683709 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.683709 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.684219 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.684219 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.684219 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.684219 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.684731 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.684731 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.684731 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.685241 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.685241 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.685241 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.685241 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.685241 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.685241 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.685241 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.686251 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.686251 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.686251 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.686251 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.686763 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.686763 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.687291 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.687291 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.687291 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.687811 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.687811 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.688323 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.688323 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.706198 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.706198 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.706703 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.706703 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.706703 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.707241 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.707241 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.707241 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.707749 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.707749 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.707749 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.708282 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.708282 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.708282 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.708791 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.708791 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.708791 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.709325 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.709325 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.709325 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.709325 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.709833 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.709833 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.709833 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.710366 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.710366 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.710366 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.710366 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.710875 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.710875 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.710875 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.711408 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.711408 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.711408 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.711917 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.711917 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.712447 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.712447 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.712971 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.713488 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.713488 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.713488 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.713488 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.713488 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.714502 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.732297 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.732297 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.732297 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.732297 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.732297 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.732297 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.733306 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.733306 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.733816 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.733816 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.733816 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.733816 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.733816 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.733816 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.734827 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.734827 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.734827 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.735364 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.735364 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.735873 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.735873 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.735873 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.736387 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.736387 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.736387 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.736899 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.736899 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.736899 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.737411 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.737411 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.737411 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.737411 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.737411 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.737411 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.737411 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.738423 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.738423 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.738423 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.738423 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.738961 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.738961 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.738961 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.739472 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.739472 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.740001 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.757846 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.758370 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.758887 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.758887 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.759422 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.759422 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.759930 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.759930 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.760465 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.760465 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.760465 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.760977 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.760977 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.760977 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.761509 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.761509 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.762019 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.762019 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.762019 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.762555 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.762555 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.762555 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.763065 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.763065 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.763592 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.763592 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.763592 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.764100 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.764100 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.764100 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.764100 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.764610 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.764610 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.764610 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.764610 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.764610 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.764610 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.764610 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.765620 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.765620 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.765620 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.766155 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.766155 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.766155 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.766664 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.784010 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.784531 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.784531 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.785038 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.785038 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.785546 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.785546 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.785546 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.786058 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.786058 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.786058 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.786568 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.786568 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.786568 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.787080 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.787080 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.787080 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.787594 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.787594 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.787594 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.787594 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.787594 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.787594 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.787594 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.788605 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.788605 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.788605 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.789143 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.789143 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.789663 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.789663 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.789663 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.790202 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.790202 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.790202 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.790202 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.790713 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.790713 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.790713 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.790713 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.791252 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.791252 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.791252 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.791763 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.792312 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.810220 単発受信データ: 0x2
+[TRACE] 2026/05/26 10:53:54.810220 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.810738 getStatusControl IN d.statusControl: true
+[DEBUG] 2026/05/26 10:53:54.810738 単発受信データ: 0x42
+[DEBUG] 2026/05/26 10:53:54.811248 単発受信データ: 0x43
+[TRACE] 2026/05/26 10:53:54.811248 Rcv__B IN stageNo: 1 eventIdx: 2
+[TRACE] 2026/05/26 10:53:54.811248 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.811787 単発受信データ: 0x49
+[DEBUG] 2026/05/26 10:53:54.811787 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.812296 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.812296 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.812296 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.812835 単発受信データ: 0x3
+[TRACE] 2026/05/26 10:53:54.812835 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.812835 RcvETX IN stageNo: 2 eventIdx: 4
+[DEBUG] 2026/05/26 10:53:54.813343 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.813343 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.813867 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.813867 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.813867 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.813867 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.813867 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.813867 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.814876 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.814876 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.814876 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.815411 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.815411 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.815411 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.815921 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.815921 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.815921 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.815921 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.816456 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.816456 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.816456 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.816965 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.816965 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.816965 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.816965 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.817498 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.817498 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.817498 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.818006 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.818519 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.835873 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.836386 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.836386 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.836386 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.836386 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.837398 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.837398 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.837398 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.837935 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.837935 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.838445 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.838445 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.838445 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.838955 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.838955 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.838955 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.838955 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.838955 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.838955 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.838955 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.839967 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.839967 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.839967 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.840511 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.840511 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.841020 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.841551 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.841551 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.841551 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.842057 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.842057 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.842588 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.842588 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.843100 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.843100 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.843100 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.843100 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.843636 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.843636 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.844146 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.844146 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.844146 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.844146 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.844684 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.845195 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.862014 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.862521 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.862521 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.862521 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.863064 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.863064 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.863064 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.863573 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.863573 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.863573 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.864110 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.864110 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.864110 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.864619 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.864619 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.864619 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.865142 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.865142 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.865142 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.865142 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.865142 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.865142 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.865142 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.866151 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.866151 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.866151 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.866151 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.866690 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.866690 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.866690 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.867208 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.867208 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.867208 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.867208 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.867747 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.867747 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.867747 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.868257 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.868257 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.868257 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.868257 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.868793 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.868793 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.868793 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.869302 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.888195 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.888195 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.888195 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.888195 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.888195 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.889204 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.889204 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.889714 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.889714 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.889714 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.890224 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.890224 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.890224 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.890736 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.890736 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.890736 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.891245 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.891245 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.891754 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.891754 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.892271 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.892271 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.892779 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.892779 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.893287 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.893287 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.893287 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.893287 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.893798 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.893798 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.893798 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.894310 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.894310 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.894310 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.894310 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.894310 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.894310 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.894310 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.895322 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.895322 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.895322 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.895834 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.895834 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.895834 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.895834 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.913611 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.913611 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.914624 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.914624 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.915152 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.915152 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.915152 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.915152 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.915661 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.915661 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.916200 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.916200 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.916200 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.916710 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.916710 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.916710 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.917245 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.917245 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.917245 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.917755 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.917755 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.917755 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.917755 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.918265 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.918265 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.918265 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.918265 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.918265 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.918265 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.918265 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.919276 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.919276 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.919276 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.919276 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.919815 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.919815 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.919815 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.920326 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.920326 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.920326 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.920838 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.920838 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.920838 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.920838 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.920838 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.940200 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.940200 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.940708 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.940708 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.940708 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.941242 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.941750 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.941750 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.942277 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.942277 単発受信データ: 0x30
+[DEBUG] 2026/05/26 10:53:54.942788 単発受信データ: 0x30
+[TRACE] 2026/05/26 10:53:54.942788 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.942788 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.943328 単発受信データ: 0x3
+[DEBUG] 2026/05/26 10:53:54.943328 単発受信データ: 0x4b
+[TRACE] 2026/05/26 10:53:54.943838 RcvETX IN stageNo: 2 eventIdx: 4
+[TRACE] 2026/05/26 10:53:54.943838 RcvBCC IN stageNo: 3 eventIdx: 7
+[INFO ] 2026/05/26 10:53:54.943838 受信データ:ビジィステータス 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.944357 Analyze IN recvWork: 0x02 0x42 0x43 0x49 0x30 0x30 0x03 0x4B
+[TRACE] 2026/05/26 10:53:54.944357 (deviceManager) AnalyzeRecvData IN [2 66 67 73 48 48 3 75]
+[TRACE] 2026/05/26 10:53:54.944357 (deviceManager) B IN
+[TRACE] 2026/05/26 10:53:54.944357 (deviceManager) SetStatusCI IN true
+[TRACE] 2026/05/26 10:53:54.944357 GetInitializeAction IN d.initialAction: false
+[TRACE] 2026/05/26 10:53:54.944357 (deviceManager) bit_SEN_One IN 0x30
+[TRACE] 2026/05/26 10:53:54.945378 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.945378 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Sセンサー
+[DEBUG] 2026/05/26 10:53:54.945378 Sセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.945920 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Aセンサー
+[DEBUG] 2026/05/26 10:53:54.945920 Aセンサー b1: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.945920 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Bセンサー
+[DEBUG] 2026/05/26 10:53:54.945920 Bセンサー b2: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.946430 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Cセンサー
+[DEBUG] 2026/05/26 10:53:54.946430 Cセンサー b3: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.946430 (deviceManager) bit_SEN_Two IN 0x30
+[TRACE] 2026/05/26 10:53:54.946968 IN GetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.946968 SetStatusCardSensTbl IN :deviceNo 0a780ac901070001, sensor false, sensName Dセンサー
+[DEBUG] 2026/05/26 10:53:54.946968 Dセンサー b0: 0 カード無し
+[TRACE] 2026/05/26 10:53:54.946968 IN SetStatusSensorTbl() [{Sセンサー false  false} {Aセンサー false  false} {Bセンサー false  false} {Cセンサー false  false} {Dセンサー false  false}]
+[TRACE] 2026/05/26 10:53:54.947479 ビジィステータス com : CI
+[TRACE] 2026/05/26 10:53:54.947479 Polling IN stageNo: 3 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.948018 rInfo.recvData 0x4B
+[TRACE] 2026/05/26 10:53:54.948018 getNakFlag IN d.nakFlag: false
+[TRACE] 2026/05/26 10:53:54.948018 getResetCommand IN d.resetFlag: false
+[TRACE] 2026/05/26 10:53:54.948530 manageSendData IN
+[INFO ] 2026/05/26 10:53:54.948530 送信データ ポーリング EOT + ENQ: 0x04 0x05
+[DEBUG] 2026/05/26 10:53:54.966333 単発受信データ: 0x2
+[DEBUG] 2026/05/26 10:53:54.966333 単発受信データ: 0x42
+[TRACE] 2026/05/26 10:53:54.966333 StartR IN stageNo: 0 eventIdx: 0
+[TRACE] 2026/05/26 10:53:54.966843 getStatusControl IN d.statusControl: true
+[TRACE] 2026/05/26 10:53:54.966843 Rcv__B IN stageNo: 1 eventIdx: 2
+[DEBUG] 2026/05/26 10:53:54.966843 単発受信データ: 0x43
+[DEBUG] 2026/05/26 10:53:54.966843 単発受信データ: 0x49
+[TRACE] 2026/05/26 10:53:54.966843 SaveDa IN stageNo: 2 eventIdx: 7
+[TRACE] 2026/05/26 10:53:54.966843 SaveDa IN stageNo: 2 eventIdx: 7
+[DEBUG] 2026/05/26 10:53:54.967853 単発受信データ: 0x30

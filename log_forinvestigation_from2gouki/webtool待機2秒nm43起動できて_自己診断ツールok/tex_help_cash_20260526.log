@@ -1,0 +1,4 @@
+[INFO ] 2026/05/26 10:50:32.672365 rcv /tex/helper/cashctl/request_control_service {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helpercashctl_248953id19"},"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.674022 snd /tex/helper/cashctl/result_control_service {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helpercashctl_248953id19"},"result":true}
+[INFO ] 2026/05/26 10:50:32.677706 snd /tex/helper/cashctl/notice_status_service {"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:39.368066 end program.

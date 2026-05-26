@@ -1,0 +1,280 @@
+[MQTT ]  2026/05/26 11:03:32.799457 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_reset
+[MQTT ]  2026/05/26 11:03:32.799970 almex_camera_atmcam topicTbl len:6 
+
+[MQTT ]  2026/05/26 11:03:32.800753 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_start_capture
+[MQTT ]  2026/05/26 11:03:32.802142 almex_camera_atmcam topicTbl len:5 
+
+[MQTT ]  2026/05/26 11:03:32.802660 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_stop_capture
+[MQTT ]  2026/05/26 11:03:32.802660 almex_camera_atmcam topicTbl len:4 
+
+[MQTT ]  2026/05/26 11:03:32.803171 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_status
+[MQTT ]  2026/05/26 11:03:32.803171 almex_camera_atmcam topicTbl len:3 
+
+[MQTT ]  2026/05/26 11:03:32.803171 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_device
+[MQTT ]  2026/05/26 11:03:32.803171 almex_camera_atmcam topicTbl len:2 
+
+[MQTT ]  2026/05/26 11:03:32.804185 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_device_info
+[MQTT ]  2026/05/26 11:03:32.804185 almex_camera_atmcam topicTbl len:1 
+
+[DEBUG]  2026/05/26 11:03:32.804185 almex_camera_atmcam NoticeFacedata handler stopped
+[INFO ]  2026/05/26 11:03:32.804697 almex_camera_atmcam 顔データ購読器停止
+[MQTT ]  2026/05/26 11:03:32.804697 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,face
+[MQTT ]  2026/05/26 11:03:32.804697 almex_camera_atmcam topicTbl len:0 
+
+[INFO ]  2026/05/26 11:03:32.804697 almex_camera_atmcam 顔認識データ処理停止
+[MQTT ]  2026/05/26 11:03:32.805710 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_get_service
+[MQTT ]  2026/05/26 11:03:32.805710 almex_camera_atmcam topicTbl len:2 
+
+[MQTT ]  2026/05/26 11:03:32.806612 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_control_service
+[MQTT ]  2026/05/26 11:03:32.806612 almex_camera_atmcam topicTbl len:1 
+
+[MQTT ]  2026/05/26 11:03:32.807694 almex_camera_atmcam registUnsubscribe client.Unsubscribe OK,/almex/device/camera/request_change_system_operation
+[MQTT ]  2026/05/26 11:03:32.807694 almex_camera_atmcam topicTbl len:0 
+
+[TRACE]  2026/05/26 11:03:32.807694 almex_camera_atmcam START (d *deviceManager) Stop()
+[TRACE]  2026/05/26 11:03:32.807694 almex_camera_atmcam START カメラデバイス制御停止 (d *deviceControl) Stop()
+[INFO ]  2026/05/26 11:03:32.807694 almex_camera_atmcam 起動後ネットワーク監視停止: 0a780ac90d010001
+[TRACE]  2026/05/26 11:03:32.808693 almex_camera_atmcam END カメラデバイス制御停止 (d *deviceControl) Stop()
+[TRACE]  2026/05/26 11:03:32.809195 almex_camera_atmcam START カメラデバイス制御停止 (d *deviceControl) Stop()
+[INFO ]  2026/05/26 11:03:32.809195 almex_camera_atmcam 起動後ネットワーク監視停止: 0a780ac90d010002
+[TRACE]  2026/05/26 11:03:32.809195 almex_camera_atmcam END カメラデバイス制御停止 (d *deviceControl) Stop()
+[TRACE]  2026/05/26 11:03:32.809195 almex_camera_atmcam START カメラデバイス制御停止 (d *deviceControl) Stop()
+[INFO ]  2026/05/26 11:03:32.809195 almex_camera_atmcam 起動後ネットワーク監視停止: 0a780ac90d010003
+[TRACE]  2026/05/26 11:03:32.810194 almex_camera_atmcam END カメラデバイス制御停止 (d *deviceControl) Stop()
+[TRACE]  2026/05/26 11:03:32.810194 almex_camera_atmcam END (d *deviceManager) Stop()
+[DEBUG]  2026/05/26 11:03:32.810194 almex_camera_atmcam 監視ループ停止: 0a780ac90d010001
+[INFO ]  2026/05/26 11:03:39.949299 almex_camera_atmcam almex_camera_atmcam アプリ起動 version: 100.0.0.2
+[INFO ]  2026/05/26 11:03:39.966764 almex_camera_atmcam コンフィグ情報: &{{localhost 1883} [{0a780ac90d010001 CAM1:中央顔認識カメラ [2]   CAM1:中央顔認識カメラ 2 rtsp://10.120.10.161/ch0/stream0 10.120.10.161 true 2 } {0a780ac90d010002 CAM2:紙幣確認監視カメラ [1]   CAM2:紙幣確認監視カメラ 2 rtsp://10.120.10.162:8554/ch0 10.120.10.162 false 2 } {0a780ac90d010003 CAM3:内部確認監視カメラ [1]   CAM3:内部確認監視カメラ 2 rtsp://10.120.10.163:8554/ch0 10.120.10.163 false 2 }] {4194304 16 0} D:\almex\etc\ini\almex_camera_atmcam.ini  }
+[INFO ]  2026/05/26 11:03:39.967299 almex_camera_atmcam (BOOT) MQTT WAIT CONNECT type:0
+[INFO ]  2026/05/26 11:03:39.967820 almex_camera_atmcam (MQTT) Starting connection attempt...
+[INFO ]  2026/05/26 11:03:39.967820 almex_camera_atmcam (MQTT) Starting connection attempt...
+[INFO ]  2026/05/26 11:03:39.968334 almex_camera_atmcam (MQTT) Waiting for connection token...
+[INFO ]  2026/05/26 11:03:39.968334 almex_camera_atmcam (MQTT) Waiting for connection token...
+[INFO ]  2026/05/26 11:03:39.973777 almex_camera_atmcam (MQTT EVENT) Broker Connected.client  IN
+[INFO ]  2026/05/26 11:03:39.974375 almex_camera_atmcam (MQTT EVENT) Broker Connected.client  IN
+[INFO ]  2026/05/26 11:03:39.974890 almex_camera_atmcam (MQTT) Connection successful!
+[INFO ]  2026/05/26 11:03:39.974890 almex_camera_atmcam (MQTT) Connection successful!
+[INFO ]  2026/05/26 11:03:40.068159 almex_camera_atmcam (BOOT) MQTT Connection established for type:0
+[INFO ]  2026/05/26 11:03:40.068159 almex_camera_atmcam (BOOT) MQTT WAIT CONNECT type:1
+[INFO ]  2026/05/26 11:03:40.168546 almex_camera_atmcam (BOOT) MQTT Connection established for type:1
+[INFO ]  2026/05/26 11:03:40.168546 almex_camera_atmcam (BOOT) MQTT CONNECTED type:0 and type:1
+[INFO ]  2026/05/26 11:03:40.169065 almex_camera_atmcam statusService=true
+[TRACE]  2026/05/26 11:03:40.169065 almex_camera_atmcam START (d *deviceManager) Start()
+[INFO ]  2026/05/26 11:03:40.169623 almex_camera_atmcam デバイス制御開始: deviceNo=0a780ac90d010001
+[TRACE]  2026/05/26 11:03:40.169623 almex_camera_atmcam START カメラデバイス制御開始 (deviceControl) Start()
+[INFO ]  2026/05/26 11:03:40.169623 almex_camera_atmcam カメラPingテスト開始: 10.120.10.161
+[INFO ]  2026/05/26 11:03:40.169623 almex_camera_atmcam Pingテスト実行中 (試行 1): IP=10.120.10.161 (連続失敗: 0, 通知済み: 0/3)
+[TRACE]  2026/05/26 11:03:40.170633 almex_camera_atmcam START pingTest(ip=10.120.10.161)
+[DEBUG]  2026/05/26 11:03:40.197356 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:03:40.197864 almex_camera_atmcam 
+10.120.10.161 に ping を送信しています 32 バイトのデータ:
+10.120.10.161 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.161 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:03:40.197864 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:03:40.197864 almex_camera_atmcam Pingテスト成功: IP=10.120.10.161
+[TRACE]  2026/05/26 11:03:40.198385 almex_camera_atmcam END pingTest()
+[INFO ]  2026/05/26 11:03:40.198385 almex_camera_atmcam カメラPingテスト成功: 10.120.10.161 (試行 1, statusline=true通知)
+[TRACE]  2026/05/26 11:03:40.198385 almex_camera_atmcam END カメラデバイス制御開始 (deviceControl) Start()
+[INFO ]  2026/05/26 11:03:40.198909 almex_camera_atmcam デバイス制御開始: deviceNo=0a780ac90d010002
+[TRACE]  2026/05/26 11:03:40.198909 almex_camera_atmcam START カメラデバイス制御開始 (deviceControl) Start()
+[INFO ]  2026/05/26 11:03:40.198909 almex_camera_atmcam カメラPingテスト開始: 10.120.10.162
+[INFO ]  2026/05/26 11:03:40.198909 almex_camera_atmcam Pingテスト実行中 (試行 1): IP=10.120.10.162 (連続失敗: 0, 通知済み: 0/3)
+[TRACE]  2026/05/26 11:03:40.199562 almex_camera_atmcam START pingTest(ip=10.120.10.162)
+[TRACE]  2026/05/26 11:03:40.199562 almex_camera_atmcam START (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90d010001, statusLine true)
+[DEBUG]  2026/05/26 11:03:40.199562 almex_camera_atmcam pd::CAM1:中央顔認識カメラ
+[DEBUG]  2026/05/26 11:03:40.200071 almex_camera_atmcam sr::
+[DEBUG]  2026/05/26 11:03:40.200071 almex_camera_atmcam fw::
+[TRACE]  2026/05/26 11:03:40.200735 almex_camera_atmcam END (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90d010001, statusLine true)
+[DEBUG]  2026/05/26 11:03:40.224219 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:03:40.224219 almex_camera_atmcam 
+10.120.10.162 に ping を送信しています 32 バイトのデータ:
+10.120.10.162 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.162 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:03:40.224730 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:03:40.224730 almex_camera_atmcam Pingテスト成功: IP=10.120.10.162
+[TRACE]  2026/05/26 11:03:40.224730 almex_camera_atmcam END pingTest()
+[INFO ]  2026/05/26 11:03:40.225249 almex_camera_atmcam カメラPingテスト成功: 10.120.10.162 (試行 1, statusline=true通知)
+[TRACE]  2026/05/26 11:03:40.225249 almex_camera_atmcam END カメラデバイス制御開始 (deviceControl) Start()
+[INFO ]  2026/05/26 11:03:40.225249 almex_camera_atmcam デバイス制御開始: deviceNo=0a780ac90d010003
+[TRACE]  2026/05/26 11:03:40.225249 almex_camera_atmcam START カメラデバイス制御開始 (deviceControl) Start()
+[INFO ]  2026/05/26 11:03:40.225759 almex_camera_atmcam カメラPingテスト開始: 10.120.10.163
+[INFO ]  2026/05/26 11:03:40.225759 almex_camera_atmcam Pingテスト実行中 (試行 1): IP=10.120.10.163 (連続失敗: 0, 通知済み: 0/3)
+[TRACE]  2026/05/26 11:03:40.225759 almex_camera_atmcam START pingTest(ip=10.120.10.163)
+[TRACE]  2026/05/26 11:03:40.225759 almex_camera_atmcam START (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90d010002, statusLine true)
+[DEBUG]  2026/05/26 11:03:40.226279 almex_camera_atmcam pd::CAM2:紙幣確認監視カメラ
+[DEBUG]  2026/05/26 11:03:40.226279 almex_camera_atmcam sr::
+[DEBUG]  2026/05/26 11:03:40.226279 almex_camera_atmcam fw::
+[TRACE]  2026/05/26 11:03:40.226279 almex_camera_atmcam END (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90d010002, statusLine true)
+[DEBUG]  2026/05/26 11:03:40.249432 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:03:40.249432 almex_camera_atmcam 
+10.120.10.163 に ping を送信しています 32 バイトのデータ:
+10.120.10.163 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.163 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:03:40.249959 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:03:40.249959 almex_camera_atmcam Pingテスト成功: IP=10.120.10.163
+[TRACE]  2026/05/26 11:03:40.249959 almex_camera_atmcam END pingTest()
+[INFO ]  2026/05/26 11:03:40.250486 almex_camera_atmcam カメラPingテスト成功: 10.120.10.163 (試行 1, statusline=true通知)
+[TRACE]  2026/05/26 11:03:40.250486 almex_camera_atmcam END カメラデバイス制御開始 (deviceControl) Start()
+[TRACE]  2026/05/26 11:03:40.250486 almex_camera_atmcam END (d *deviceManager) Start()
+[TRACE]  2026/05/26 11:03:40.250486 almex_camera_atmcam START (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90d010003, statusLine true)
+[DEBUG]  2026/05/26 11:03:40.251013 almex_camera_atmcam pd::CAM3:内部確認監視カメラ
+[DEBUG]  2026/05/26 11:03:40.251013 almex_camera_atmcam sr::
+[DEBUG]  2026/05/26 11:03:40.251013 almex_camera_atmcam fw::
+[TRACE]  2026/05/26 11:03:40.251525 almex_camera_atmcam END (d *deviceManager) cbDetectStatusLine(deviceNo 0a780ac90d010003, statusLine true)
+[INFO ]  2026/05/26 11:03:42.250911 almex_camera_atmcam device setting start.
+[MQTT ]  2026/05/26 11:03:42.251429 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_change_system_operation
+[MQTT ]  2026/05/26 11:03:42.251998 almex_camera_atmcam topicTbl len:1 
+
+[MQTT ]  2026/05/26 11:03:42.251998 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_control_service
+[MQTT ]  2026/05/26 11:03:42.252512 almex_camera_atmcam topicTbl len:2 
+
+[MQTT ]  2026/05/26 11:03:42.252512 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_get_service
+[MQTT ]  2026/05/26 11:03:42.252512 almex_camera_atmcam topicTbl len:3 
+
+[INFO ]  2026/05/26 11:03:42.253032 almex_camera_atmcam register topic.
+[MQTT ]  2026/05/26 11:03:42.253032 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_reset
+[MQTT ]  2026/05/26 11:03:42.253032 almex_camera_atmcam topicTbl len:1 
+
+[MQTT ]  2026/05/26 11:03:42.253032 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_start_capture
+[MQTT ]  2026/05/26 11:03:42.253032 almex_camera_atmcam topicTbl len:2 
+
+[MQTT ]  2026/05/26 11:03:42.254032 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_stop_capture
+[MQTT ]  2026/05/26 11:03:42.254032 almex_camera_atmcam topicTbl len:3 
+
+[MQTT ]  2026/05/26 11:03:42.254032 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_status
+[MQTT ]  2026/05/26 11:03:42.254534 almex_camera_atmcam topicTbl len:4 
+
+[MQTT ]  2026/05/26 11:03:42.254534 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_device
+[MQTT ]  2026/05/26 11:03:42.254534 almex_camera_atmcam topicTbl len:5 
+
+[MQTT ]  2026/05/26 11:03:42.255071 almex_camera_atmcam registSubscribe client.Subscribe OK,/almex/device/camera/request_device_info
+[MQTT ]  2026/05/26 11:03:42.255071 almex_camera_atmcam topicTbl len:6 
+
+[DEBUG]  2026/05/26 11:03:42.255071 almex_camera_atmcam NoticeFacedata handler started
+[MQTT ]  2026/05/26 11:03:42.255583 almex_camera_atmcam registSubscribe client.Subscribe OK,face
+[MQTT ]  2026/05/26 11:03:42.255583 almex_camera_atmcam topicTbl len:7 
+
+[TRACE]  2026/05/26 11:03:42.256095 almex_camera_atmcam START (d *deviceManager) GetDeviceInfo(deviceNo 0a780ac90d010001)
+[TRACE]  2026/05/26 11:03:42.256095 almex_camera_atmcam END (d *deviceManager) GetDeviceInfo(deviceNo 0a780ac90d010001)
+[INFO ]  2026/05/26 11:03:42.256609 almex_camera_atmcam snd /almex/device/camera/notice_status_service {"statusService":true,"idDevice":"0d01"}
+[INFO ]  2026/05/26 11:03:42.256609 almex_camera_atmcam カメラ1の状態通知送信: 0a780ac90d010001
+[INFO ]  2026/05/26 11:03:42.257122 almex_camera_atmcam snd /almex/device/camera/notice_status {"deviceNo":"0a780ac90d010001","statusReady":true,"statusLine":true,"statusError":true,"captureEnable":true,"statusCapture":false}
+[INFO ]  2026/05/26 11:03:42.257637 almex_camera_atmcam カメラ2の状態通知送信: 0a780ac90d010002
+[INFO ]  2026/05/26 11:03:42.257637 almex_camera_atmcam snd /almex/device/camera/notice_status {"deviceNo":"0a780ac90d010002","statusReady":true,"statusLine":true,"statusError":true,"captureEnable":true,"statusCapture":false}
+[INFO ]  2026/05/26 11:03:42.258637 almex_camera_atmcam カメラ3の状態通知送信: 0a780ac90d010003
+[INFO ]  2026/05/26 11:03:42.259144 almex_camera_atmcam snd /almex/device/camera/notice_status {"deviceNo":"0a780ac90d010003","statusReady":true,"statusLine":true,"statusError":true,"captureEnable":true,"statusCapture":false}
+[INFO ]  2026/05/26 11:03:42.260147 almex_camera_atmcam program is idle.
+[TRACE]  2026/05/26 11:03:42.260656 almex_camera_atmcam START (d *deviceManager) StartMonitoring()
+[INFO ]  2026/05/26 11:03:42.260656 almex_camera_atmcam 起動後ネットワーク監視開始: 0a780ac90d010001
+[INFO ]  2026/05/26 11:03:42.260656 almex_camera_atmcam 起動後ネットワーク監視開始: 0a780ac90d010002
+[INFO ]  2026/05/26 11:03:42.261193 almex_camera_atmcam 起動後ネットワーク監視開始: 0a780ac90d010003
+[INFO ]  2026/05/26 11:03:42.261193 almex_camera_atmcam 起動後ネットワーク監視を開始しました
+[TRACE]  2026/05/26 11:03:42.261193 almex_camera_atmcam END (d *deviceManager) StartMonitoring()
+[DEBUG]  2026/05/26 11:03:42.261707 almex_camera_atmcam 監視開始時の接続状態: 0a780ac90d010001 (IP: 10.120.10.161, 接続状態: true, 起動シーケンスで確認済み)
+[DEBUG]  2026/05/26 11:03:42.261707 almex_camera_atmcam 監視開始時に接続成功を検知: 0a780ac90d010001 (IP: 10.120.10.161)
+[DEBUG]  2026/05/26 11:03:42.261707 almex_camera_atmcam 監視開始時の接続状態: 0a780ac90d010002 (IP: 10.120.10.162, 接続状態: true, 起動シーケンスで確認済み)
+[DEBUG]  2026/05/26 11:03:42.262235 almex_camera_atmcam 監視開始時に接続成功を検知: 0a780ac90d010002 (IP: 10.120.10.162)
+[DEBUG]  2026/05/26 11:03:42.262235 almex_camera_atmcam 監視ループ開始: 0a780ac90d010002 (IP: 10.120.10.162)
+[DEBUG]  2026/05/26 11:03:42.262235 almex_camera_atmcam 監視開始時の接続状態: 0a780ac90d010003 (IP: 10.120.10.163, 接続状態: true, 起動シーケンスで確認済み)
+[DEBUG]  2026/05/26 11:03:42.262235 almex_camera_atmcam 監視ループ開始: 0a780ac90d010001 (IP: 10.120.10.161)
+[DEBUG]  2026/05/26 11:03:42.262747 almex_camera_atmcam 監視開始時に接続成功を検知: 0a780ac90d010003 (IP: 10.120.10.163)
+[DEBUG]  2026/05/26 11:03:42.262747 almex_camera_atmcam 監視ループ開始: 0a780ac90d010003 (IP: 10.120.10.163)
+[TRACE]  2026/05/26 11:04:12.261834 almex_camera_atmcam START pingTest(ip=10.120.10.161)
+[TRACE]  2026/05/26 11:04:12.262344 almex_camera_atmcam START pingTest(ip=10.120.10.162)
+[TRACE]  2026/05/26 11:04:12.262853 almex_camera_atmcam START pingTest(ip=10.120.10.163)
+[DEBUG]  2026/05/26 11:04:12.294294 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:04:12.294294 almex_camera_atmcam 
+10.120.10.161 に ping を送信しています 32 バイトのデータ:
+10.120.10.161 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.161 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:04:12.294294 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:04:12.294834 almex_camera_atmcam Pingテスト成功: IP=10.120.10.161
+[TRACE]  2026/05/26 11:04:12.294834 almex_camera_atmcam END pingTest()
+[DEBUG]  2026/05/26 11:04:12.294834 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:04:12.294834 almex_camera_atmcam 
+10.120.10.162 に ping を送信しています 32 バイトのデータ:
+10.120.10.162 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.162 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:04:12.294834 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:04:12.295346 almex_camera_atmcam Pingテスト成功: IP=10.120.10.162
+[TRACE]  2026/05/26 11:04:12.295346 almex_camera_atmcam END pingTest()
+[DEBUG]  2026/05/26 11:04:12.295346 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:04:12.295346 almex_camera_atmcam 
+10.120.10.163 に ping を送信しています 32 バイトのデータ:
+10.120.10.163 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.163 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:04:12.295346 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:04:12.295346 almex_camera_atmcam Pingテスト成功: IP=10.120.10.163
+[TRACE]  2026/05/26 11:04:12.295865 almex_camera_atmcam END pingTest()
+[TRACE]  2026/05/26 11:04:42.261850 almex_camera_atmcam START pingTest(ip=10.120.10.161)
+[TRACE]  2026/05/26 11:04:42.262384 almex_camera_atmcam START pingTest(ip=10.120.10.162)
+[TRACE]  2026/05/26 11:04:42.263398 almex_camera_atmcam START pingTest(ip=10.120.10.163)
+[DEBUG]  2026/05/26 11:04:42.291314 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:04:42.291314 almex_camera_atmcam 
+10.120.10.161 に ping を送信しています 32 バイトのデータ:
+10.120.10.161 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.161 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:04:42.291855 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:04:42.291855 almex_camera_atmcam Pingテスト成功: IP=10.120.10.161
+[TRACE]  2026/05/26 11:04:42.292365 almex_camera_atmcam END pingTest()
+[DEBUG]  2026/05/26 11:04:42.292365 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:04:42.292365 almex_camera_atmcam 
+10.120.10.162 に ping を送信しています 32 バイトのデータ:
+10.120.10.162 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.162 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:04:42.292875 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:04:42.292875 almex_camera_atmcam Pingテスト成功: IP=10.120.10.162
+[TRACE]  2026/05/26 11:04:42.292875 almex_camera_atmcam END pingTest()
+[DEBUG]  2026/05/26 11:04:42.293401 almex_camera_atmcam windows Ping出力:
+[DEBUG]  2026/05/26 11:04:42.293401 almex_camera_atmcam 
+10.120.10.163 に ping を送信しています 32 バイトのデータ:
+10.120.10.163 からの応答: バイト数 =32 時間 <1ms TTL=64
+
+10.120.10.163 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 0ms、最大 = 0ms、平均 = 0ms
+
+[DEBUG]  2026/05/26 11:04:42.293401 almex_camera_atmcam Ping平均時間: 最小 = 0ms、最大 = 0ms、平均 = 0ms
+[INFO ]  2026/05/26 11:04:42.293913 almex_camera_atmcam Pingテスト成功: IP=10.120.10.163
+[TRACE]  2026/05/26 11:04:42.293913 almex_camera_atmcam END pingTest()

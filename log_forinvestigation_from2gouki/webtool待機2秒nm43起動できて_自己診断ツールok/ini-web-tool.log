@@ -1,0 +1,51 @@
+2026/05/26 10:50:01.046195 ログ出力先: D:\almex\etc\log\ini-web-tool.log
+2026/05/26 10:50:01.072232 Web UI: http://127.0.0.1:18080
+2026/05/26 10:50:27.316009 ログ出力先: D:\almex\etc\log\ini-web-tool.log
+2026/05/26 10:50:27.343238 Web UI: http://127.0.0.1:18080
+2026/05/26 10:50:36.856005 [inspection/start] request: card=true irs=true nm43=true
+2026/05/26 10:50:52.090210 [inspection/start] 出荷検査事前処理が完了しました
+2026/05/26 10:50:52.090210 [inspection/start] 出荷検査事前処理を開始します
+2026/05/26 10:50:52.095233 [inspection/start] 停止: almfnclg
+2026/05/26 10:50:52.095233 [inspection/start] 停止: almhlpcd
+2026/05/26 10:50:52.095233 [inspection/start] 停止: almhlpld
+2026/05/26 10:50:52.095233 [inspection/start] 停止: almhlppr
+2026/05/26 10:50:52.095233 [inspection/start] 停止: almhlpss
+2026/05/26 10:50:52.095233 [inspection/start] 停止: almhlpsd
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almhlptm
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texcashctl
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texct
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texdt
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texms
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texmy
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texpay
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texst
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almfncky
+2026/05/26 10:50:52.095772 [inspection/start] 停止: texcs
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almfncad
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almfncpc
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almfncsc
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almdevpp1
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almdevcm1
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almdevcl9
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almdevca7
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almdevic2
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almdevmx1
+2026/05/26 10:50:52.095772 [inspection/start] 停止: almdevic5
+2026/05/26 10:50:52.096280 [inspection/start] 停止: almdevps1
+2026/05/26 10:50:52.096280 [inspection/start] 停止: almdevqr6
+2026/05/26 10:50:52.096280 [inspection/start] 停止: almdevsd1
+2026/05/26 10:50:52.096280 [inspection/start] 停止: almdevhd1
+2026/05/26 10:50:52.096280 [inspection/start] 停止: almdevcd7
+2026/05/26 10:50:52.096280 [inspection/start] 開始: almdevcl9
+2026/05/26 10:50:52.096280 [inspection/start] 開始: almdevca7
+2026/05/26 10:50:52.096280 [inspection/start] 開始: almdevic2
+2026/05/26 10:50:52.096280 [inspection/start] 開始: almdevmx1
+2026/05/26 10:50:52.096789 [inspection/start] 開始: almdevps1
+2026/05/26 10:50:52.096789 [inspection/start] 開始: almdevqr6
+2026/05/26 10:50:52.096789 [inspection/start] 開始: almdevsd1
+2026/05/26 10:50:52.096789 [inspection/start] 開始: almdevcm1
+2026/05/26 10:50:52.096789 [inspection/start] 開始: almdevhd1
+2026/05/26 10:50:52.096789 [inspection/start] 開始: almdevic5
+2026/05/26 10:50:52.096789 [inspection/start] 開始: almdevcd7
+2026/05/26 10:50:52.096789 [inspection/start] 待機: almdevic5 起動安定化のため 2秒
+2026/05/26 10:50:52.096789 [inspection/start] 起動: d:\almex\tool\mark1_inspection\mark1_inspection.exe -resetamount

@@ -1,0 +1,283 @@
+[INFO ] 2026/05/26 10:49:57.853123 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":172}
+[INFO ] 2026/05/26 10:49:58.853139 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1172}
+[INFO ] 2026/05/26 10:49:59.853379 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":500}
+[INFO ] 2026/05/26 10:50:00.853943 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":32}
+[INFO ] 2026/05/26 10:50:01.853491 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1032}
+[INFO ] 2026/05/26 10:50:02.853490 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2032}
+[DEBUG] 2026/05/26 10:50:02.853490 (hid_std_key) state idleMs=2032
+[INFO ] 2026/05/26 10:50:03.853387 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":3032}
+[INFO ] 2026/05/26 10:50:04.853833 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":4032}
+[INFO ] 2026/05/26 10:50:05.853433 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":5032}
+[INFO ] 2026/05/26 10:50:06.853120 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":6032}
+[INFO ] 2026/05/26 10:50:07.853503 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":7032}
+[INFO ] 2026/05/26 10:50:08.853198 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":141}
+[INFO ] 2026/05/26 10:50:09.853348 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1141}
+[INFO ] 2026/05/26 10:50:10.853310 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":235}
+[INFO ] 2026/05/26 10:50:11.853146 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1235}
+[INFO ] 2026/05/26 10:50:12.853179 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":47}
+[DEBUG] 2026/05/26 10:50:12.853687 (hid_std_key) state idleMs=47
+[INFO ] 2026/05/26 10:50:13.853111 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":844}
+[INFO ] 2026/05/26 10:50:14.853219 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":16}
+[INFO ] 2026/05/26 10:50:15.853422 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1016}
+[INFO ] 2026/05/26 10:50:16.853309 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":32}
+[INFO ] 2026/05/26 10:50:17.853322 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":391}
+[INFO ] 2026/05/26 10:50:18.853316 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":422}
+[INFO ] 2026/05/26 10:50:19.853538 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1422}
+[INFO ] 2026/05/26 10:50:20.853320 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2422}
+[INFO ] 2026/05/26 10:50:21.853404 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":3422}
+[INFO ] 2026/05/26 10:50:22.853639 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":657}
+[DEBUG] 2026/05/26 10:50:22.854159 (hid_std_key) state idleMs=657
+[INFO ] 2026/05/26 10:50:23.853364 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1657}
+[INFO ] 2026/05/26 10:50:24.853418 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2657}
+[INFO ] 2026/05/26 10:50:25.853360 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":735}
+[INFO ] 2026/05/26 10:50:26.853544 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":579}
+[INFO ] 2026/05/26 10:50:27.853230 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":672}
+[INFO ] 2026/05/26 10:50:28.853371 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1672}
+[INFO ] 2026/05/26 10:50:29.853167 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2672}
+[INFO ] 2026/05/26 10:50:30.853013 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":219}
+[INFO ] 2026/05/26 10:50:31.853277 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1219}
+[INFO ] 2026/05/26 10:50:32.853030 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":438}
+[DEBUG] 2026/05/26 10:50:32.853030 (hid_std_key) state idleMs=438
+[INFO ] 2026/05/26 10:50:33.853112 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":313}
+[INFO ] 2026/05/26 10:50:34.853888 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":47}
+[INFO ] 2026/05/26 10:50:35.853499 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1047}
+[INFO ] 2026/05/26 10:50:36.853323 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":0}
+[INFO ] 2026/05/26 10:50:37.853473 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1000}
+[INFO ] 2026/05/26 10:50:38.853115 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":110}
+[INFO ] 2026/05/26 10:50:39.853414 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1110}
+[INFO ] 2026/05/26 10:50:40.853105 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2110}
+[INFO ] 2026/05/26 10:50:41.853453 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":3110}
+[INFO ] 2026/05/26 10:50:42.853231 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":4110}
+[DEBUG] 2026/05/26 10:50:42.853762 (hid_std_key) state idleMs=4110
+[INFO ] 2026/05/26 10:50:43.853397 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":5110}
+[INFO ] 2026/05/26 10:50:44.853094 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":6110}
+[INFO ] 2026/05/26 10:50:45.853312 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":7110}
+[INFO ] 2026/05/26 10:50:46.853032 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":8110}
+[DEBUG] 2026/05/26 10:50:47.406217 ALHD1003 デバイス制御サービスを停止しました
+[TRACE] 2026/05/26 10:50:47.406771 START (d *deviceManager) Stop()
+[TRACE] 2026/05/26 10:50:47.406771 END (d *deviceManager) Stop()
+[INFO ] 2026/05/26 10:50:47.407420 (hid_std_key) stop requested, exiting
+[INFO ] 2026/05/26 10:50:47.507652 Start Contoller end
+[INFO ] 2026/05/26 10:50:49.584919 almex_hid_std アプリ起動 version: 100.0.0.1
+[INFO ] 2026/05/26 10:50:49.584919 コンフィグ情報: &{{{localhost 1883} {4194304 16 0 0 1000} [{0a780ac90f010001  [10.120.10.201] ALMEX Common Device (HID Standard)  [1]     0 0}] {0 -1} D:\almex\etc/ini/almex_hid_std.ini} 0x7ff709949a20}
+[INFO ] 2026/05/26 10:50:49.585431 (BOOT) MQTT WAIT CONNECT type:0
+[INFO ] 2026/05/26 10:50:49.590573 (MQTT EVENT) Broker Connected.client  IN
+[INFO ] 2026/05/26 10:50:49.685883 (BOOT) MQTT CONNECTED type:0
+[INFO ] 2026/05/26 10:50:49.686393 (BOOT) MQTT WAIT CONNECT type:1
+[INFO ] 2026/05/26 10:50:49.687981 (MQTT EVENT) Broker Connected.client  IN
+[INFO ] 2026/05/26 10:50:49.786836 (BOOT) MQTT CONNECTED type:1
+[INFO ] 2026/05/26 10:50:49.786836 Start Contoller
+[INFO ] 2026/05/26 10:50:49.786836 Start Contoller start.
+[DEBUG] 2026/05/26 10:50:49.787846 ALHD1001 デバイス制御サービスを開始しました
+[TRACE] 2026/05/26 10:50:49.788404 START (d *deviceManager) Start()
+[TRACE] 2026/05/26 10:50:49.788912 END (d *deviceManager) Start()
+[INFO ] 2026/05/26 10:50:49.791630 (hid_std_key) started (GetLastInputInfo), deviceNo=0a780ac90f010001 (interval=1000ms)
+[INFO ] 2026/05/26 10:50:50.792329 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":12047}
+[DEBUG] 2026/05/26 10:50:50.792329 (hid_std_key) state idleMs=12047
+[INFO ] 2026/05/26 10:50:51.789870 device setting start.
+[INFO ] 2026/05/26 10:50:51.790377 register topic.
+[INFO ] 2026/05/26 10:50:51.791391 snd /almex/device/hid/notice_status {"deviceNo":"0a780ac90f010001","statusReady":true,"statusError":true}
+[INFO ] 2026/05/26 10:50:51.791904 program is idle.
+[INFO ] 2026/05/26 10:50:51.792415 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":13047}
+[INFO ] 2026/05/26 10:50:52.792181 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":14047}
+[INFO ] 2026/05/26 10:50:53.793203 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":15047}
+[INFO ] 2026/05/26 10:50:54.793118 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":16047}
+[INFO ] 2026/05/26 10:50:55.792854 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":17047}
+[INFO ] 2026/05/26 10:50:56.792132 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":18047}
+[INFO ] 2026/05/26 10:50:57.793020 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":19047}
+[INFO ] 2026/05/26 10:50:58.793223 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":781}
+[INFO ] 2026/05/26 10:50:59.791923 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1781}
+[INFO ] 2026/05/26 10:51:00.792720 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":0}
+[DEBUG] 2026/05/26 10:51:00.793231 (hid_std_key) state idleMs=0
+[INFO ] 2026/05/26 10:51:01.791771 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":891}
+[INFO ] 2026/05/26 10:51:02.791884 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1891}
+[INFO ] 2026/05/26 10:51:03.792141 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2891}
+[INFO ] 2026/05/26 10:51:04.792696 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":3891}
+[INFO ] 2026/05/26 10:51:05.791813 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":4891}
+[INFO ] 2026/05/26 10:51:06.792438 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":5891}
+[INFO ] 2026/05/26 10:51:07.792159 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":6891}
+[INFO ] 2026/05/26 10:51:08.792126 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":7891}
+[INFO ] 2026/05/26 10:51:09.792017 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":8891}
+[INFO ] 2026/05/26 10:51:10.792537 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":9891}
+[DEBUG] 2026/05/26 10:51:10.793052 (hid_std_key) state idleMs=9891
+[INFO ] 2026/05/26 10:51:11.791958 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":10891}
+[INFO ] 2026/05/26 10:51:12.792125 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":11891}
+[INFO ] 2026/05/26 10:51:13.791998 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":12891}
+[INFO ] 2026/05/26 10:51:14.792084 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":13891}
+[INFO ] 2026/05/26 10:51:15.792144 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":14891}
+[INFO ] 2026/05/26 10:51:16.791777 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":15891}
+[INFO ] 2026/05/26 10:51:17.792007 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":16891}
+[INFO ] 2026/05/26 10:51:18.792061 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":17891}
+[INFO ] 2026/05/26 10:51:19.791802 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":18891}
+[INFO ] 2026/05/26 10:51:20.792147 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":19891}
+[DEBUG] 2026/05/26 10:51:20.792147 (hid_std_key) state idleMs=19891
+[INFO ] 2026/05/26 10:51:21.792088 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":20891}
+[INFO ] 2026/05/26 10:51:22.792127 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":21891}
+[INFO ] 2026/05/26 10:51:23.791788 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":22891}
+[INFO ] 2026/05/26 10:51:24.792168 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":23891}
+[INFO ] 2026/05/26 10:51:25.791982 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":24891}
+[INFO ] 2026/05/26 10:51:26.792127 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":25891}
+[INFO ] 2026/05/26 10:51:27.792010 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":26891}
+[INFO ] 2026/05/26 10:51:28.791980 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":27891}
+[INFO ] 2026/05/26 10:51:29.791741 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":28891}
+[INFO ] 2026/05/26 10:51:30.791862 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":29891}
+[DEBUG] 2026/05/26 10:51:30.791862 (hid_std_key) state idleMs=29891
+[INFO ] 2026/05/26 10:51:31.791712 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":30891}
+[INFO ] 2026/05/26 10:51:32.791775 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":31891}
+[INFO ] 2026/05/26 10:51:33.792305 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":32891}
+[INFO ] 2026/05/26 10:51:34.792126 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":33891}
+[INFO ] 2026/05/26 10:51:35.792170 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":34891}
+[INFO ] 2026/05/26 10:51:36.792099 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":35891}
+[INFO ] 2026/05/26 10:51:37.792172 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":36891}
+[INFO ] 2026/05/26 10:51:38.792229 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":37891}
+[INFO ] 2026/05/26 10:51:39.791934 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":38891}
+[INFO ] 2026/05/26 10:51:40.791817 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":39891}
+[DEBUG] 2026/05/26 10:51:40.792327 (hid_std_key) state idleMs=39891
+[INFO ] 2026/05/26 10:51:41.791861 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":40891}
+[INFO ] 2026/05/26 10:51:42.792152 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":41891}
+[INFO ] 2026/05/26 10:51:43.792001 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":42891}
+[INFO ] 2026/05/26 10:51:44.792508 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":297}
+[INFO ] 2026/05/26 10:51:45.792957 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":141}
+[INFO ] 2026/05/26 10:51:46.792311 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1141}
+[INFO ] 2026/05/26 10:51:47.791962 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2141}
+[INFO ] 2026/05/26 10:51:48.792051 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":3141}
+[INFO ] 2026/05/26 10:51:49.792105 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":4141}
+[INFO ] 2026/05/26 10:51:50.792159 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":703}
+[DEBUG] 2026/05/26 10:51:50.792159 (hid_std_key) state idleMs=703
+[INFO ] 2026/05/26 10:51:51.792672 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":422}
+[INFO ] 2026/05/26 10:51:52.791861 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1422}
+[INFO ] 2026/05/26 10:51:53.792692 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":219}
+[INFO ] 2026/05/26 10:51:54.792206 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":1219}
+[INFO ] 2026/05/26 10:51:55.792167 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":2219}
+[INFO ] 2026/05/26 10:51:56.792195 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":3219}
+[INFO ] 2026/05/26 10:51:57.792089 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":4219}
+[INFO ] 2026/05/26 10:51:58.792071 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":5219}
+[INFO ] 2026/05/26 10:51:59.791821 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":6219}
+[INFO ] 2026/05/26 10:52:00.791738 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":7219}
+[DEBUG] 2026/05/26 10:52:00.791738 (hid_std_key) state idleMs=7219
+[INFO ] 2026/05/26 10:52:01.791753 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":8219}
+[INFO ] 2026/05/26 10:52:02.792199 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":9219}
+[INFO ] 2026/05/26 10:52:03.791801 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":10219}
+[INFO ] 2026/05/26 10:52:04.791785 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":11219}
+[INFO ] 2026/05/26 10:52:05.792214 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":12219}
+[INFO ] 2026/05/26 10:52:06.791943 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":13219}
+[INFO ] 2026/05/26 10:52:07.791923 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":14219}
+[INFO ] 2026/05/26 10:52:08.791970 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":15219}
+[INFO ] 2026/05/26 10:52:09.791937 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":16219}
+[INFO ] 2026/05/26 10:52:10.792137 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":17219}
+[DEBUG] 2026/05/26 10:52:10.792137 (hid_std_key) state idleMs=17219
+[INFO ] 2026/05/26 10:52:11.791960 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":18219}
+[INFO ] 2026/05/26 10:52:12.791817 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":19219}
+[INFO ] 2026/05/26 10:52:13.792017 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":20219}
+[INFO ] 2026/05/26 10:52:14.791779 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":21219}
+[INFO ] 2026/05/26 10:52:15.792005 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":22219}
+[INFO ] 2026/05/26 10:52:16.791928 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":23219}
+[INFO ] 2026/05/26 10:52:17.791825 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":24219}
+[INFO ] 2026/05/26 10:52:18.792062 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":25219}
+[INFO ] 2026/05/26 10:52:19.791787 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":26219}
+[INFO ] 2026/05/26 10:52:20.792195 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":27219}
+[DEBUG] 2026/05/26 10:52:20.792195 (hid_std_key) state idleMs=27219
+[INFO ] 2026/05/26 10:52:21.791803 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":28219}
+[INFO ] 2026/05/26 10:52:22.792098 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":29219}
+[INFO ] 2026/05/26 10:52:23.792152 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":30219}
+[INFO ] 2026/05/26 10:52:24.791877 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":31219}
+[INFO ] 2026/05/26 10:52:25.792942 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":32219}
+[INFO ] 2026/05/26 10:52:26.792096 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":33219}
+[INFO ] 2026/05/26 10:52:27.791722 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":34219}
+[INFO ] 2026/05/26 10:52:28.792087 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":35219}
+[INFO ] 2026/05/26 10:52:29.791862 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":36219}
+[INFO ] 2026/05/26 10:52:30.791943 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":37219}
+[DEBUG] 2026/05/26 10:52:30.792453 (hid_std_key) state idleMs=37219
+[INFO ] 2026/05/26 10:52:31.792089 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":38219}
+[INFO ] 2026/05/26 10:52:32.791874 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":39219}
+[INFO ] 2026/05/26 10:52:33.791944 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":40219}
+[INFO ] 2026/05/26 10:52:34.791958 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":41219}
+[INFO ] 2026/05/26 10:52:35.791766 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":42219}
+[INFO ] 2026/05/26 10:52:36.791934 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":43219}
+[INFO ] 2026/05/26 10:52:37.791786 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":44219}
+[INFO ] 2026/05/26 10:52:38.792166 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":45219}
+[INFO ] 2026/05/26 10:52:39.791895 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":46219}
+[INFO ] 2026/05/26 10:52:40.791902 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":47219}
+[DEBUG] 2026/05/26 10:52:40.791902 (hid_std_key) state idleMs=47219
+[INFO ] 2026/05/26 10:52:41.792162 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":48219}
+[INFO ] 2026/05/26 10:52:42.792128 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":49219}
+[INFO ] 2026/05/26 10:52:43.791833 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":50219}
+[INFO ] 2026/05/26 10:52:44.791797 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":51219}
+[INFO ] 2026/05/26 10:52:45.792177 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":52219}
+[INFO ] 2026/05/26 10:52:46.792038 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":53219}
+[INFO ] 2026/05/26 10:52:47.792088 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":54219}
+[INFO ] 2026/05/26 10:52:48.791766 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":55219}
+[INFO ] 2026/05/26 10:52:49.791642 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":56219}
+[INFO ] 2026/05/26 10:52:50.791887 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":57219}
+[DEBUG] 2026/05/26 10:52:50.792399 (hid_std_key) state idleMs=57219
+[INFO ] 2026/05/26 10:52:51.791964 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":58219}
+[INFO ] 2026/05/26 10:52:52.792079 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":59219}
+[INFO ] 2026/05/26 10:52:53.792283 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":60219}
+[INFO ] 2026/05/26 10:52:54.792135 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":61219}
+[INFO ] 2026/05/26 10:52:55.791750 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":62219}
+[INFO ] 2026/05/26 10:52:56.791926 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":63219}
+[INFO ] 2026/05/26 10:52:57.792425 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":64219}
+[INFO ] 2026/05/26 10:52:58.791936 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":65219}
+[INFO ] 2026/05/26 10:52:59.792534 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":66219}
+[INFO ] 2026/05/26 10:53:00.792154 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":67219}
+[DEBUG] 2026/05/26 10:53:00.792154 (hid_std_key) state idleMs=67219
+[INFO ] 2026/05/26 10:53:01.792017 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":68219}
+[INFO ] 2026/05/26 10:53:02.791850 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":69219}
+[INFO ] 2026/05/26 10:53:03.792072 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":70219}
+[INFO ] 2026/05/26 10:53:04.792033 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":71219}
+[INFO ] 2026/05/26 10:53:05.792011 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":72219}
+[INFO ] 2026/05/26 10:53:06.792082 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":73219}
+[INFO ] 2026/05/26 10:53:07.791648 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":74219}
+[INFO ] 2026/05/26 10:53:08.791737 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":75219}
+[INFO ] 2026/05/26 10:53:09.792045 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":76219}
+[INFO ] 2026/05/26 10:53:10.792132 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":77219}
+[DEBUG] 2026/05/26 10:53:10.792640 (hid_std_key) state idleMs=77219
+[INFO ] 2026/05/26 10:53:11.792022 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":78219}
+[INFO ] 2026/05/26 10:53:12.792074 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":79219}
+[INFO ] 2026/05/26 10:53:13.791910 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":80219}
+[INFO ] 2026/05/26 10:53:14.791976 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":81219}
+[INFO ] 2026/05/26 10:53:15.792158 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":82219}
+[INFO ] 2026/05/26 10:53:16.791955 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":83219}
+[INFO ] 2026/05/26 10:53:17.791692 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":84219}
+[INFO ] 2026/05/26 10:53:18.791943 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":85219}
+[INFO ] 2026/05/26 10:53:19.791948 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":86219}
+[INFO ] 2026/05/26 10:53:20.791782 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":87219}
+[DEBUG] 2026/05/26 10:53:20.792290 (hid_std_key) state idleMs=87219
+[INFO ] 2026/05/26 10:53:21.791936 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":88219}
+[INFO ] 2026/05/26 10:53:22.792076 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":89219}
+[INFO ] 2026/05/26 10:53:23.792245 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":90219}
+[INFO ] 2026/05/26 10:53:24.791791 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":91219}
+[INFO ] 2026/05/26 10:53:25.791965 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":92219}
+[INFO ] 2026/05/26 10:53:26.791930 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":93219}
+[INFO ] 2026/05/26 10:53:27.792109 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":94219}
+[INFO ] 2026/05/26 10:53:28.791703 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":95219}
+[INFO ] 2026/05/26 10:53:29.791801 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":96219}
+[INFO ] 2026/05/26 10:53:30.792159 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":97219}
+[DEBUG] 2026/05/26 10:53:30.792696 (hid_std_key) state idleMs=97219
+[INFO ] 2026/05/26 10:53:31.792168 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":98219}
+[INFO ] 2026/05/26 10:53:32.791857 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":99219}
+[INFO ] 2026/05/26 10:53:33.791811 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":100219}
+[INFO ] 2026/05/26 10:53:34.791891 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":101219}
+[INFO ] 2026/05/26 10:53:35.792608 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":102219}
+[INFO ] 2026/05/26 10:53:36.792018 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":103219}
+[INFO ] 2026/05/26 10:53:37.791839 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":104219}
+[INFO ] 2026/05/26 10:53:38.791807 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":105219}
+[INFO ] 2026/05/26 10:53:39.791862 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":106219}
+[INFO ] 2026/05/26 10:53:40.791867 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":107219}
+[DEBUG] 2026/05/26 10:53:40.791867 (hid_std_key) state idleMs=107219
+[INFO ] 2026/05/26 10:53:41.791720 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":108219}
+[INFO ] 2026/05/26 10:53:42.792173 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":109219}
+[INFO ] 2026/05/26 10:53:43.792151 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":110219}
+[INFO ] 2026/05/26 10:53:44.792313 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":111219}
+[INFO ] 2026/05/26 10:53:45.792081 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":112219}
+[INFO ] 2026/05/26 10:53:46.791878 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":113219}
+[INFO ] 2026/05/26 10:53:47.791801 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":114219}
+[INFO ] 2026/05/26 10:53:48.792086 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":115219}
+[INFO ] 2026/05/26 10:53:49.791969 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":116219}
+[INFO ] 2026/05/26 10:53:50.791999 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":117219}
+[DEBUG] 2026/05/26 10:53:50.792529 (hid_std_key) state idleMs=117219
+[INFO ] 2026/05/26 10:53:51.792150 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":118219}
+[INFO ] 2026/05/26 10:53:52.791839 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":119219}
+[INFO ] 2026/05/26 10:53:53.791766 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":120219}
+[INFO ] 2026/05/26 10:53:54.791763 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":121219}
+[INFO ] 2026/05/26 10:53:55.791796 snd /almex/device/hid/notice_input {"deviceNo":"0a780ac90f010001","idleTime":122219}

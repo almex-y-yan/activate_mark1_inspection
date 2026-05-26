@@ -1,0 +1,46 @@
+[DEBUG] 2026/05/26 10:50:32.681368 (MQTT) Receive,/almex/helper/card/request_control_service,{"idDevice":"","idExtSys":"","requestInfo":{"pcId":"","processId":"000018c0","requestId":"rqCtrSv_helpercard_248947id13"},"statusService":false}
+[DEBUG] 2026/05/26 10:50:32.681910 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/card/result_device
+[DEBUG] 2026/05/26 10:50:32.682422 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/iccard/result_device
+[DEBUG] 2026/05/26 10:50:32.682422 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/qr/result_device
+[DEBUG] 2026/05/26 10:50:32.682950 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/ppr/result_device
+[DEBUG] 2026/05/26 10:50:32.683491 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/card/result_enable_read
+[DEBUG] 2026/05/26 10:50:32.683491 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/iccard/result_enable_read
+[DEBUG] 2026/05/26 10:50:32.684002 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/qr/result_enable_read
+[DEBUG] 2026/05/26 10:50:32.684529 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/ppr/result_enable_read
+[DEBUG] 2026/05/26 10:50:32.685068 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/card/result_disable_read
+[DEBUG] 2026/05/26 10:50:32.685068 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/iccard/result_disable_read
+[DEBUG] 2026/05/26 10:50:32.685581 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/card/result_eject
+[DEBUG] 2026/05/26 10:50:32.686106 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/qr/result_disable_read
+[DEBUG] 2026/05/26 10:50:32.686619 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/ppr/result_disable_read
+[DEBUG] 2026/05/26 10:50:32.686619 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/card/result_status
+[DEBUG] 2026/05/26 10:50:32.687133 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/iccard/result_status
+[DEBUG] 2026/05/26 10:50:32.687133 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/qr/result_status
+[DEBUG] 2026/05/26 10:50:32.687648 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/ppr/result_status
+[DEBUG] 2026/05/26 10:50:32.688166 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/card/notice_status
+[DEBUG] 2026/05/26 10:50:32.688166 (MQTT) Publish,/almex/helper/card/result_control_service,{"requestInfo":{"processId":"000018c0","requestId":"rqCtrSv_helpercard_248947id13"},"result":true}
+[DEBUG] 2026/05/26 10:50:32.688681 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/iccard/notice_status
+[DEBUG] 2026/05/26 10:50:32.688681 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/qr/notice_status
+[DEBUG] 2026/05/26 10:50:32.688681 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/ppr/notice_status
+[DEBUG] 2026/05/26 10:50:32.689208 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/qr/notice_qrdata
+[DEBUG] 2026/05/26 10:50:32.689208 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/card/notice_carddata
+[DEBUG] 2026/05/26 10:50:32.689208 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/iccard/notice_iccarddata
+[DEBUG] 2026/05/26 10:50:32.689208 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/device/ppr/notice_ppdata
+[DEBUG] 2026/05/26 10:50:32.690237 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_read_start
+[DEBUG] 2026/05/26 10:50:32.690237 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_read_end
+[DEBUG] 2026/05/26 10:50:32.690237 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_read_disable
+[DEBUG] 2026/05/26 10:50:32.690237 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_status
+[DEBUG] 2026/05/26 10:50:32.690763 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_print
+[DEBUG] 2026/05/26 10:50:32.690763 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_get_dispid
+[DEBUG] 2026/05/26 10:50:32.690763 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_write
+[DEBUG] 2026/05/26 10:50:33.199669 (MQTT) Publish,/almex/helper/card/notice_status_service,{"statusService":false}
+[TRACE] 2026/05/26 10:50:37.359083 (FIN) infrastructure.Controller interfaces Stop
+[DEBUG] 2026/05/26 10:50:37.359596 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_change_system_operation
+[DEBUG] 2026/05/26 10:50:37.359596 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_control_service
+[DEBUG] 2026/05/26 10:50:37.360133 (MQTT) Unsubscribe client.Unsubscribe OK,/almex/helper/card/request_get_service
+[DEBUG] 2026/05/26 10:50:37.360644 (FIN) MQTT STOP START
+[DEBUG] 2026/05/26 10:50:37.360644 (FIN) CALL handlers.Mqtt.Disconnect START
+[TRACE] 2026/05/26 10:50:37.360644 (MQTT) MqttDisconnect IN(normal)
+[TRACE] 2026/05/26 10:50:37.361177 (MQTT) MqttDisconnect OUT(connected:normal)
+[DEBUG] 2026/05/26 10:50:37.361688 (FIN) CALL handlers.Mqtt.Disconnect END
+[DEBUG] 2026/05/26 10:50:37.361688 (FIN) MQTT STOP END
+[INFO ] 2026/05/26 10:50:37.361688 (FIN) END

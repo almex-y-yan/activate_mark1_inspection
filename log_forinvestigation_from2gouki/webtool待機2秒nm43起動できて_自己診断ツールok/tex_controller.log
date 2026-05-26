@@ -1,0 +1,21 @@
+[DEBUG] 2026/05/26 10:50:39.869631 (MQTT) Unsubscribe client.Subscribe OK,/console/unifunc/interface/notice_start_service/001/02
+[DEBUG] 2026/05/26 10:50:39.869631 (MQTT) Unsubscribe client.Subscribe OK,/console/unifunc/interface/notice_stop_service/001/02
+[DEBUG] 2026/05/26 10:50:39.870143 (MQTT) Unsubscribe client.Subscribe OK,/console/unifunc/interface/notice_close/001/02
+[DEBUG] 2026/05/26 10:50:39.870143 (MQTT) Unsubscribe client.Subscribe OK,/console/unifunc/interface/notice_change_security/001/02
+[DEBUG] 2026/05/26 10:50:39.870654 (MQTT) Unsubscribe client.Subscribe OK,/console/unifunc/interface/notice_change_paymentmode/001/02
+[DEBUG] 2026/05/26 10:50:39.870654 (MQTT) Unsubscribe client.Subscribe OK,/console/unifunc/interface/notice_change_screenmode/001/02
+[DEBUG] 2026/05/26 10:50:39.871164 (MQTT) Unsubscribe client.Subscribe OK,/console/unifunc/interface/notice_poweroff/001/02
+[DEBUG] 2026/05/26 10:50:39.871687 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_sync_systemtime
+[DEBUG] 2026/05/26 10:50:39.871687 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_sync_servicemode
+[DEBUG] 2026/05/26 10:50:39.872195 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_notice_term_status
+[DEBUG] 2026/05/26 10:50:39.872195 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_notice_term_error
+[DEBUG] 2026/05/26 10:50:39.872702 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_notice_cashdata
+[DEBUG] 2026/05/26 10:50:39.873218 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_notice_credit
+[DEBUG] 2026/05/26 10:50:39.873218 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_notice_jdebit
+[DEBUG] 2026/05/26 10:50:39.873218 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_get_cancellist
+[DEBUG] 2026/05/26 10:50:39.873725 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_notice_cancel
+[DEBUG] 2026/05/26 10:50:39.874027 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_status
+[DEBUG] 2026/05/26 10:50:39.874027 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_operator_verification
+[DEBUG] 2026/05/26 10:50:39.874610 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_get_service
+[DEBUG] 2026/05/26 10:50:39.875119 (MQTT) Unsubscribe client.Subscribe OK,/tex/helper/controller/request_control_service
+[DEBUG] 2026/05/26 10:50:39.875119 (MQTT) Publish,/tex/helper/controller/notice_status,{"statusApControl":true,"statusApInitial":true,"statusLine":true,"termNo":2}

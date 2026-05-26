@@ -1,0 +1,23 @@
+[INFO ] 2026/05/26 10:50:01.799897 [Recv](MQTT)/almex/helper/systime/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helpersystime_248872id16"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:01.802017 [Send](MQTT)/almex/helper/systime/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helpersystime_248872id16","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:01.803568 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:01.804664 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105001796,"forceEncrypt":false,"logLevel":"TRACE","requestId":"ALCT1400","logSummary":"サービス実行状況を通知(システム時計制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:06.879703 [Recv](MQTT)/almex/helper/systime/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helpersystime_248894id16"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:06.882204 [Send](MQTT)/almex/helper/systime/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helpersystime_248894id16","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:06.883229 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:06.884259 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105006877,"forceEncrypt":false,"logLevel":"TRACE","requestId":"ALCT1400","logSummary":"サービス実行状況を通知(システム時計制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:11.968274 [Recv](MQTT)/almex/helper/systime/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helpersystime_248916id16"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:11.970304 [Send](MQTT)/almex/helper/systime/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helpersystime_248916id16","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:11.971322 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:11.971837 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105011966,"forceEncrypt":false,"logLevel":"TRACE","requestId":"ALCT1400","logSummary":"サービス実行状況を通知(システム時計制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:17.048527 [Recv](MQTT)/almex/helper/systime/request_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_helpersystime_248938id16"},"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:17.050030 [Send](MQTT)/almex/helper/systime/result_get_service,{"requestInfo":{"processId":"000018c0","requestId":"rqGetSv_helpersystime_248938id16","pcId":""},"result":true,"statusService":true}
+[INFO ] 2026/05/26 10:50:17.051060 'RequestGetService' Result Send to ResultGetServicePub
+[INFO ] 2026/05/26 10:50:17.051588 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105017046,"forceEncrypt":false,"logLevel":"TRACE","requestId":"ALCT1400","logSummary":"サービス実行状況を通知(システム時計制御)","logData":"サービス実行状況を通知 IdDevice:,IdExtSys:,StatusService:true,Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:32.672365 [Recv](MQTT)/almex/helper/systime/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helpersystime_248950id16"},"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.677190 [Send](MQTT)/almex/helper/systime/result_control_service,{"requestInfo":{"processId":"000018c0","requestId":"rqCtrSv_helpersystime_248950id16","pcId":""},"result":true}
+[INFO ] 2026/05/26 10:50:32.678222 'RequestControlService' Result Send to ResultControlServicePub
+[INFO ] 2026/05/26 10:50:32.679812 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105032678,"forceEncrypt":false,"logLevel":"TRACE","requestId":"ALCT1500","logSummary":"サービス実行状態更新(システム時計制御)","logData":"サービス実行状態更新 Result:true,ErrorCode:,ErrorDetail:,"}
+[INFO ] 2026/05/26 10:50:32.680339 [Send](MQTT)/almex/helper/systime/notice_status_service,{"statusService":false}
+[INFO ] 2026/05/26 10:50:32.680854 'RequestControlService' Result Send to ResultNoticeStatusServicePub
+[INFO ] 2026/05/26 10:50:39.365855 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105039365,"forceEncrypt":false,"logLevel":"TRACE","requestId":"ALCT0003","logSummary":"サービス停止(システム時計制御)","logData":" "}

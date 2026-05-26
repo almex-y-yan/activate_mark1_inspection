@@ -1,0 +1,62 @@
+[DEBUG] 2026/05/26 10:50:32.130455 /tex/unifunc/money/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_unifuncmoney_248945id21"},"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.130969 [Recv](MQTT)/tex/unifunc/money/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_unifuncmoney_248945id21"},"statusService":false,"idDevice":"","idExtSys":""}
+[TRACE] 2026/05/26 10:50:32.130969 【req_control_service-011344】START:要求受信 ControlService recvResuestControlService
+[DEBUG] 2026/05/26 10:50:32.130969 【req_control_service-011344】- RequestID rqCtrSv_unifuncmoney_248945id21
+[TRACE] 2026/05/26 10:50:32.130969 【req_control_service-011344】START:ControlService resultControlService
+[TRACE] 2026/05/26 10:50:32.130969 【req_control_service-011344】END:ControlService resultControlService
+[DEBUG] 2026/05/26 10:50:32.131980 【req_control_service-011344】ControlService recvResuestControlService START:各インターフェースのサービス制御呼び出し
+[INFO ] 2026/05/26 10:50:32.132499 [Send](MQTT)/tex/unifunc/money/result_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_unifuncmoney_248945id21"},"result":true}
+[INFO ] 2026/05/26 10:50:32.132499 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_in_start
+[INFO ] 2026/05/26 10:50:32.133009 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_in_end
+[INFO ] 2026/05/26 10:50:32.133517 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_out_start
+[INFO ] 2026/05/26 10:50:32.133517 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_out_stop
+[INFO ] 2026/05/26 10:50:32.134031 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_collect_start
+[INFO ] 2026/05/26 10:50:32.134544 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_collect_stop
+[INFO ] 2026/05/26 10:50:32.134544 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_in_status
+[INFO ] 2026/05/26 10:50:32.135059 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_out_status
+[INFO ] 2026/05/26 10:50:32.135059 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_collect_status
+[INFO ] 2026/05/26 10:50:32.135581 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_amount_status
+[INFO ] 2026/05/26 10:50:32.135581 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_status
+[INFO ] 2026/05/26 10:50:32.135581 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_set_amount
+[INFO ] 2026/05/26 10:50:32.135581 (MQTT) Unsubscribe Success:/tex/helper/cashctl/result_scrutiny_start
+[INFO ] 2026/05/26 10:50:32.136593 (MQTT) Unsubscribe Success:/tex/helper/cashctl/notice_in_status
+[INFO ] 2026/05/26 10:50:32.137120 (MQTT) Unsubscribe Success:/tex/helper/cashctl/notice_out_status
+[INFO ] 2026/05/26 10:50:32.137120 (MQTT) Unsubscribe Success:/tex/helper/cashctl/notice_collect_status
+[INFO ] 2026/05/26 10:50:32.137633 (MQTT) Unsubscribe Success:/tex/helper/cashctl/notice_amount_status
+[INFO ] 2026/05/26 10:50:32.137633 (MQTT) Unsubscribe Success:/tex/helper/cashctl/notice_status
+[INFO ] 2026/05/26 10:50:32.138183 (MQTT) Unsubscribe Success:/tex/helper/dbdata/result_report_safeinfo
+[INFO ] 2026/05/26 10:50:32.138183 (MQTT) Unsubscribe Success:/tex/helper/dbdata/result_get_terminfo_now
+[INFO ] 2026/05/26 10:50:32.138694 (MQTT) Unsubscribe Success:/tex/unifunc/status/result_change_supply
+[INFO ] 2026/05/26 10:50:32.139231 (MQTT) Unsubscribe Success:/tex/unifunc/status/result_change_payment
+[INFO ] 2026/05/26 10:50:32.139231 (MQTT) Unsubscribe Success:/tex/unifunc/status/result_status
+[INFO ] 2026/05/26 10:50:32.139742 (MQTT) Unsubscribe Success:/tex/unifunc/status/result_change_staffoperation
+[INFO ] 2026/05/26 10:50:32.139742 (MQTT) Unsubscribe Success:/almex/helper/print/result_status
+[INFO ] 2026/05/26 10:50:32.140254 (MQTT) Unsubscribe Success:/almex/helper/print/result_supply
+[INFO ] 2026/05/26 10:50:32.140254 (MQTT) Unsubscribe Success:/almex/helper/print/notice_status
+[INFO ] 2026/05/26 10:50:32.140254 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_money_exchange
+[INFO ] 2026/05/26 10:50:32.141267 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_money_add_replenish
+[INFO ] 2026/05/26 10:50:32.141784 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_money_collect
+[INFO ] 2026/05/26 10:50:32.141784 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_set_amount
+[INFO ] 2026/05/26 10:50:32.141784 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_status_cash
+[INFO ] 2026/05/26 10:50:32.141784 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_pay_cash
+[INFO ] 2026/05/26 10:50:32.142798 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_out_cash
+[INFO ] 2026/05/26 10:50:32.143335 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_amount_cash
+[INFO ] 2026/05/26 10:50:32.143335 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_print_report
+[INFO ] 2026/05/26 10:50:32.143846 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_sales_info
+[INFO ] 2026/05/26 10:50:32.144361 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_clear_cashinfo
+[INFO ] 2026/05/26 10:50:32.144361 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_change_system_operation
+[INFO ] 2026/05/26 10:50:32.144875 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_maintenance_mode
+[INFO ] 2026/05/26 10:50:32.144875 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_get_safeinfo
+[INFO ] 2026/05/26 10:50:32.144875 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_register_moneysetting
+[INFO ] 2026/05/26 10:50:32.145887 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_coincassette_control
+[INFO ] 2026/05/26 10:50:32.146416 (MQTT) Unsubscribe Success:/tex/unifunc/payment/result_get_salesinfo
+[INFO ] 2026/05/26 10:50:32.146416 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_reverseexchange_calculation
+[INFO ] 2026/05/26 10:50:32.146416 (MQTT) Unsubscribe Success:/tex/unifunc/money/request_scrutiny
+[DEBUG] 2026/05/26 10:50:32.146416 【req_control_service-011344】ControlService recvResuestControlService END:各インターフェースのサービス制御呼び出し
+[DEBUG] 2026/05/26 10:50:32.147427 不一致チェック開始(以降の処理で有高通知を受信した場合不一致チェックが実行される) shouldChangeCheck=false
+[DEBUG] 2026/05/26 10:50:32.147427 【req_control_service-011344】更新 実行状態遷移通知={StatusService:false IdDevice: IdExtSys:} Diff=true
+[TRACE] 2026/05/26 10:50:32.147427 START:ControlService noticeControlService
+[TRACE] 2026/05/26 10:50:32.147427 END:ControlService noticeControlService
+[TRACE] 2026/05/26 10:50:32.147427 【req_control_service-011344】END:要求受信 ControlService recvResuestControlService
+[INFO ] 2026/05/26 10:50:32.148440 [Send](MQTT)/tex/unifunc/money/notice_status_service,{"statusService":false}
+[INFO ] 2026/05/26 10:50:40.373868 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105040373,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"TXMY0003","logSummary":"サービス停止(入出金管理)","logData":"入出金管理"}

@@ -1,0 +1,89 @@
+[INFO ] 2026/05/26 10:49:57.853635 subscribe /almex/device/hid/notice_input {0a780ac90f010001 172}
+[INFO ] 2026/05/26 10:49:57.854153 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:49:58.853656 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1172}
+[INFO ] 2026/05/26 10:49:58.854164 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:49:59.854407 subscribe /almex/device/hid/notice_input {0a780ac90f010001 500}
+[INFO ] 2026/05/26 10:49:59.854919 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:00.854455 subscribe /almex/device/hid/notice_input {0a780ac90f010001 32}
+[INFO ] 2026/05/26 10:50:00.854977 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:01.854010 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1032}
+[INFO ] 2026/05/26 10:50:01.854525 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:02.854489 subscribe /almex/device/hid/notice_input {0a780ac90f010001 2032}
+[INFO ] 2026/05/26 10:50:02.854489 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:03.854417 subscribe /almex/device/hid/notice_input {0a780ac90f010001 3032}
+[INFO ] 2026/05/26 10:50:03.854417 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:04.854346 subscribe /almex/device/hid/notice_input {0a780ac90f010001 4032}
+[INFO ] 2026/05/26 10:50:04.854346 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:05.853943 subscribe /almex/device/hid/notice_input {0a780ac90f010001 5032}
+[INFO ] 2026/05/26 10:50:05.854462 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:06.853621 subscribe /almex/device/hid/notice_input {0a780ac90f010001 6032}
+[INFO ] 2026/05/26 10:50:06.854131 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:07.854013 subscribe /almex/device/hid/notice_input {0a780ac90f010001 7032}
+[INFO ] 2026/05/26 10:50:07.854525 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:08.853713 subscribe /almex/device/hid/notice_input {0a780ac90f010001 141}
+[INFO ] 2026/05/26 10:50:08.854224 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:09.853850 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1141}
+[INFO ] 2026/05/26 10:50:09.854359 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:10.853824 subscribe /almex/device/hid/notice_input {0a780ac90f010001 235}
+[INFO ] 2026/05/26 10:50:10.854372 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:11.853654 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1235}
+[INFO ] 2026/05/26 10:50:11.854167 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:12.853687 subscribe /almex/device/hid/notice_input {0a780ac90f010001 47}
+[INFO ] 2026/05/26 10:50:12.854248 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:13.853645 subscribe /almex/device/hid/notice_input {0a780ac90f010001 844}
+[INFO ] 2026/05/26 10:50:13.854158 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:14.853731 subscribe /almex/device/hid/notice_input {0a780ac90f010001 16}
+[INFO ] 2026/05/26 10:50:14.854261 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:15.853931 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1016}
+[INFO ] 2026/05/26 10:50:15.853931 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:16.853845 subscribe /almex/device/hid/notice_input {0a780ac90f010001 32}
+[INFO ] 2026/05/26 10:50:16.854351 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:17.853824 subscribe /almex/device/hid/notice_input {0a780ac90f010001 391}
+[INFO ] 2026/05/26 10:50:17.853824 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:18.854325 subscribe /almex/device/hid/notice_input {0a780ac90f010001 422}
+[INFO ] 2026/05/26 10:50:18.854325 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:19.854564 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1422}
+[INFO ] 2026/05/26 10:50:19.854564 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:20.854345 subscribe /almex/device/hid/notice_input {0a780ac90f010001 2422}
+[INFO ] 2026/05/26 10:50:20.854860 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:21.854427 subscribe /almex/device/hid/notice_input {0a780ac90f010001 3422}
+[INFO ] 2026/05/26 10:50:21.854427 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:22.854159 subscribe /almex/device/hid/notice_input {0a780ac90f010001 657}
+[INFO ] 2026/05/26 10:50:22.854693 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:23.853874 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1657}
+[INFO ] 2026/05/26 10:50:23.854387 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:24.853930 subscribe /almex/device/hid/notice_input {0a780ac90f010001 2657}
+[INFO ] 2026/05/26 10:50:24.854453 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:25.853884 subscribe /almex/device/hid/notice_input {0a780ac90f010001 735}
+[INFO ] 2026/05/26 10:50:25.854394 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:26.854067 subscribe /almex/device/hid/notice_input {0a780ac90f010001 579}
+[INFO ] 2026/05/26 10:50:26.854578 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:27.853752 subscribe /almex/device/hid/notice_input {0a780ac90f010001 672}
+[INFO ] 2026/05/26 10:50:27.854264 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:28.853887 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1672}
+[INFO ] 2026/05/26 10:50:28.854406 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:29.853167 subscribe /almex/device/hid/notice_input {0a780ac90f010001 2672}
+[INFO ] 2026/05/26 10:50:29.854174 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:30.854028 subscribe /almex/device/hid/notice_input {0a780ac90f010001 219}
+[INFO ] 2026/05/26 10:50:30.854543 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:31.853806 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1219}
+[INFO ] 2026/05/26 10:50:31.853806 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:32.853030 subscribe /almex/device/hid/notice_input {0a780ac90f010001 438}
+[INFO ] 2026/05/26 10:50:32.854039 rcv NoticeInput end.
+[TRACE] 2026/05/26 10:50:33.225149 subscribe board/notice_status (funcNo:-1, EnableCamera:0) {DeviceNo:0a780ac909060001 StatusReady:true StatusLine:true StatusError:true ErrorDetail: StatusSensorTbl:[] StatusInPointTbl:[{IdNo:1 FuncNo:2105 ValPoint:1} {IdNo:2 FuncNo:2101 ValPoint:1} {IdNo:3 FuncNo:2104 ValPoint:1} {IdNo:4 FuncNo:2102 ValPoint:0} {IdNo:5 FuncNo:2103 ValPoint:0} {IdNo:6 FuncNo:2106 ValPoint:0} {IdNo:7 FuncNo:2107 ValPoint:0} {IdNo:8 FuncNo:2108 ValPoint:0}] StatusDpswTbl:[{IdNo:1 FuncNo:2201 ValSwitch:0} {IdNo:2 FuncNo:2202 ValSwitch:0} {IdNo:3 FuncNo:2203 ValSwitch:0} {IdNo:4 FuncNo:2204 ValSwitch:0}] StatusLedTbl:[{IdNo:1 FuncNo:1008 ValR:0 ValG:0 ValB:0} {IdNo:2 FuncNo:1004 ValR:0 ValG:0 ValB:0} {IdNo:3 FuncNo:1007 ValR:0 ValG:0 ValB:0} {IdNo:4 FuncNo:1003 ValR:0 ValG:0 ValB:0} {IdNo:5 FuncNo:1005 ValR:0 ValG:0 ValB:0} {IdNo:6 FuncNo:1006 ValR:0 ValG:0 ValB:0} {IdNo:7 FuncNo:1009 ValR:0 ValG:0 ValB:0} {IdNo:8 FuncNo:1002 ValR:0 ValG:0 ValB:0} {IdNo:9 FuncNo:1001 ValR:0 ValG:0 ValB:0} {IdNo:10 FuncNo:1010 ValR:0 ValG:0 ValB:0}] StatusDimmerTbl:[] StatusSerialTbl:[] StatusOutPointTbl:[{IdNo:1 FuncNo:1301 ValPoint:0}] ErrorCode:}
+[DEBUG] 2026/05/26 10:50:33.225149 receive Msgrcv
+[DEBUG] 2026/05/26 10:50:33.226157 queue type is {DeviceNo:0a780ac909060001 StatusReady:true StatusLine:true StatusError:true ErrorDetail: StatusSensorTbl:[] StatusInPointTbl:[{IdNo:1 FuncNo:2105 ValPoint:1} {IdNo:2 FuncNo:2101 ValPoint:1} {IdNo:3 FuncNo:2104 ValPoint:1} {IdNo:4 FuncNo:2102 ValPoint:0} {IdNo:5 FuncNo:2103 ValPoint:0} {IdNo:6 FuncNo:2106 ValPoint:0} {IdNo:7 FuncNo:2107 ValPoint:0} {IdNo:8 FuncNo:2108 ValPoint:0}] StatusDpswTbl:[{IdNo:1 FuncNo:2201 ValSwitch:0} {IdNo:2 FuncNo:2202 ValSwitch:0} {IdNo:3 FuncNo:2203 ValSwitch:0} {IdNo:4 FuncNo:2204 ValSwitch:0}] StatusLedTbl:[{IdNo:1 FuncNo:1008 ValR:0 ValG:0 ValB:0} {IdNo:2 FuncNo:1004 ValR:0 ValG:0 ValB:0} {IdNo:3 FuncNo:1007 ValR:0 ValG:0 ValB:0} {IdNo:4 FuncNo:1003 ValR:0 ValG:0 ValB:0} {IdNo:5 FuncNo:1005 ValR:0 ValG:0 ValB:0} {IdNo:6 FuncNo:1006 ValR:0 ValG:0 ValB:0} {IdNo:7 FuncNo:1009 ValR:0 ValG:0 ValB:0} {IdNo:8 FuncNo:1002 ValR:0 ValG:0 ValB:0} {IdNo:9 FuncNo:1001 ValR:0 ValG:0 ValB:0} {IdNo:10 FuncNo:1010 ValR:0 ValG:0 ValB:0}] StatusDimmerTbl:[] StatusSerialTbl:[] StatusOutPointTbl:[{IdNo:1 FuncNo:1301 ValPoint:0}] ErrorCode:}
+[DEBUG] 2026/05/26 10:50:33.226157 Sensor is none(skip).
+[DEBUG] 2026/05/26 10:50:33.226690 waiting Msgrcv
+[INFO ] 2026/05/26 10:50:33.853628 subscribe /almex/device/hid/notice_input {0a780ac90f010001 313}
+[INFO ] 2026/05/26 10:50:33.854137 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:34.854503 subscribe /almex/device/hid/notice_input {0a780ac90f010001 47}
+[INFO ] 2026/05/26 10:50:34.854503 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:35.854022 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1047}
+[INFO ] 2026/05/26 10:50:35.854022 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:36.853835 subscribe /almex/device/hid/notice_input {0a780ac90f010001 0}
+[INFO ] 2026/05/26 10:50:36.854348 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:37.853473 subscribe /almex/device/hid/notice_input {0a780ac90f010001 1000}
+[INFO ] 2026/05/26 10:50:37.854481 rcv NoticeInput end.
+[INFO ] 2026/05/26 10:50:38.362904 end program(RouterStop).
+[DEBUG] 2026/05/26 10:50:38.363415 publish:request_log {20260526 105038362 false TRACE ALSS1003 サービス停止(センサー監視制御) }

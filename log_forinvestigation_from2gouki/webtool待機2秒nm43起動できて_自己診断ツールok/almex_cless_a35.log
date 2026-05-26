@@ -1,0 +1,111 @@
+[DEBUG] 2026/05/26 10:49:57.848032 recvPacket=311110098051500000005                   00000
+[DEBUG] 2026/05/26 10:49:57.848032 _RecvPacketAnalyze businessType=0, tranType=98, seqNo=0515, responseCode=000
+[TRACE] 2026/05/26 10:49:57.848554 CallbackDisplay displayId=0, beforeId=0
+[DEBUG] 2026/05/26 10:49:57.848554 StatusUpdateNotice statusType=1, statusReady=true, statusLine=true, statusError=true, displayId=0
+[INFO ] 2026/05/26 10:49:57.849065 NoticeStatus change=false, deviceStatus=&{0a780ac90a090001 1 true true true 0}
+[DEBUG] 2026/05/26 10:50:01.799897 (MQTT) Publish,/almex/device/cless/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_devicecless_248858id2"},"result":true,"statusService":true,"idDevice":"0a09"}
+[DEBUG] 2026/05/26 10:50:06.880702 (MQTT) Publish,/almex/device/cless/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_devicecless_248880id2"},"result":true,"statusService":true,"idDevice":"0a09"}
+[DEBUG] 2026/05/26 10:50:11.968789 (MQTT) Publish,/almex/device/cless/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_devicecless_248902id2"},"result":true,"statusService":true,"idDevice":"0a09"}
+[DEBUG] 2026/05/26 10:50:17.048527 (MQTT) Publish,/almex/device/cless/result_get_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqGetSv_devicecless_248924id2"},"result":true,"statusService":true,"idDevice":"0a09"}
+[INFO ] 2026/05/26 10:50:33.204065 MQTT RequestDevice.Stop
+[INFO ] 2026/05/26 10:50:33.205103 MQTT RequestDllDownload.Stop
+[DEBUG] 2026/05/26 10:50:33.206688 (MQTT) Publish,/almex/device/cless/result_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_devicecless_248956id2"},"result":true}
+[INFO ] 2026/05/26 10:50:33.207699 MQTT RequestReset.Stop
+[INFO ] 2026/05/26 10:50:33.208746 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:33.209777 MQTT RequestPaymentJdebit.Stop
+[INFO ] 2026/05/26 10:50:33.210816 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:33.211424 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:33.212627 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:33.213655 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:33.215297 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:33.216857 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:33.217870 MQTT RequestCollect.Stop
+[INFO ] 2026/05/26 10:50:33.218384 MQTT RequestStopOperate.Stop
+[INFO ] 2026/05/26 10:50:33.218899 MQTT RequestMaintenance.Stop
+[INFO ] 2026/05/26 10:50:33.219416 MQTT RequestMaintenance.Stop
+[INFO ] 2026/05/26 10:50:33.219943 MQTT RequestStatus.Stop
+[INFO ] 2026/05/26 10:50:33.220972 MQTT RequestDeviceInfo.Stop
+[DEBUG] 2026/05/26 10:50:33.221488 (MQTT) Publish,/almex/device/cless/notice_status_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_devicecless_248956id2"},"result":true,"statusService":false,"idDevice":"0a09"}
+[INFO ] 2026/05/26 10:50:43.892786 MQTT RequestDevice.Stop
+[INFO ] 2026/05/26 10:50:43.892786 MQTT RequestDllDownload.Stop
+[INFO ] 2026/05/26 10:50:43.893318 MQTT RequestReset.Stop
+[INFO ] 2026/05/26 10:50:43.893318 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:43.893318 MQTT RequestPaymentJdebit.Stop
+[INFO ] 2026/05/26 10:50:43.893318 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:43.893318 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:43.894317 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:43.894317 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:43.894819 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:43.894819 MQTT RequestPayment.Stop
+[INFO ] 2026/05/26 10:50:43.894819 MQTT RequestCollect.Stop
+[INFO ] 2026/05/26 10:50:43.894819 MQTT RequestStopOperate.Stop
+[INFO ] 2026/05/26 10:50:43.894819 MQTT RequestStatus.Stop
+[INFO ] 2026/05/26 10:50:43.894819 MQTT RequestDeviceInfo.Stop
+[INFO ] 2026/05/26 10:50:43.895818 MQTT RequestMaintenance.Stop
+[INFO ] 2026/05/26 10:50:43.895818 MQTT RequestPinpad.Stop
+[TRACE] 2026/05/26 10:50:43.896321 CashlessFinal IN
+[TRACE] 2026/05/26 10:50:47.932271 (MQTT) Mqttconnect IN
+[DEBUG] 2026/05/26 10:50:47.954344 (MQTT) Broker Connected
+[TRACE] 2026/05/26 10:50:47.954957 (MQTT) Broker Connected.client  OUT
+[TRACE] 2026/05/26 10:50:47.954957 (MQTT) Mqttconnect OUT
+[TRACE] 2026/05/26 10:50:48.033326 CashlessInitial IN
+[TRACE] 2026/05/26 10:50:48.033829 EmoneyBrandList Call IN
+[TRACE] 2026/05/26 10:50:48.034802 a35CashlessHandler.Request IN(sendData=2101150130516   00000                    size=40, timeout=10s)
+[INFO ] 2026/05/26 10:50:48.036222 Recv gorutine start
+[TRACE] 2026/05/26 10:50:48.036724 a35CashlessHandler.Request OUT(sendData size=40, timeout=10s)
+[DEBUG] 2026/05/26 10:50:48.137432 recvPacket=311115071051600000000                   
+[DEBUG] 2026/05/26 10:50:48.137935 _RecvPacketAnalyze businessType=50, tranType=71, seqNo=0516, responseCode=000
+[DEBUG] 2026/05/26 10:50:48.242315 recvPacket=3111150130516L0500000                   
+[DEBUG] 2026/05/26 10:50:48.242818 _RecvPacketAnalyze businessType=50, tranType=13, seqNo=0516, responseCode=L05
+[DEBUG] 2026/05/26 10:50:48.243212 CallbackCashlessEmoneyBrandList IN(resultData.ResponseCode=L05)
+[DEBUG] 2026/05/26 10:50:48.243715 CallbackCashlessEmoneyBrandList OUT
+[TRACE] 2026/05/26 10:50:48.243715 EmoneyBrandList Call OUT
+[INFO ] 2026/05/26 10:50:48.244468 MQTT RequestDevice.Start
+[INFO ] 2026/05/26 10:50:48.245346 MQTT RequestDllDownload.Start
+[INFO ] 2026/05/26 10:50:48.245902 MQTT RequestReset.Start
+[INFO ] 2026/05/26 10:50:48.246423 MQTT RequestPayment.Start
+[INFO ] 2026/05/26 10:50:48.246925 MQTT RequestPaymentJdebit.Start
+[INFO ] 2026/05/26 10:50:48.247474 MQTT RequestPayment.Start
+[INFO ] 2026/05/26 10:50:48.248424 MQTT RequestPayment.Start
+[INFO ] 2026/05/26 10:50:48.248966 MQTT RequestPayment.Start
+[INFO ] 2026/05/26 10:50:48.249439 MQTT RequestPayment.Start
+[INFO ] 2026/05/26 10:50:48.249941 MQTT RequestPayment.Start
+[INFO ] 2026/05/26 10:50:48.250541 MQTT RequestPayment.Start
+[INFO ] 2026/05/26 10:50:48.251064 MQTT RequestCollect.Start
+[INFO ] 2026/05/26 10:50:48.251603 MQTT RequestStopOperate.Start
+[INFO ] 2026/05/26 10:50:48.251924 MQTT RequestMaintenance.Start
+[INFO ] 2026/05/26 10:50:48.252426 MQTT RequestPinpad.Start
+[INFO ] 2026/05/26 10:50:48.253045 MQTT RequestStatus.Start
+[INFO ] 2026/05/26 10:50:48.253678 MQTT RequestDeviceInfo.Start
+[DEBUG] 2026/05/26 10:50:48.255735 StatusUpdateNotice statusType=1, statusReady=true, statusLine=true, statusError=true, displayId=0
+[INFO ] 2026/05/26 10:50:48.255735 NoticeStatus change=true, deviceStatus=&{0a780ac90a090001 1 true true true 0}
+[DEBUG] 2026/05/26 10:50:48.256517 (MQTT) Publish,/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":105048255,"forceEncrypt":false,"logLevel":"INFO","requestId":"ALCL0001-090001","logSummary":"プログラム起動 almex_cless_a35","logData":"ファイルパス:D:\\almex\\service\\almex_cless_a35.exe ファイルバージョン:100.0.34.35 最終更新日時:2026-05-18T15:04:37+09:00"}
+[DEBUG] 2026/05/26 10:50:48.257088 (MQTT) Publish,/almex/device/cless/notice_status,{"requestInfo":{"processId":"","pcId":"","requestId":""},"result":true,"deviceNo":"0a780ac90a090001","statusReady":true,"statusLine":true,"statusError":true}
+[INFO ] 2026/05/26 10:50:48.257538 ALMEX Common Device (Cashless PAX A35/GMO) 開始
+[INFO ] 2026/05/26 10:50:48.258040 ファイルパス:D:\almex\service\almex_cless_a35.exe ファイルバージョン:100.0.34.35 最終更新日時:2026-05-18T15:04:37+09:00
+[INFO ] 2026/05/26 10:50:52.758615 /almex/device/cless/request_device message=%!(EXTRA string={"ipAddrTbl":[],"requestInfo":{"processId":"00002918","requestId":"cashless01_0001"},"useCode":1})
+[DEBUG] 2026/05/26 10:50:52.761147 (MQTT) Publish,/almex/device/cless/result_device,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"cashless01_0001"},"result":true,"deviceTbl":[{"deviceNo":"0a780ac90a090001","deviceName":"キャッシュレス決済 PAX/A35"}]}
+[INFO ] 2026/05/26 10:50:52.940899 /almex/device/cless/request_status message=%!(EXTRA string={"deviceNo":"0a780ac90a090001","requestInfo":{"processId":"00002918","requestId":"cashless01_0003"}})
+[TRACE] 2026/05/26 10:50:52.943509 CashlessDeviceStatus Call 
+[INFO ] 2026/05/26 10:50:52.946669 /almex/device/cless/request_reset message=%!(EXTRA string={"deviceNo":"0a780ac90a090001","requestInfo":{"processId":"00002918","requestId":"cashless01_0002"}})
+[INFO ] 2026/05/26 10:50:52.949294 /almex/device/cless/request_device_info message=%!(EXTRA string={"deviceNo":"0a780ac90a090001","requestInfo":{"processId":"00002918","requestId":"cashless01_0004"}})
+[DEBUG] 2026/05/26 10:50:52.952299 (MQTT) Publish,/almex/device/cless/result_status,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"cashless01_0003"},"result":true,"deviceNo":"0a780ac90a090001","statusReady":true,"statusLine":true,"statusError":true}
+[TRACE] 2026/05/26 10:50:52.954811 a35CashlessHandler.Request IN(sendData=2101100980517   00093                   000000000000000020260526105052                                                                size=133, timeout=10s)
+[TRACE] 2026/05/26 10:50:52.956345 EmoneyBrandList Call IN
+[DEBUG] 2026/05/26 10:50:52.956874 (MQTT) Publish,/almex/device/cless/result_reset,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"cashless01_0002"},"result":true,"deviceNo":"0a780ac90a090001"}
+[TRACE] 2026/05/26 10:50:52.958380 CashlessOperationStop IN requestParams={{  } 0a780ac90a090001 }
+[TRACE] 2026/05/26 10:50:52.959888 a35CashlessHandler.Request OUT(sendData size=133, timeout=10s)
+[TRACE] 2026/05/26 10:50:52.960424 a35CashlessHandler.Request IN(sendData=2101150130518   00000                    size=40, timeout=10s)
+[TRACE] 2026/05/26 10:50:52.961458 CashlessOperationStop OUT requestParams={{  } 0a780ac90a090001 }
+[TRACE] 2026/05/26 10:50:52.961975 a35CashlessHandler.Request IN(sendData=2101100990519   00000                    size=40, timeout=10s)
+[TRACE] 2026/05/26 10:50:52.963006 a35CashlessHandler.Request OUT(sendData size=40, timeout=10s)
+[TRACE] 2026/05/26 10:50:52.964037 a35CashlessHandler.Request OUT(sendData size=40, timeout=10s)
+[DEBUG] 2026/05/26 10:50:53.027379 recvPacket=311110072051700000000                   
+[DEBUG] 2026/05/26 10:50:53.027904 _RecvPacketAnalyze businessType=0, tranType=72, seqNo=0517, responseCode=000
+[DEBUG] 2026/05/26 10:50:57.968228 StatusUpdateNotice statusType=1, statusReady=false, statusLine=true, statusError=true, displayId=0
+[INFO ] 2026/05/26 10:50:57.968828 NoticeStatus change=true, deviceStatus=&{0a780ac90a090001 1 false true true 0}
+[TRACE] 2026/05/26 10:50:57.968828 CashlessFinal IN
+[TRACE] 2026/05/26 10:50:57.968828 CashlessInitial IN
+[DEBUG] 2026/05/26 10:50:57.969827 (MQTT) Publish,/almex/device/cless/notice_status,{"requestInfo":{"processId":"","pcId":"","requestId":""},"result":true,"deviceNo":"0a780ac90a090001","statusReady":false,"statusLine":true,"statusError":true}
+[WARN ] 2026/05/26 10:51:02.964104 EmoneyBrandList Call Timeout
+[DEBUG] 2026/05/26 10:51:02.964631 (MQTT) Publish,/almex/device/cless/result_device_info,{"requestInfo":{"processId":"00002918","pcId":"","requestId":"cashless01_0004"},"result":true,"deviceNo":"0a780ac90a090001","deviceName":"キャッシュレス決済 PAX/A35","userpayInfo":{"support":true,"cancel":true},"creditInfo":{"support":true,"linkDevice":0},"jdebitInfo":{"support":false,"linkDevice":0},"qrInfo":{"support":true,"paymentType":0},"emoneyInfo":{"support":true,"linkDevice":0,"brandInfoTbl":[{"code":2,"name":"楽天Edy"},{"code":3,"name":"iD"},{"code":4,"name":"QUICPay"},{"code":5,"name":"交通系IC"},{"code":6,"name":"WAON"},{"code":7,"name":"nanaco"}]},"pinpadStatus":false,"maintenanceStatus":false}

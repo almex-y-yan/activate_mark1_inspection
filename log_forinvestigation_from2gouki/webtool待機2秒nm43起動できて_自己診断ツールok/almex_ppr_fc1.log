@@ -1,0 +1,5 @@
+[DEBUG] 2026/05/26 10:50:33.204065 (MQTT) Receive,/almex/device/ppr/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_deviceppr_248963id9"},"statusService":false,"idDevice":"0e01","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:33.220972 (MQTT) Receive,/almex/device/ppr/result_control_service,{"requestInfo":{"processId":"000018c0","requestId":"rqCtrSv_deviceppr_248963id9"},"result":true}
+[TRACE] 2026/05/26 10:50:33.221488 (deviceControl) Stop IN(0a780ac90e010001)
+[TRACE] 2026/05/26 10:50:33.221488 (deviceControl) Stop OUT(0a780ac90e010001)
+[DEBUG] 2026/05/26 10:50:33.721993 (MQTT) Receive,/almex/device/ppr/notice_status_service,{"statusService":false,"idDevice":"0e01"}

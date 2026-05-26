@@ -1,0 +1,396 @@
+[INFO ] 2026/05/26 11:03:39.862423 Program Start
+[INFO ] 2026/05/26 11:03:39.878998 config_&{MqttConf:{TCP:localhost Port:1883} ComConf:{PortNo:5 Speed:115200 Length:8 Parity:1 Stopbit:1} DeviceConfTbl:[{DeviceNo:0a780ac909070001 TargetIpAddr:[10.120.10.201] ComConf:{PortNo:5 Speed:115200 Length:8 Parity:1 Stopbit:1} Name:現金入出金機1号機 UseCodeTbl:[2] TypeCashConf:{OneThousandYen:1 TwoThousandYen:1 FiveThousandYen:1 TenThousandYen:1} FuncCheckCashType:{FuncCashType:80} AmountCashConf:{Amount1000:0 Amount2000:0 Amount5000:0 Amount10000:0 Amount1000H:0 Amount2000H:0 Amount5000H:0 Amount10000H:0} CashBankConf:{Normal1000:10 Normal2000:10 Normal5000:10 Normal10000:10 End1000:600 End2000:200 End5000:200 End10000:200 NearEnd1000:550 NearEnd2000:150 NearEnd5000:150 NearEnd10000:150 NearEmpty1000:10 NearEmpty2000:10 NearEmpty5000:10 NearEmpty10000:10} LedControl:{LedCashIn:2 LedReject:2 LedCashOut:2} FlgLocalIp:true}] SystemConf:{MaxLength:4194304 MaxRotation:16 StartUpStatus:0 LogStopInfo:false LogStopTrace:false LogStopMqtt:true LogStopDebug:false LogStopMutex:true LogStopWarn:true LogStopPort:true LogStopMatrix:true} CmdTimeout:{Default:{TimeoutMs:30000 MaxRetry:2 MinIntervalMs:500} Overrides:map[]}}
+[INFO ] 2026/05/26 11:03:39.879513 (BOOT) MQTT WAIT CONNECT(function)
+[INFO ] 2026/05/26 11:03:39.885215 type:0 (MQTT EVENT) Broker Connected.client  IN
+[INFO ] 2026/05/26 11:03:39.980622 (BOOT) MQTT CONNECTED(function)
+[INFO ] 2026/05/26 11:03:39.981141 (BOOT) MQTT WAIT CONNECT(service)
+[INFO ] 2026/05/26 11:03:39.982176 type:0 (MQTT EVENT) Broker Connected.client  IN
+[INFO ] 2026/05/26 11:03:40.081462 (BOOT) MQTT CONNECTED(service)
+[INFO ] 2026/05/26 11:03:40.081970 config statusService=%!d(bool=true)
+[TRACE] 2026/05/26 11:03:40.081970 START:SetStatusService(statusService=true)
+[TRACE] 2026/05/26 11:03:40.082480 END:SetStatusService
+[TRACE] 2026/05/26 11:03:40.082480 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.082480 SetStatusCollectCashIndataType cashType 1 cashCount 0
+[TRACE] 2026/05/26 11:03:40.082992 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.082992 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.082992 SetStatusCollectCashIndataType cashType 5 cashCount 0
+[TRACE] 2026/05/26 11:03:40.082992 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.083511 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.083511 SetStatusCollectCashIndataType cashType 10 cashCount 0
+[TRACE] 2026/05/26 11:03:40.083511 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.083511 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.084026 SetStatusCollectCashIndataType cashType 50 cashCount 0
+[TRACE] 2026/05/26 11:03:40.084026 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.084026 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.084026 SetStatusCollectCashIndataType cashType 100 cashCount 0
+[TRACE] 2026/05/26 11:03:40.084026 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.084549 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.084549 SetStatusCollectCashIndataType cashType 500 cashCount 0
+[TRACE] 2026/05/26 11:03:40.084549 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.084549 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.085065 SetStatusCollectCashIndataType cashType 1S cashCount 0
+[TRACE] 2026/05/26 11:03:40.085065 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.085065 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.085586 SetStatusCollectCashIndataType cashType 5S cashCount 0
+[TRACE] 2026/05/26 11:03:40.085586 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.085586 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.085586 SetStatusCollectCashIndataType cashType 10S cashCount 0
+[TRACE] 2026/05/26 11:03:40.086102 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.086102 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.086621 SetStatusCollectCashIndataType cashType 50S cashCount 0
+[TRACE] 2026/05/26 11:03:40.086621 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.086621 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.086621 SetStatusCollectCashIndataType cashType 100S cashCount 0
+[TRACE] 2026/05/26 11:03:40.087142 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.087142 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.087142 SetStatusCollectCashIndataType cashType 500S cashCount 0
+[TRACE] 2026/05/26 11:03:40.087653 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.087653 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.087653 SetStatusCollectCashIndataType cashType 1000 cashCount 0
+[TRACE] 2026/05/26 11:03:40.087653 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.088196 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.088196 SetStatusCollectCashIndataType cashType 2000 cashCount 0
+[TRACE] 2026/05/26 11:03:40.088196 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.088196 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.088711 SetStatusCollectCashIndataType cashType 5000 cashCount 0
+[TRACE] 2026/05/26 11:03:40.088711 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.088711 START:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.088711 SetStatusCollectCashIndataType cashType 10000 cashCount 0
+[TRACE] 2026/05/26 11:03:40.089225 END:SetStatusCollectCashIndataType
+[TRACE] 2026/05/26 11:03:40.089225 START:InitStatusIndata deviceNo:0a780ac909070001
+[TRACE] 2026/05/26 11:03:40.089225 END:InitStatusIndata
+[TRACE] 2026/05/26 11:03:40.089225 START:statusOutdataManager InitStatusOutdata
+[TRACE] 2026/05/26 11:03:40.089225 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.089740 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.090254 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.090254 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.090254 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.090254 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.090770 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.090770 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.090770 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.091280 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.091280 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.091280 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.091803 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.091803 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.091803 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.092315 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.092315 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.092315 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.092315 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.092823 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.092823 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.092823 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.092823 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.093329 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.093329 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.093329 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.093329 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.093841 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType:2000 CashCount:0} {CashType: CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.093841 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.093841 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType:2000 CashCount:0} {CashType:5000 CashCount:0} {CashType: CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.093841 START:statusOutdataManager SetCashOutdataType
+[TRACE] 2026/05/26 11:03:40.094355 END:statusOutdataManager SetCashOutdataType(statusOutdata=&{DeviceNo:0a780ac909070001 CashId: StatusAction:true StatusResult:false OutdataCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType:2000 CashCount:0} {CashType:5000 CashCount:0} {CashType:10000 CashCount:0}] ErrorCode: ErrorDetail:}) 
+[TRACE] 2026/05/26 11:03:40.094355 END:statusOutdataManager InitStatusOutdata
+[TRACE] 2026/05/26 11:03:40.094355 NewDeviceHandler IN
+[TRACE] 2026/05/26 11:03:40.094355 NewDeviceHandler OUT
+[TRACE] 2026/05/26 11:03:40.094868 START:adxr SetBill c.bill=<nil>, inpara=&{logger:0x2a9956432180 deviceNo:0a780ac909070001 config:0x7ff779ebb120 deviceHandler:0x7ff779ebb6e0 funcCashType:0 startTime:{wall:0 ext:0 loc:<nil>} getServiceResult:false processIDStatusOne: pcIdStatusOne: requestIDStatusOne: wgrps:{noCopy:{} state:{_:{} _:{} v:0} sema:0} mtxStatus:{_:{} mu:{state:0 sema:0}} signalLogger:0x2a9956612000 errorManager:0x7ff779f067c0 statusAmountManager:0x7ff779ebd0c0 statusManager:0x7ff779ebc020 statusIndataManager:0x7ff779ebcba0 statusOutdataManager:0x7ff779ebc420 statusCollect:0x7ff779ebc220 retryFlag:false billManager:0x7ff779ec11c0 CacheBillManager:0x7ff779ec2d40 statusDeviceManager:0x7ff779ebb440 wdMu:{_:{} mu:{state:0 sema:0}} wdTimer:<nil> lastCmdSentAt:{wall:0 ext:0 loc:<nil>} retryCount:0 expectedCmdName: waitingResponse:false}
+[TRACE] 2026/05/26 11:03:40.094868 END:adxr SetBill
+[TRACE] 2026/05/26 11:03:40.094868 INIファイル有高情報更新 cashAmountOneThousandYen 0, cashAmountTwoThousandYen 0, cashAmountFiveThousandYen 0, cashAmountTenThousandYen 0, cashAmountOneThousandYenH 0, cashAmountTwoThousandYenH 0, cashAmountFiveThousandYenH 0, cashAmountTenThousandYenH 0
+[TRACE] 2026/05/26 11:03:40.095380 START: billHandler Start
+[TRACE] 2026/05/26 11:03:40.095893 START:adxr Start
+[INFO ] 2026/05/26 11:03:40.097463 SUCCESS : adxr initialComPort:COM5
+[TRACE] 2026/05/26 11:03:40.097463 END:adxr Start
+[TRACE] 2026/05/26 11:03:40.097463 Check:adxr IsStatusLine status=true serialPort=true
+[TRACE] 2026/05/26 11:03:40.097976 START:RequestReset deviceStatus =0【アラームなし】0【未登録ステータス】
+[TRACE] 2026/05/26 11:03:40.097976 Check:adxr IsStatusLine status=true serialPort=true
+[INFO ] 2026/05/26 11:03:40.097976 WD start cmd=Reset timeoutMs=30000 retry=0
+[TRACE] 2026/05/26 11:03:40.098499 START:adxr RequestSendText sendText=[16 2 48 1 1 1 1 1 16 3 34]
+[TRACE] 2026/05/26 11:03:40.098499 END:adxr RequestSendText
+[TRACE] 2026/05/26 11:03:40.098499 END:RequestReset sendText =[16 2 48 1 1 1 1 1 16 3 34]
+[TRACE] 2026/05/26 11:03:40.099008 END:RequestReset ret=false
+[TRACE] 2026/05/26 11:03:40.099008 END: billHandler Start result=true,ret=true
+[DEBUG] 2026/05/26 11:03:40.100030 appVersion ファイルパス:D:\almex\service\almex_cash_adxr.exe ファイルバージョン:102.0.11.89 最終更新日時:2026-04-30T16:19:18+09:00
+[INFO ] 2026/05/26 11:03:40.100541 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110340100,"forceEncrypt":false,"logLevel":"INFO","requestId":"ALCA0001","logSummary":"サービス開始(現金入出金機)","logData":"ファイルパス:D:\\almex\\service\\almex_cash_adxr.exe ファイルバージョン:102.0.11.89 最終更新日時:2026-04-30T16:19:18+09:00"}
+[INFO ] 2026/05/26 11:03:40.101159 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_device
+[INFO ] 2026/05/26 11:03:40.101159 type:0 topicTbl len:1 
+[TRACE] 2026/05/26 11:03:40.101159 START: reset Start()
+[INFO ] 2026/05/26 11:03:40.101667 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_reset
+[INFO ] 2026/05/26 11:03:40.101667 type:0 topicTbl len:1 
+[TRACE] 2026/05/26 11:03:40.102268 END: reset Start()
+[INFO ] 2026/05/26 11:03:40.102268 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_change_mode
+[INFO ] 2026/05/26 11:03:40.102783 type:0 topicTbl len:2 
+[INFO ] 2026/05/26 11:03:40.102783 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_enable_cash
+[INFO ] 2026/05/26 11:03:40.103296 type:0 topicTbl len:3 
+[INFO ] 2026/05/26 11:03:40.103296 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_disable_cash
+[INFO ] 2026/05/26 11:03:40.103813 type:0 topicTbl len:4 
+[INFO ] 2026/05/26 11:03:40.103813 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_cashout_amount
+[INFO ] 2026/05/26 11:03:40.104325 type:0 topicTbl len:5 
+[INFO ] 2026/05/26 11:03:40.104325 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_cashout_number
+[INFO ] 2026/05/26 11:03:40.104834 type:0 topicTbl len:6 
+[INFO ] 2026/05/26 11:03:40.104834 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_collect_cash
+[INFO ] 2026/05/26 11:03:40.105348 type:0 topicTbl len:7 
+[INFO ] 2026/05/26 11:03:40.105348 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_stop_cash
+[INFO ] 2026/05/26 11:03:40.105348 type:0 topicTbl len:8 
+[INFO ] 2026/05/26 11:03:40.105862 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_decision_cash
+[INFO ] 2026/05/26 11:03:40.105862 type:0 topicTbl len:9 
+[INFO ] 2026/05/26 11:03:40.106376 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_cancel_cash
+[INFO ] 2026/05/26 11:03:40.106376 type:0 topicTbl len:10 
+[INFO ] 2026/05/26 11:03:40.106890 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_scrutiny
+[INFO ] 2026/05/26 11:03:40.106890 type:0 topicTbl len:11 
+[INFO ] 2026/05/26 11:03:40.107401 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_stop_scrutiny
+[INFO ] 2026/05/26 11:03:40.107401 type:0 topicTbl len:12 
+[INFO ] 2026/05/26 11:03:40.107401 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_count_clear
+[INFO ] 2026/05/26 11:03:40.107913 type:0 topicTbl len:13 
+[INFO ] 2026/05/26 11:03:40.107913 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_test
+[INFO ] 2026/05/26 11:03:40.108421 type:0 topicTbl len:14 
+[INFO ] 2026/05/26 11:03:40.108421 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_status
+[INFO ] 2026/05/26 11:03:40.108942 type:0 topicTbl len:15 
+[INFO ] 2026/05/26 11:03:40.108942 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_device_info
+[INFO ] 2026/05/26 11:03:40.108942 type:0 topicTbl len:16 
+[INFO ] 2026/05/26 11:03:40.109455 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_set_amount
+[INFO ] 2026/05/26 11:03:40.109455 type:0 topicTbl len:17 
+[INFO ] 2026/05/26 11:03:40.109979 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_amount
+[INFO ] 2026/05/26 11:03:40.109979 type:0 topicTbl len:18 
+[INFO ] 2026/05/26 11:03:40.110490 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_warning_reset
+[INFO ] 2026/05/26 11:03:40.110490 type:0 topicTbl len:19 
+[INFO ] 2026/05/26 11:03:40.111002 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_change_system_operation
+[INFO ] 2026/05/26 11:03:40.111002 type:0 topicTbl len:20 
+[INFO ] 2026/05/26 11:03:40.111517 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_error_status_pause
+[INFO ] 2026/05/26 11:03:40.111517 type:0 topicTbl len:21 
+[INFO ] 2026/05/26 11:03:40.112027 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_error_status_reset
+[INFO ] 2026/05/26 11:03:40.112027 type:0 topicTbl len:22 
+[INFO ] 2026/05/26 11:03:40.112027 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_get_service
+[INFO ] 2026/05/26 11:03:40.112553 type:0 topicTbl len:2 
+[INFO ] 2026/05/26 11:03:40.112553 type:0 registSubscribe client.Subscribe OK,/almex/device/cash/request_control_service
+[INFO ] 2026/05/26 11:03:40.113062 type:0 topicTbl len:3 
+[TRACE] 2026/05/26 11:03:41.115167 START:adxr RecvText(recvText =[82 0 2 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 3 51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] total=21 retryEnd=true)
+[TRACE] 2026/05/26 11:03:41.115678 START:billHandler RecvTextToBill
+[INFO ] 2026/05/26 11:03:41.116189 WD stop(any) elapsedMs=1017
+[TRACE] 2026/05/26 11:03:41.116189 START:billHandler statusThreeCommand
+[INFO ] 2026/05/26 11:03:41.116701 START: billHandler analyzeResponseParameter 応答コマンド=52H 応答パラメータ=0
+[ERROR] 2026/05/26 11:03:41.116701 billHandler analyzeResponseParameter 正常
+[INFO ] 2026/05/26 11:03:41.117212 END: billHandler analyzeResponseParameter
+[TRACE] 2026/05/26 11:03:41.117212 START:billHandler analyzeDeviceStatus1
+[TRACE] 2026/05/26 11:03:41.117212 END:billHandler analyzeDeviceStatus1 deviceStatus1=%!h(uint8=2) StatusAction=1 deviceStatus=Reset
+[TRACE] 2026/05/26 11:03:41.118212 START:billHandler analyzeDeviceStatus2
+[TRACE] 2026/05/26 11:03:41.118212 END:billHandler analyzeDeviceStatus2 StatusAction=1 deviceStatus=Nothing
+[TRACE] 2026/05/26 11:03:41.118715 Start billHandler analyzeBillStorageStatus1
+[TRACE] 2026/05/26 11:03:41.119225 End billHandler analyzeBillStorageStatus1, 紙幣収納庫状態 1000=4,2000=4,5000=4,10000=4
+[TRACE] 2026/05/26 11:03:41.119225 billHandler insertRejectBillCounter リジェクト紙幣データ取得 totalRcvData=[82 0 2 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 3 51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[TRACE] 2026/05/26 11:03:41.119742 billHandler insertRejectBillCounter リジェクト理由判定開始
+[TRACE] 2026/05/26 11:03:41.119742 billHandler insertRejectBillCounter リジェクト理由判定終了
+[TRACE] 2026/05/26 11:03:41.120268 Start billHandler analyzeBillStorageStatus2 0
+[TRACE] 2026/05/26 11:03:41.120832 End billHandler analyzeBillStorageStatus2
+[TRACE] 2026/05/26 11:03:41.121341 START:billHandler selectNoticeStatusError
+[ERROR] 2026/05/26 11:03:41.121341 ERROR: 
+[ERROR] 2026/05/26 11:03:41.121902 billHandler selectNoticeStatusError 
+[TRACE] 2026/05/26 11:03:41.121902 END:billHandler selectNoticeStatusError  r.billManager.Status{StatusError=true ,ErrorCode=, ErrorDetail=}
+[TRACE] 2026/05/26 11:03:41.121902 billHandler statusThreeCommand  リセット動作中
+[INFO ] 2026/05/26 11:03:41.122901 [Send](MQTT)/almex/device/cash/notice_status,{"deviceNo":"0a780ac909070001","statusReady":false,"statusMode":1,"statusLine":true,"statusError":true,"errorCode":"","errorDetail":"","statusCover":true,"statusUnitSet":false,"statusInCassette":false,"statusOutCassette":true,"statusAction":1,"statusInsert":false,"statusExit":false,"statusRjbox":false,"billResidueInfoTbl":[{"title":"","status":false},{"title":"","status":false}],"coinResidueInfoTbl":[{"title":"","status":false}],"deviceStatusInfoTbl":[""],"warningInfoTbl":null,"statusBillStacker10000":4,"statusBillStacker5000":4,"statusBillStacker2000":4,"statusBillStacker1000":4,"statusBillReject":0,"statusCoinHopper500":0,"statusCoinHopper100":0,"statusCoinHopper50":0,"statusCoinHopper10":0,"statusCoinHopper5":0,"statusCoinHopper1":0,"statusCoinHopper500S":0,"statusCoinHopper100S":0,"statusCoinHopper50S":0,"statusCoinHopper10S":0,"statusCoinHopper5S":0,"statusCoinHopper1S":0,"cashId":""}
+[INFO ] 2026/05/26 11:03:41.123404 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110341122,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0308","logSummary":"現金入出金機ステータス通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 StatusReady:false StatusMode:1 StatusLine:true StatusError:true ErrorCode: ErrorDetail: StatusCover:true StatusUnitSet:false StatusInCassette:false StatusOutCassette:true StatusAction:1 StatusInsert:false StatusExit:false StatusRjbox:false BillResidueInfoTbl:[{Title: Status:false} {Title: Status:false}] CoinResidueInfoTbl:[{Title: Status:false}] DeviceStatusInfoTbl:[] WarningInfoTbl:[] StatusBillStacker10000:4 StatusBillStacker5000:4 StatusBillStacker2000:4 StatusBillStacker1000:4 StatusBillReject:0 StatusCoinHopper500:0 StatusCoinHopper100:0 StatusCoinHopper50:0 StatusCoinHopper10:0 StatusCoinHopper5:0 StatusCoinHopper1:0 StatusCoinHopper500S:0 StatusCoinHopper100S:0 StatusCoinHopper50S:0 StatusCoinHopper10S:0 StatusCoinHopper5S:0 StatusCoinHopper1S:0 CashId:}"}
+[TRACE] 2026/05/26 11:03:41.123404 END:billHandler statusThreeCommand ステータス3コマンド応答終了
+[TRACE] 2026/05/26 11:03:41.123961 END:adxr RecvText result=true total=21
+[DEBUG] 2026/05/26 11:03:41.147587 <-msg
+[DEBUG] 2026/05/26 11:03:41.148104 <-msg
+[INFO ] 2026/05/26 11:03:41.149103 [Recv](MQTT)/almex/device/cash/request_device,{"ipAddrTbl":[],"requestInfo":{"processId":"000029EC","requestId":"coinUnit01_0001"},"useCode":1}
+[INFO ] 2026/05/26 11:03:41.150636 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110341149,"forceEncrypt":false,"logLevel":"ERROR","requestId":"ALCA0031","logSummary":"現金入出金機デバイス取得要求失敗","logData":"現金入出金機1号機"}
+[INFO ] 2026/05/26 11:03:41.151161 [Recv](MQTT)/almex/device/cash/request_device,{"ipAddrTbl":[],"requestInfo":{"processId":"000029EC","requestId":"billUnit01_0001"},"useCode":2}
+[INFO ] 2026/05/26 11:03:41.151161 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110341151,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0030","logSummary":"現金入出金機デバイス取得要求成功","logData":"現金入出金機1号機"}
+[INFO ] 2026/05/26 11:03:41.152161 [Send](MQTT)/almex/device/cash/result_device,{"requestInfo":{"processId":"000029EC","pcId":"","requestId":"billUnit01_0001"},"result":true,"deviceTbl":[{"deviceNo":"0a780ac909070001","deviceName":"現金入出金機1号機"}]}
+[DEBUG] 2026/05/26 11:03:41.305273 <-msg
+[DEBUG] 2026/05/26 11:03:41.307290 <-msg
+[INFO ] 2026/05/26 11:03:41.309790 [Recv](MQTT)/almex/device/cash/request_reset,{"deviceNo":"0a780ac909070001","requestInfo":{"processId":"000029EC","requestId":"billUnit01_0002"}}
+[TRACE] 2026/05/26 11:03:41.311319 START: resetInfo recvRequestMessage
+[TRACE] 2026/05/26 11:03:41.312904 START: resultReset
+[INFO ] 2026/05/26 11:03:41.314919 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110341312,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0100","logSummary":"現金入出金機リセット要求成功","logData":"現金入出金機1号機"}
+[INFO ] 2026/05/26 11:03:41.317574 [Send](MQTT)/almex/device/cash/result_reset,{"requestInfo":{"processId":"000029EC","pcId":"","requestId":"billUnit01_0002"},"result":true,"deviceNo":"0a780ac909070001"}
+[TRACE] 2026/05/26 11:03:41.318612 END:resultReset
+[INFO ] 2026/05/26 11:03:41.319129 [Send](MQTT)/almex/device/cash/notice_status,{"deviceNo":"0a780ac909070001","statusReady":false,"statusMode":1,"statusLine":true,"statusError":true,"errorCode":"","errorDetail":"","statusCover":true,"statusUnitSet":false,"statusInCassette":false,"statusOutCassette":true,"statusAction":1,"statusInsert":false,"statusExit":false,"statusRjbox":false,"billResidueInfoTbl":[{"title":"","status":false},{"title":"","status":false}],"coinResidueInfoTbl":[{"title":"","status":false}],"deviceStatusInfoTbl":[""],"warningInfoTbl":null,"statusBillStacker10000":4,"statusBillStacker5000":4,"statusBillStacker2000":4,"statusBillStacker1000":4,"statusBillReject":0,"statusCoinHopper500":0,"statusCoinHopper100":0,"statusCoinHopper50":0,"statusCoinHopper10":0,"statusCoinHopper5":0,"statusCoinHopper1":0,"statusCoinHopper500S":0,"statusCoinHopper100S":0,"statusCoinHopper50S":0,"statusCoinHopper10S":0,"statusCoinHopper5S":0,"statusCoinHopper1S":0,"cashId":""}
+[INFO ] 2026/05/26 11:03:41.320129 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110341319,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0308","logSummary":"現金入出金機ステータス通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 StatusReady:false StatusMode:1 StatusLine:true StatusError:true ErrorCode: ErrorDetail: StatusCover:true StatusUnitSet:false StatusInCassette:false StatusOutCassette:true StatusAction:1 StatusInsert:false StatusExit:false StatusRjbox:false BillResidueInfoTbl:[{Title: Status:false} {Title: Status:false}] CoinResidueInfoTbl:[{Title: Status:false}] DeviceStatusInfoTbl:[] WarningInfoTbl:[] StatusBillStacker10000:4 StatusBillStacker5000:4 StatusBillStacker2000:4 StatusBillStacker1000:4 StatusBillReject:0 StatusCoinHopper500:0 StatusCoinHopper100:0 StatusCoinHopper50:0 StatusCoinHopper10:0 StatusCoinHopper5:0 StatusCoinHopper1:0 StatusCoinHopper500S:0 StatusCoinHopper100S:0 StatusCoinHopper50S:0 StatusCoinHopper10S:0 StatusCoinHopper5S:0 StatusCoinHopper1S:0 CashId:}"}
+[TRACE] 2026/05/26 11:03:41.321147 START:RequestReset deviceStatus =512【アラームなし】512【リセット動作中】
+[TRACE] 2026/05/26 11:03:41.322178 Check:adxr IsStatusLine status=true serialPort=true
+[INFO ] 2026/05/26 11:03:41.323217 WD start cmd=Reset timeoutMs=30000 retry=0
+[TRACE] 2026/05/26 11:03:41.323734 START:adxr RequestSendText sendText=[16 2 48 1 1 1 1 1 16 3 34]
+[TRACE] 2026/05/26 11:03:41.323734 END:adxr RequestSendText
+[TRACE] 2026/05/26 11:03:41.325238 END:RequestReset sendText =[16 2 48 1 1 1 1 1 16 3 34]
+[TRACE] 2026/05/26 11:03:41.325757 END:RequestReset ret=false
+[TRACE] 2026/05/26 11:03:41.326272 END: resetInfo recvRequestMessage
+[INFO ] 2026/05/26 11:03:41.327804 [Recv](MQTT)/almex/device/cash/request_device_info,{"deviceNo":"0a780ac909070001","requestInfo":{"processId":"000029EC","requestId":"billUnit01_0003"}}
+[INFO ] 2026/05/26 11:03:41.329955 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110341328,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0130","logSummary":"現金入出金機デバイス情報要求成功","logData":"現金入出金機1号機"}
+[DEBUG] 2026/05/26 11:03:41.331103 <-msg
+[INFO ] 2026/05/26 11:03:41.331638 [Send](MQTT)/almex/device/cash/result_device_info,{"requestInfo":{"processId":"","pcId":"","requestId":""},"result":true,"deviceNo":"0a780ac909070001","deviceName":"現金入出金機1号機","fwVersionTbl":[{"title":"","version":""}],"countTotal":0,"countAllTotal":0,"operatingTimeTotal":2562047,"inCountTotal":"0","outCountTotal":"0","useMoneyType":2,"warningInfoTbl":null}
+[INFO ] 2026/05/26 11:03:41.332637 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110341331,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0130","logSummary":"現金入出金機デバイス情報要求成功","logData":"\"現金入出金機1号機\"domain.ResultDeviceInfo{RequestInfo:domain.RequestInfo{ProcessID:\"\", PcId:\"\", RequestID:\"\"}, Result:true, ErrorCode:\"\", ErrorDetail:\"\", DeviceNo:\"0a780ac909070001\", DeviceName:\"現金入出金機1号機\", SerialNo:\"\", FwVersionTbl:[1]domain.VersionInfo{domain.VersionInfo{Title:\"\", Version:\"\"}}, CountTotal:0, CountAllTotal:0, OperatingTimeTotal:2562047, InCountTotal:\"0\", OutCountTotal:\"0\", UseMoneyType:2, WarningInfoTbl:[]int(nil)}"}
+[INFO ] 2026/05/26 11:03:41.333140 [Recv](MQTT)/almex/device/cash/request_reset,{"deviceNo":"0a780ac909060001","requestInfo":{"processId":"000029EC","requestId":"coinUnit01_0002"}}
+[TRACE] 2026/05/26 11:03:41.333140 START: resetInfo recvRequestMessage
+[DEBUG] 2026/05/26 11:03:41.333681 <-msg
+[TRACE] 2026/05/26 11:03:41.333681 END: resetInfo recvRequestMessage
+[INFO ] 2026/05/26 11:03:41.334195 [Recv](MQTT)/almex/device/cash/request_device_info,{"deviceNo":"0a780ac909060001","requestInfo":{"processId":"000029EC","requestId":"coinUnit01_0003"}}
+[TRACE] 2026/05/26 11:03:42.141251 START:adxr RecvText(recvText =[48 4 2 0 112 0 0 16 3 85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] total=9 retryEnd=true)
+[TRACE] 2026/05/26 11:03:42.142345 START:billHandler RecvTextToBill
+[INFO ] 2026/05/26 11:03:42.142876 WD stop(any) elapsedMs=820
+[TRACE] 2026/05/26 11:03:42.143921 START:billHandler resetCommand
+[INFO ] 2026/05/26 11:03:42.144454 START: billHandler analyzeResponseParameter 応答コマンド=30H 応答パラメータ=4
+[ERROR] 2026/05/26 11:03:42.144454 billHandler analyzeResponseParameter コマンド実行不可
+[INFO ] 2026/05/26 11:03:42.144991 END: billHandler analyzeResponseParameter
+[TRACE] 2026/05/26 11:03:42.144991 START:billHandler selectNoticeStatusError
+[ERROR] 2026/05/26 11:03:42.145500 ERROR: コマンド実行不可
+[ERROR] 2026/05/26 11:03:42.145500 billHandler selectNoticeStatusError コマンド実行不可
+[TRACE] 2026/05/26 11:03:42.145500 END:billHandler selectNoticeStatusError  r.billManager.Status{StatusError=false ,ErrorCode=ALCAER407, ErrorDetail=コマンド実行不可}
+[INFO ] 2026/05/26 11:03:42.146012 [Send](MQTT)/almex/device/cash/notice_status,{"deviceNo":"0a780ac909070001","statusReady":true,"statusMode":1,"statusLine":true,"statusError":false,"errorCode":"ALCAER407","errorDetail":"コマンド実行不可","statusCover":true,"statusUnitSet":false,"statusInCassette":false,"statusOutCassette":true,"statusAction":0,"statusInsert":false,"statusExit":false,"statusRjbox":false,"billResidueInfoTbl":[{"title":"","status":false},{"title":"","status":false}],"coinResidueInfoTbl":[{"title":"","status":false}],"deviceStatusInfoTbl":[""],"warningInfoTbl":null,"statusBillStacker10000":4,"statusBillStacker5000":4,"statusBillStacker2000":4,"statusBillStacker1000":4,"statusBillReject":0,"statusCoinHopper500":0,"statusCoinHopper100":0,"statusCoinHopper50":0,"statusCoinHopper10":0,"statusCoinHopper5":0,"statusCoinHopper1":0,"statusCoinHopper500S":0,"statusCoinHopper100S":0,"statusCoinHopper50S":0,"statusCoinHopper10S":0,"statusCoinHopper5S":0,"statusCoinHopper1S":0,"cashId":""}
+[INFO ] 2026/05/26 11:03:42.146012 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110342146,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0308","logSummary":"現金入出金機ステータス通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 StatusReady:true StatusMode:1 StatusLine:true StatusError:false ErrorCode:ALCAER407 ErrorDetail:コマンド実行不可 StatusCover:true StatusUnitSet:false StatusInCassette:false StatusOutCassette:true StatusAction:0 StatusInsert:false StatusExit:false StatusRjbox:false BillResidueInfoTbl:[{Title: Status:false} {Title: Status:false}] CoinResidueInfoTbl:[{Title: Status:false}] DeviceStatusInfoTbl:[] WarningInfoTbl:[] StatusBillStacker10000:4 StatusBillStacker5000:4 StatusBillStacker2000:4 StatusBillStacker1000:4 StatusBillReject:0 StatusCoinHopper500:0 StatusCoinHopper100:0 StatusCoinHopper50:0 StatusCoinHopper10:0 StatusCoinHopper5:0 StatusCoinHopper1:0 StatusCoinHopper500S:0 StatusCoinHopper100S:0 StatusCoinHopper50S:0 StatusCoinHopper10S:0 StatusCoinHopper5S:0 StatusCoinHopper1S:0 CashId:}"}
+[TRACE] 2026/05/26 11:03:42.146012 END:billHandler resetCommand リセットコマンド応答終了
+[TRACE] 2026/05/26 11:03:42.146012 END:adxr RecvText result=true total=9
+[DEBUG] 2026/05/26 11:03:44.026179 <-msg
+[DEBUG] 2026/05/26 11:03:44.026922 <-msg
+[INFO ] 2026/05/26 11:03:44.027456 [Recv](MQTT)/almex/device/cash/request_set_amount,{"cashTbl":[{"cashCount":0,"cashType":"10000"},{"cashCount":0,"cashType":"5000"},{"cashCount":0,"cashType":"2000H"},{"cashCount":0,"cashType":"1000"}],"deviceNo":"0a780ac909070001","operationMode":0,"requestInfo":{"processId":"000029EC","requestId":"billUnit01_0009"}}
+[INFO ] 2026/05/26 11:03:44.028040 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110344027,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0132","logSummary":"現金入出金機現在枚数変更要求成功","logData":"現金入出金機1号機"}
+[INFO ] 2026/05/26 11:03:44.028551 [Send](MQTT)/almex/device/cash/result_set_amount,{"requestInfo":{"processId":"000029EC","pcId":"","requestId":"billUnit01_0009"},"result":true,"deviceNo":"0a780ac909070001"}
+[TRACE] 2026/05/26 11:03:44.028551 INIファイル有高情報更新 cashAmountOneThousandYen 0, cashAmountTwoThousandYen 0, cashAmountFiveThousandYen 0, cashAmountTenThousandYen 0, cashAmountOneThousandYenH 0, cashAmountTwoThousandYenH 0, cashAmountFiveThousandYenH 0, cashAmountTenThousandYenH 0
+[INFO ] 2026/05/26 11:03:44.029065 [Send](MQTT)/almex/device/cash/notice_amount,{"deviceNo":"0a780ac909070001","cashId":"","statusAction":false,"statusResult":true,"exFlag":true,"cashTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1S","cashCount":0},{"cashType":"5S","cashCount":0},{"cashType":"10S","cashCount":0},{"cashType":"50S","cashCount":0},{"cashType":"100S","cashCount":0},{"cashType":"500S","cashCount":0},{"cashType":"1000","cashCount":0},{"cashType":"2000","cashCount":0},{"cashType":"5000","cashCount":0},{"cashType":"10000","cashCount":0}],"exCashTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1S","cashCount":0},{"cashType":"5S","cashCount":0},{"cashType":"10S","cashCount":0},{"cashType":"50S","cashCount":0},{"cashType":"100S","cashCount":0},{"cashType":"500S","cashCount":0},{"cashType":"1000","cashCount":0},{"cashType":"2000","cashCount":0},{"cashType":"5000","cashCount":0},{"cashType":"10000","cashCount":0},{"cashType":"1H","cashCount":0},{"cashType":"5H","cashCount":0},{"cashType":"10H","cashCount":0},{"cashType":"50H","cashCount":0},{"cashType":"100H","cashCount":0},{"cashType":"500H","cashCount":0},{"cashType":"1000H","cashCount":0},{"cashType":"2000H","cashCount":0},{"cashType":"5000H","cashCount":0},{"cashType":"10000H","cashCount":0}],"depositTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1000","cashCount":600},{"cashType":"2000","cashCount":200},{"cashType":"5000","cashCount":200},{"cashType":"10000","cashCount":200}]}
+[INFO ] 2026/05/26 11:03:44.029065 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110344029,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0306","logSummary":"現金入出金機有高データ通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 CashId: StatusAction:false StatusResult:true ExFlag:true CashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType:2000 CashCount:0} {CashType:5000 CashCount:0} {CashType:10000 CashCount:0}] ExCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType:2000 CashCount:0} {CashType:5000 CashCount:0} {CashType:10000 CashCount:0} {CashType:1H CashCount:0} {CashType:5H CashCount:0} {CashType:10H CashCount:0} {CashType:50H CashCount:0} {CashType:100H CashCount:0} {CashType:500H CashCount:0} {CashType:1000H CashCount:0} {CashType:2000H CashCount:0} {CashType:5000H CashCount:0} {CashType:10000H CashCount:0}] DepositTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1000 CashCount:600} {CashType:2000 CashCount:200} {CashType:5000 CashCount:200} {CashType:10000 CashCount:200}] ErrorCode: ErrorDetail:}"}
+[INFO ] 2026/05/26 11:03:44.030064 [Recv](MQTT)/almex/device/cash/request_status,{"deviceNo":"0a780ac909070001","requestInfo":{"processId":"000029EC","requestId":"billUnit01_0004"}}
+[DEBUG] 2026/05/26 11:03:44.030064 <-msg
+[INFO ] 2026/05/26 11:03:44.030566 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110344030,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0128","logSummary":"現金入出金機ステータス要求成功","logData":"現金入出金機1号機"}
+[INFO ] 2026/05/26 11:03:44.031106 [Send](MQTT)/almex/device/cash/result_status,{"requestInfo":{"processId":"000029EC","pcId":"","requestId":"billUnit01_0004"},"result":true,"deviceNo":"0a780ac909070001","statusReady":true,"statusMode":1,"statusLine":true,"statusError":false,"errorCode":"ALCAER407","errorDetail":"コマンド実行不可","statusCover":true,"statusUnitSet":false,"statusInCassette":false,"statusOutCassette":true,"statusAction":0,"statusInsert":false,"statusExit":false,"statusRjbox":false,"billResidueInfoTbl":[{"title":"","status":false},{"title":"","status":false}],"coinResidueInfoTbl":[{"title":"","status":false}],"deviceStatusInfoTbl":[""],"warningInfoTbl":null,"statusBillStacker10000":4,"statusBillStacker5000":4,"statusBillStacker2000":4,"statusBillStacker1000":4,"statusBillReject":0,"statusCoinHopper500":0,"statusCoinHopper100":0,"statusCoinHopper50":0,"statusCoinHopper10":0,"statusCoinHopper5":0,"statusCoinHopper1":0,"statusCoinHopper500S":0,"statusCoinHopper100S":0,"statusCoinHopper50S":0,"statusCoinHopper10S":0,"statusCoinHopper5S":0,"statusCoinHopper1S":0,"cashId":""}
+[INFO ] 2026/05/26 11:03:44.031106 [Recv](MQTT)/almex/device/cash/request_amount,{"deviceNo":"0a780ac909070001","requestInfo":{"processId":"000029EC","requestId":"billUnit01_0005"}}
+[TRACE] 2026/05/26 11:03:44.031620 START: amount recvRequestMessage
+[DEBUG] 2026/05/26 11:03:44.031620 <-msg
+[TRACE] 2026/05/26 11:03:44.032150 START: amount resultStatus
+[INFO ] 2026/05/26 11:03:44.032150 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110344032,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0134","logSummary":"現金入出金機有高枚数要求成功","logData":"現金入出金機1号機"}
+[INFO ] 2026/05/26 11:03:44.032150 [Send](MQTT)/almex/device/cash/result_amount,{"requestInfo":{"processId":"000029EC","pcId":"","requestId":"billUnit01_0005"},"result":true,"deviceNo":"0a780ac909070001","cashId":"","statusAction":false,"statusResult":true,"exFlag":true,"cashTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1S","cashCount":0},{"cashType":"5S","cashCount":0},{"cashType":"10S","cashCount":0},{"cashType":"50S","cashCount":0},{"cashType":"100S","cashCount":0},{"cashType":"500S","cashCount":0},{"cashType":"1000","cashCount":0},{"cashType":"2000","cashCount":0},{"cashType":"5000","cashCount":0},{"cashType":"10000","cashCount":0}],"exCashTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1S","cashCount":0},{"cashType":"5S","cashCount":0},{"cashType":"10S","cashCount":0},{"cashType":"50S","cashCount":0},{"cashType":"100S","cashCount":0},{"cashType":"500S","cashCount":0},{"cashType":"1000","cashCount":0},{"cashType":"2000","cashCount":0},{"cashType":"5000","cashCount":0},{"cashType":"10000","cashCount":0},{"cashType":"1H","cashCount":0},{"cashType":"5H","cashCount":0},{"cashType":"10H","cashCount":0},{"cashType":"50H","cashCount":0},{"cashType":"100H","cashCount":0},{"cashType":"500H","cashCount":0},{"cashType":"1000H","cashCount":0},{"cashType":"2000H","cashCount":0},{"cashType":"5000H","cashCount":0},{"cashType":"10000H","cashCount":0}],"depositTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1000","cashCount":600},{"cashType":"2000","cashCount":200},{"cashType":"5000","cashCount":200},{"cashType":"10000","cashCount":200}],"errorCode":"ALCAER407","errorDetail":"コマンド実行不可"}
+[TRACE] 2026/05/26 11:03:44.032150 END:amount resultStatus
+[TRACE] 2026/05/26 11:03:44.033149 END: amount recvRequestMessage
+[INFO ] 2026/05/26 11:03:44.033149 [Recv](MQTT)/almex/device/cash/request_set_amount,{"cashTbl":[{"cashCount":0,"cashType":"500"},{"cashCount":0,"cashType":"100"},{"cashCount":0,"cashType":"50"},{"cashCount":0,"cashType":"10"},{"cashCount":0,"cashType":"5"},{"cashCount":0,"cashType":"1"}],"deviceNo":"0a780ac909060001","operationMode":0,"requestInfo":{"processId":"000029EC","requestId":"coinUnit01_0010"}}
+[DEBUG] 2026/05/26 11:03:44.033652 <-msg
+[DEBUG] 2026/05/26 11:03:44.033652 <-msg
+[INFO ] 2026/05/26 11:03:44.033652 [Recv](MQTT)/almex/device/cash/request_status,{"deviceNo":"0a780ac909060001","requestInfo":{"processId":"000029EC","requestId":"coinUnit01_0004"}}
+[INFO ] 2026/05/26 11:03:44.033652 [Recv](MQTT)/almex/device/cash/request_amount,{"deviceNo":"0a780ac909060001","requestInfo":{"processId":"000029EC","requestId":"coinUnit01_0005"}}
+[TRACE] 2026/05/26 11:03:44.034651 START: amount recvRequestMessage
+[TRACE] 2026/05/26 11:03:44.035153 END: amount recvRequestMessage
+[TRACE] 2026/05/26 11:03:48.639898 START:adxr RecvText(recvText =[48 0 4 0 112 0 0 16 3 87 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] total=9 retryEnd=true)
+[TRACE] 2026/05/26 11:03:48.640897 START:billHandler RecvTextToBill
+[TRACE] 2026/05/26 11:03:48.641403 START:billHandler resetCommand
+[INFO ] 2026/05/26 11:03:48.641923 [Send](MQTT)/almex/device/cash/notice_status,{"deviceNo":"0a780ac909070001","statusReady":false,"statusMode":1,"statusLine":true,"statusError":false,"errorCode":"ALCAER407","errorDetail":"コマンド実行不可","statusCover":true,"statusUnitSet":false,"statusInCassette":false,"statusOutCassette":true,"statusAction":1,"statusInsert":false,"statusExit":false,"statusRjbox":false,"billResidueInfoTbl":[{"title":"","status":false},{"title":"","status":false}],"coinResidueInfoTbl":[{"title":"","status":false}],"deviceStatusInfoTbl":[""],"warningInfoTbl":null,"statusBillStacker10000":4,"statusBillStacker5000":4,"statusBillStacker2000":4,"statusBillStacker1000":4,"statusBillReject":0,"statusCoinHopper500":0,"statusCoinHopper100":0,"statusCoinHopper50":0,"statusCoinHopper10":0,"statusCoinHopper5":0,"statusCoinHopper1":0,"statusCoinHopper500S":0,"statusCoinHopper100S":0,"statusCoinHopper50S":0,"statusCoinHopper10S":0,"statusCoinHopper5S":0,"statusCoinHopper1S":0,"cashId":""}
+[INFO ] 2026/05/26 11:03:48.642443 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110348641,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0308","logSummary":"現金入出金機ステータス通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 StatusReady:false StatusMode:1 StatusLine:true StatusError:false ErrorCode:ALCAER407 ErrorDetail:コマンド実行不可 StatusCover:true StatusUnitSet:false StatusInCassette:false StatusOutCassette:true StatusAction:1 StatusInsert:false StatusExit:false StatusRjbox:false BillResidueInfoTbl:[{Title: Status:false} {Title: Status:false}] CoinResidueInfoTbl:[{Title: Status:false}] DeviceStatusInfoTbl:[] WarningInfoTbl:[] StatusBillStacker10000:4 StatusBillStacker5000:4 StatusBillStacker2000:4 StatusBillStacker1000:4 StatusBillReject:0 StatusCoinHopper500:0 StatusCoinHopper100:0 StatusCoinHopper50:0 StatusCoinHopper10:0 StatusCoinHopper5:0 StatusCoinHopper1:0 StatusCoinHopper500S:0 StatusCoinHopper100S:0 StatusCoinHopper50S:0 StatusCoinHopper10S:0 StatusCoinHopper5S:0 StatusCoinHopper1S:0 CashId:}"}
+[INFO ] 2026/05/26 11:03:48.642977 START: billHandler analyzeResponseParameter 応答コマンド=30H 応答パラメータ=0
+[ERROR] 2026/05/26 11:03:48.642977 billHandler analyzeResponseParameter 正常
+[INFO ] 2026/05/26 11:03:48.642977 END: billHandler analyzeResponseParameter
+[DEBUG] 2026/05/26 11:03:48.643976 SUCCESS:billHandler RecvResetCommand
+[TRACE] 2026/05/26 11:03:48.643976 START:billHandler analyzeDeviceStatus1
+[TRACE] 2026/05/26 11:03:48.644478 END:billHandler analyzeDeviceStatus1 deviceStatus1=%!h(uint8=4) StatusAction=1 deviceStatus=Waiting
+[TRACE] 2026/05/26 11:03:48.644478 Start billHandler analyzeBillStorageStatus1
+[TRACE] 2026/05/26 11:03:48.644478 End billHandler analyzeBillStorageStatus1, 紙幣収納庫状態 1000=4,2000=4,5000=4,10000=4
+[TRACE] 2026/05/26 11:03:48.644995 Start billHandler analyzeBillStorageStatus2 0
+[TRACE] 2026/05/26 11:03:48.644995 End billHandler analyzeBillStorageStatus2
+[TRACE] 2026/05/26 11:03:48.644995 START:billHandler selectNoticeStatusError
+[ERROR] 2026/05/26 11:03:48.645505 ERROR: 
+[ERROR] 2026/05/26 11:03:48.645866 billHandler selectNoticeStatusError 
+[TRACE] 2026/05/26 11:03:48.645866 END:billHandler selectNoticeStatusError  r.billManager.Status{StatusError=true ,ErrorCode=, ErrorDetail=}
+[TRACE] 2026/05/26 11:03:48.645866 billHandler resetCommand 待機中
+[TRACE] 2026/05/26 11:03:48.646378 START:RequestFunctionCheck deviceStatus=1024【アラームなし】1024【待機中】
+[TRACE] 2026/05/26 11:03:48.646378 Check:adxr IsStatusLine status=true serialPort=true
+[INFO ] 2026/05/26 11:03:48.646378 WD start cmd=FunctionCheck timeoutMs=30000 retry=0
+[DEBUG] 2026/05/26 11:03:48.646378 r.billManager.DeviceStatus=1024
+[TRACE] 2026/05/26 11:03:48.646887 START:adxr RequestSendText sendText=[16 2 49 1 1 1 1 1 80 16 3 115]
+[TRACE] 2026/05/26 11:03:48.646887 END:adxr RequestSendText
+[TRACE] 2026/05/26 11:03:48.647397 End:RequestFunctionCheck ret=true
+[INFO ] 2026/05/26 11:03:48.647397 [Send](MQTT)/almex/device/cash/notice_status,{"deviceNo":"0a780ac909070001","statusReady":false,"statusMode":1,"statusLine":true,"statusError":true,"errorCode":"","errorDetail":"","statusCover":true,"statusUnitSet":false,"statusInCassette":false,"statusOutCassette":true,"statusAction":1,"statusInsert":false,"statusExit":false,"statusRjbox":false,"billResidueInfoTbl":[{"title":"","status":false},{"title":"","status":false}],"coinResidueInfoTbl":[{"title":"","status":false}],"deviceStatusInfoTbl":[""],"warningInfoTbl":null,"statusBillStacker10000":4,"statusBillStacker5000":4,"statusBillStacker2000":4,"statusBillStacker1000":4,"statusBillReject":0,"statusCoinHopper500":0,"statusCoinHopper100":0,"statusCoinHopper50":0,"statusCoinHopper10":0,"statusCoinHopper5":0,"statusCoinHopper1":0,"statusCoinHopper500S":0,"statusCoinHopper100S":0,"statusCoinHopper50S":0,"statusCoinHopper10S":0,"statusCoinHopper5S":0,"statusCoinHopper1S":0,"cashId":""}
+[INFO ] 2026/05/26 11:03:48.648397 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110348647,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0308","logSummary":"現金入出金機ステータス通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 StatusReady:false StatusMode:1 StatusLine:true StatusError:true ErrorCode: ErrorDetail: StatusCover:true StatusUnitSet:false StatusInCassette:false StatusOutCassette:true StatusAction:1 StatusInsert:false StatusExit:false StatusRjbox:false BillResidueInfoTbl:[{Title: Status:false} {Title: Status:false}] CoinResidueInfoTbl:[{Title: Status:false}] DeviceStatusInfoTbl:[] WarningInfoTbl:[] StatusBillStacker10000:4 StatusBillStacker5000:4 StatusBillStacker2000:4 StatusBillStacker1000:4 StatusBillReject:0 StatusCoinHopper500:0 StatusCoinHopper100:0 StatusCoinHopper50:0 StatusCoinHopper10:0 StatusCoinHopper5:0 StatusCoinHopper1:0 StatusCoinHopper500S:0 StatusCoinHopper100S:0 StatusCoinHopper50S:0 StatusCoinHopper10S:0 StatusCoinHopper5S:0 StatusCoinHopper1S:0 CashId:}"}
+[TRACE] 2026/05/26 11:03:48.648901 END:billHandler resetCommand リセットコマンド応答終了
+[TRACE] 2026/05/26 11:03:48.649412 END:adxr RecvText result=true total=9
+[TRACE] 2026/05/26 11:03:49.664900 START:adxr RecvText(recvText =[49 4 4 0 112 0 0 16 3 82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] total=9 retryEnd=true)
+[TRACE] 2026/05/26 11:03:49.664900 START:billHandler RecvTextToBill
+[INFO ] 2026/05/26 11:03:49.665899 WD stop(any) elapsedMs=1018
+[TRACE] 2026/05/26 11:03:49.665899 START:billHandler funcCheckCommand
+[INFO ] 2026/05/26 11:03:49.666402 START: billHandler analyzeResponseParameter 応答コマンド=31H 応答パラメータ=4
+[ERROR] 2026/05/26 11:03:49.666402 billHandler analyzeResponseParameter 正常
+[INFO ] 2026/05/26 11:03:49.666911 END: billHandler analyzeResponseParameter
+[DEBUG] 2026/05/26 11:03:49.666911 SUCCESS:Recv billHandler funcCheckCommand
+[TRACE] 2026/05/26 11:03:49.666911 START:billHandler analyzeDeviceStatus1
+[TRACE] 2026/05/26 11:03:49.667424 END:billHandler analyzeDeviceStatus1 deviceStatus1=%!h(uint8=4) StatusAction=1 deviceStatus=Waiting
+[TRACE] 2026/05/26 11:03:49.667424 billHandler funcCheckCommand 待機中
+[TRACE] 2026/05/26 11:03:49.667950 Start billHandler analyzeBillStorageStatus1
+[TRACE] 2026/05/26 11:03:49.667950 End billHandler analyzeBillStorageStatus1, 紙幣収納庫状態 1000=4,2000=4,5000=4,10000=4
+[TRACE] 2026/05/26 11:03:49.667950 Check:adxr IsStatusLine status=true serialPort=true
+[INFO ] 2026/05/26 11:03:49.667950 WD start cmd=Status1 timeoutMs=30000 retry=0
+[TRACE] 2026/05/26 11:03:49.667950 START:adxr RequestSendText sendText=[16 2 80 1 1 1 1 1 16 3 66]
+[TRACE] 2026/05/26 11:03:49.667950 END:adxr RequestSendText
+[TRACE] 2026/05/26 11:03:49.668949 Start billHandler analyzeBillStorageStatus1
+[TRACE] 2026/05/26 11:03:49.668949 End billHandler analyzeBillStorageStatus1, 紙幣収納庫状態 1000=4,2000=4,5000=4,10000=4
+[TRACE] 2026/05/26 11:03:49.668949 Start billHandler analyzeBillStorageStatus2 0
+[TRACE] 2026/05/26 11:03:49.669451 End billHandler analyzeBillStorageStatus2
+[TRACE] 2026/05/26 11:03:49.669451 START:billHandler selectNoticeStatusError
+[ERROR] 2026/05/26 11:03:49.669451 ERROR: 
+[ERROR] 2026/05/26 11:03:49.669970 billHandler selectNoticeStatusError 
+[TRACE] 2026/05/26 11:03:49.669970 END:billHandler selectNoticeStatusError  r.billManager.Status{StatusError=true ,ErrorCode=, ErrorDetail=}
+[TRACE] 2026/05/26 11:03:49.669970 END:billHandler funcCheckCommand 機能チェックコマンド応答終了
+[TRACE] 2026/05/26 11:03:49.669970 END:adxr RecvText result=true total=9
+[TRACE] 2026/05/26 11:03:50.699789 START:adxr RecvText(recvText =[80 0 4 0 112 0 0 51 55 50 53 66 66 49 48 49 51 32 0 51 55 50 53 66 53 48 49 49 50 65 0 66 48 48 56 65 68 88 82 32 74 80 78 32 86 49 48 49 45 50 53 32 49 56 83 69 80 50 52 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 48 48 48 48 48 48 48 55 50 52 49 48 48 48 48 48 48 52 0 0 42 42 42 42 42 42 42 42 42 42 42 42 48 10 0 160 94 71 75 0 49 96 140 100 200 0 0 0 16 3 185 0 0 0 0 0 0 0 0 0 0] total=149 retryEnd=true)
+[TRACE] 2026/05/26 11:03:50.699789 START:billHandler RecvTextToBill
+[INFO ] 2026/05/26 11:03:50.699789 WD stop(any) elapsedMs=1031
+[TRACE] 2026/05/26 11:03:50.700305 billHandler statusOneCommand ステータス1応答
+[INFO ] 2026/05/26 11:03:50.700305 START: billHandler analyzeResponseParameter 応答コマンド=50H 応答パラメータ=0
+[ERROR] 2026/05/26 11:03:50.700305 billHandler analyzeResponseParameter 正常
+[INFO ] 2026/05/26 11:03:50.700305 END: billHandler analyzeResponseParameter
+[TRACE] 2026/05/26 11:03:50.700305 START:billHandler analyzeDeviceStatus1
+[TRACE] 2026/05/26 11:03:50.701304 END:billHandler analyzeDeviceStatus1 deviceStatus1=%!h(uint8=4) StatusAction=1 deviceStatus=Waiting
+[TRACE] 2026/05/26 11:03:50.701304 START:billHandler analyzeDeviceStatus2
+[TRACE] 2026/05/26 11:03:50.701806 END:billHandler analyzeDeviceStatus2 StatusAction=1 deviceStatus=Nothing
+[TRACE] 2026/05/26 11:03:50.701806 Start billHandler analyzeBillStorageStatus1
+[TRACE] 2026/05/26 11:03:50.701806 End billHandler analyzeBillStorageStatus1, 紙幣収納庫状態 1000=4,2000=4,5000=4,10000=4
+[TRACE] 2026/05/26 11:03:50.701806 Start billHandler analyzeBillStorageStatus2 0
+[TRACE] 2026/05/26 11:03:50.701806 End billHandler analyzeBillStorageStatus2
+[TRACE] 2026/05/26 11:03:50.702805 START:billHandler selectNoticeStatusError
+[ERROR] 2026/05/26 11:03:50.702805 ERROR: 
+[ERROR] 2026/05/26 11:03:50.703307 billHandler selectNoticeStatusError 
+[TRACE] 2026/05/26 11:03:50.703307 END:billHandler selectNoticeStatusError  r.billManager.Status{StatusError=true ,ErrorCode=, ErrorDetail=}
+[TRACE] 2026/05/26 11:03:50.703307 billHandler statusOneCommand  待機中
+[TRACE] 2026/05/26 11:03:50.703307 START:billHandler checkVersionAndFunctionCashType strVersion=5 , funcCashType=80
+[TRACE] 2026/05/26 11:03:50.703831 END: billHandler checkVersionAndFunctionCashType
+[TRACE] 2026/05/26 11:03:50.703831 INIファイル有高情報更新 cashAmountOneThousandYen 0, cashAmountTwoThousandYen 0, cashAmountFiveThousandYen 0, cashAmountTenThousandYen 0, cashAmountOneThousandYenH 0, cashAmountTwoThousandYenH 0, cashAmountFiveThousandYenH 0, cashAmountTenThousandYenH 0
+[INFO ] 2026/05/26 11:03:50.704348 [Send](MQTT)/almex/device/cash/notice_amount,{"deviceNo":"0a780ac909070001","cashId":"","statusAction":false,"statusResult":true,"exFlag":true,"cashTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1S","cashCount":0},{"cashType":"5S","cashCount":0},{"cashType":"10S","cashCount":0},{"cashType":"50S","cashCount":0},{"cashType":"100S","cashCount":0},{"cashType":"500S","cashCount":0},{"cashType":"1000","cashCount":0},{"cashType":"2000","cashCount":0},{"cashType":"5000","cashCount":0},{"cashType":"10000","cashCount":0}],"exCashTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1S","cashCount":0},{"cashType":"5S","cashCount":0},{"cashType":"10S","cashCount":0},{"cashType":"50S","cashCount":0},{"cashType":"100S","cashCount":0},{"cashType":"500S","cashCount":0},{"cashType":"1000","cashCount":0},{"cashType":"2000","cashCount":0},{"cashType":"5000","cashCount":0},{"cashType":"10000","cashCount":0},{"cashType":"1H","cashCount":0},{"cashType":"5H","cashCount":0},{"cashType":"10H","cashCount":0},{"cashType":"50H","cashCount":0},{"cashType":"100H","cashCount":0},{"cashType":"500H","cashCount":0},{"cashType":"1000H","cashCount":0},{"cashType":"2000H","cashCount":0},{"cashType":"5000H","cashCount":0},{"cashType":"10000H","cashCount":0}],"depositTbl":[{"cashType":"1","cashCount":0},{"cashType":"5","cashCount":0},{"cashType":"10","cashCount":0},{"cashType":"50","cashCount":0},{"cashType":"100","cashCount":0},{"cashType":"500","cashCount":0},{"cashType":"1000","cashCount":600},{"cashType":"2000","cashCount":200},{"cashType":"5000","cashCount":200},{"cashType":"10000","cashCount":200}]}
+[INFO ] 2026/05/26 11:03:50.705347 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110350704,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0306","logSummary":"現金入出金機有高データ通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 CashId: StatusAction:false StatusResult:true ExFlag:true CashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType:2000 CashCount:0} {CashType:5000 CashCount:0} {CashType:10000 CashCount:0}] ExCashTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1S CashCount:0} {CashType:5S CashCount:0} {CashType:10S CashCount:0} {CashType:50S CashCount:0} {CashType:100S CashCount:0} {CashType:500S CashCount:0} {CashType:1000 CashCount:0} {CashType:2000 CashCount:0} {CashType:5000 CashCount:0} {CashType:10000 CashCount:0} {CashType:1H CashCount:0} {CashType:5H CashCount:0} {CashType:10H CashCount:0} {CashType:50H CashCount:0} {CashType:100H CashCount:0} {CashType:500H CashCount:0} {CashType:1000H CashCount:0} {CashType:2000H CashCount:0} {CashType:5000H CashCount:0} {CashType:10000H CashCount:0}] DepositTbl:[{CashType:1 CashCount:0} {CashType:5 CashCount:0} {CashType:10 CashCount:0} {CashType:50 CashCount:0} {CashType:100 CashCount:0} {CashType:500 CashCount:0} {CashType:1000 CashCount:600} {CashType:2000 CashCount:200} {CashType:5000 CashCount:200} {CashType:10000 CashCount:200}] ErrorCode: ErrorDetail:}"}
+[INFO ] 2026/05/26 11:03:50.705347 [Send](MQTT)/almex/device/cash/notice_status,{"deviceNo":"0a780ac909070001","statusReady":true,"statusMode":1,"statusLine":true,"statusError":true,"errorCode":"","errorDetail":"","statusCover":true,"statusUnitSet":false,"statusInCassette":false,"statusOutCassette":true,"statusAction":0,"statusInsert":false,"statusExit":false,"statusRjbox":false,"billResidueInfoTbl":[{"title":"","status":false},{"title":"","status":false}],"coinResidueInfoTbl":[{"title":"","status":false}],"deviceStatusInfoTbl":[""],"warningInfoTbl":null,"statusBillStacker10000":4,"statusBillStacker5000":4,"statusBillStacker2000":4,"statusBillStacker1000":4,"statusBillReject":0,"statusCoinHopper500":0,"statusCoinHopper100":0,"statusCoinHopper50":0,"statusCoinHopper10":0,"statusCoinHopper5":0,"statusCoinHopper1":0,"statusCoinHopper500S":0,"statusCoinHopper100S":0,"statusCoinHopper50S":0,"statusCoinHopper10S":0,"statusCoinHopper5S":0,"statusCoinHopper1S":0,"cashId":""}
+[INFO ] 2026/05/26 11:03:50.705849 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110350705,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0308","logSummary":"現金入出金機ステータス通知成功","logData":"現金入出金機1号機{DeviceNo:0a780ac909070001 StatusReady:true StatusMode:1 StatusLine:true StatusError:true ErrorCode: ErrorDetail: StatusCover:true StatusUnitSet:false StatusInCassette:false StatusOutCassette:true StatusAction:0 StatusInsert:false StatusExit:false StatusRjbox:false BillResidueInfoTbl:[{Title: Status:false} {Title: Status:false}] CoinResidueInfoTbl:[{Title: Status:false}] DeviceStatusInfoTbl:[] WarningInfoTbl:[] StatusBillStacker10000:4 StatusBillStacker5000:4 StatusBillStacker2000:4 StatusBillStacker1000:4 StatusBillReject:0 StatusCoinHopper500:0 StatusCoinHopper100:0 StatusCoinHopper50:0 StatusCoinHopper10:0 StatusCoinHopper5:0 StatusCoinHopper1:0 StatusCoinHopper500S:0 StatusCoinHopper100S:0 StatusCoinHopper50S:0 StatusCoinHopper10S:0 StatusCoinHopper5S:0 StatusCoinHopper1S:0 CashId:}"}
+[INFO ] 2026/05/26 11:03:50.705849 [Send](MQTT)/almex/device/cash/notice_status_service,{"statusService":true,"idDevice":"0907"}
+[INFO ] 2026/05/26 11:03:50.705849 [Send](MQTT)/almex/device/cash/notice_status_system_operation,{"statusSystemOperation":0,"idDevice":"0907","idExtSys":""}
+[INFO ] 2026/05/26 11:03:50.706362 [Send](MQTT)/almex/function/syslog/request_log,{"generateDate":20260526,"generateTime":110350706,"forceEncrypt":false,"logLevel":"DEBUG","requestId":"ALCA0310","logSummary":"システム動作モード遷移通知成功","logData":"adxr"}
+[TRACE] 2026/05/26 11:03:50.706915 Check:adxr IsStatusLine status=true serialPort=true
+[INFO ] 2026/05/26 11:03:50.706915 WD start cmd=Status2 timeoutMs=30000 retry=0
+[TRACE] 2026/05/26 11:03:50.707444 START:adxr RequestSendText sendText=[16 2 81 1 1 1 1 1 16 3 67]
+[TRACE] 2026/05/26 11:03:50.707972 END:adxr RequestSendText
+[TRACE] 2026/05/26 11:03:50.707972 billHandler statusOneCommand ステータス1応答終了
+[TRACE] 2026/05/26 11:03:50.708493 END:adxr RecvText result=true total=149
+[TRACE] 2026/05/26 11:03:51.726087 START:adxr RecvText(recvText =[81 0 4 0 112 0 0 64 32 0 0 16 16 3 70 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] total=14 retryEnd=true)
+[TRACE] 2026/05/26 11:03:51.726605 START:billHandler RecvTextToBill
+[INFO ] 2026/05/26 11:03:51.726605 WD stop(any) elapsedMs=1019
+[TRACE] 2026/05/26 11:03:51.727605 billHandler statusTwoCommand ステータス2応答
+[INFO ] 2026/05/26 11:03:51.728109 START: billHandler analyzeResponseParameter 応答コマンド=51H 応答パラメータ=0
+[ERROR] 2026/05/26 11:03:51.728109 billHandler analyzeResponseParameter 正常
+[INFO ] 2026/05/26 11:03:51.728109 END: billHandler analyzeResponseParameter
+[TRACE] 2026/05/26 11:03:51.728631 START:billHandler analyzeDeviceStatus1
+[TRACE] 2026/05/26 11:03:51.728631 END:billHandler analyzeDeviceStatus1 deviceStatus1=%!h(uint8=4) StatusAction=0 deviceStatus=Waiting
+[TRACE] 2026/05/26 11:03:51.728631 START:billHandler analyzeDeviceStatus2
+[TRACE] 2026/05/26 11:03:51.729144 END:billHandler analyzeDeviceStatus2 StatusAction=0 deviceStatus=Nothing
+[TRACE] 2026/05/26 11:03:51.729144 Start billHandler analyzeBillStorageStatus1
+[TRACE] 2026/05/26 11:03:51.729144 End billHandler analyzeBillStorageStatus1, 紙幣収納庫状態 1000=4,2000=4,5000=4,10000=4
+[TRACE] 2026/05/26 11:03:51.729668 Start billHandler analyzeBillStorageStatus2 0
+[TRACE] 2026/05/26 11:03:51.729668 End billHandler analyzeBillStorageStatus2
+[TRACE] 2026/05/26 11:03:51.729668 START:billHandler selectNoticeStatusError
+[ERROR] 2026/05/26 11:03:51.730244 ERROR: 
+[ERROR] 2026/05/26 11:03:51.730244 billHandler selectNoticeStatusError 
+[TRACE] 2026/05/26 11:03:51.730757 END:billHandler selectNoticeStatusError  r.billManager.Status{StatusError=true ,ErrorCode=, ErrorDetail=}
+[TRACE] 2026/05/26 11:03:51.730757 Start billHandler analyzeData1OfStatus2
+[TRACE] 2026/05/26 11:03:51.730757 End billHandler analyzeData1OfStatus2 【1:プッシャ上 遮光】
+[TRACE] 2026/05/26 11:03:51.730757 Start billHandler analyzeData2OfStatus2
+[TRACE] 2026/05/26 11:03:51.730757 End billHandler analyzeData2OfStatus2 【一括ﾎﾟｼﾞｼｮﾝ 通光】【リフタ下 遮光】【リフタ上 通光】【リジェクトＢＯＸ･エンプティ 通光】【払出口 通光】【一時保留残留 遮光】【一時保留収納 通光】
+[TRACE] 2026/05/26 11:03:51.730757 Start billHandler analyzeData3OfStatus2
+[TRACE] 2026/05/26 11:03:51.730757 End billHandler analyzeData3OfStatus2 【還流庫4 計数センサー 通光】【還流庫3 計数センサー 通光】【還流庫2 計数センサー 通光】【還流庫1 計数センサー 通光】【還流庫4 収納センサー 通光】【還流庫3 収納センサー 通光】【還流庫2 収納センサー 通光】【還流庫1 収納センサー 通光】
+[TRACE] 2026/05/26 11:03:51.731755 Start billHandler analyzeData4OfStatus2
+[TRACE] 2026/05/26 11:03:51.731755 End billHandler analyzeData4OfStatus2 【リフタ中 通光】【判別センサ 通光】【旧紙幣取扱禁止 OFF】【短券払出口返却設定 OFF】【扉センサー 通光】
+[TRACE] 2026/05/26 11:03:51.731755 Start billHandler analyzeData5OfStatus2
+[TRACE] 2026/05/26 11:03:51.731755 End billHandler analyzeData5OfStatus2 【リジェクト通過 通光】【払出ベルトホーム 遮光】【回収庫収納センサ 通光】【集積ローラーホームセンサ 通光】【回収庫セット TRUE】
+[TRACE] 2026/05/26 11:03:51.732257 billHandler statusTwoCommand ステータス2応答終了
+[TRACE] 2026/05/26 11:03:51.732257 END:adxr RecvText result=true total=14

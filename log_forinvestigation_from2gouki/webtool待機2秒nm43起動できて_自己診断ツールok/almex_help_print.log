@@ -1,0 +1,6 @@
+[INFO ] 2026/05/26 10:50:32.671850 [Recv](MQTT)/almex/helper/print/request_control_service,{"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helperprint_248948id14"},"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.674022 印刷制御初期設定 PrintInfo : 
+[INFO ] 2026/05/26 10:50:32.677190 [Send](MQTT)/almex/helper/print/result_control_service,{"requestInfo":{"pcId":"","processId":"000018c0","requestId":"rqCtrSv_helperprint_248948id14"},"result":true}
+[INFO ] 2026/05/26 10:50:32.678222 'RequestControlService' Result Send to ResultControlServicePub: {"requestInfo":{"processId":"000018c0","requestId":"rqCtrSv_helperprint_248948id14","pcId":""},"result":true}
+[INFO ] 2026/05/26 10:50:32.680339 [Send](MQTT)/almex/helper/print/notice_status_service,{"statusService":false}
+[INFO ] 2026/05/26 10:50:32.680854 'RequestControlService' Result Send to ResultNoticeStatusServicePub: {"statusService":false}

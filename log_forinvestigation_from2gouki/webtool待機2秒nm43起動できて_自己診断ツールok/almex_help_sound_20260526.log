@@ -1,0 +1,43 @@
+[INFO ] 2026/05/26 10:50:32.672925 rcv /almex/helper/sound/request_control_service {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helpersound_248949id15"},"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.675641 snd /almex/helper/sound/result_control_service {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helpersound_248949id15"},"result":true}
+[INFO ] 2026/05/26 10:50:32.677706 in ServiceController, AllStop Start.
+[MUTEX] 2026/05/26 10:50:32.678222 lock InitDeviceInfo
+[TRACE] 2026/05/26 10:50:32.679240 InitDeviceInfo start.
+[TRACE] 2026/05/26 10:50:32.680339 PlayController ClearInfo start.
+[TRACE] 2026/05/26 10:50:32.680854 PlayController ClearInfo end.
+[TRACE] 2026/05/26 10:50:32.681368 StopController ClearInfo start.
+[TRACE] 2026/05/26 10:50:32.681368 StopController ClearInfo end.
+[TRACE] 2026/05/26 10:50:32.681910 InitDeviceInfo end.
+[MUTEX] 2026/05/26 10:50:32.682422 unlock InitDeviceInfo
+[TRACE] 2026/05/26 10:50:32.682422 DeviceAllStopController RequestDeviceAllStop:{{00002930  ALSA:ALLSTOP}}
+[MUTEX] 2026/05/26 10:50:32.682950 lock msg.Regist
+[DEBUG] 2026/05/26 10:50:32.683491 Regist sndMsg: len:1  {DeviceIdx:0 CountIdx:-99 FromInfo:{ProcessID: PcID: RequestID:} ToInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop13} ToDeviceNo:0a780ac907010001 Timer:0xc00035a7e0 Ch:0xc000103ce0 Topic:result_stop L3msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop13} DeviceNo:0a780ac907010001} L2msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:ALSA:ALLSTOP}}}
+[MUTEX] 2026/05/26 10:50:32.683491 unlock msg.Regist
+[INFO ] 2026/05/26 10:50:32.684002 snd /almex/device/sound/request_all_stop {"requestInfo":{"processId":"00002930","pcId":"","requestId":"deviceRequestAllStop13"},"deviceNo":"0a780ac907010001"}
+[INFO ] 2026/05/26 10:50:32.684529 in ServiceController, AllStop End.
+[DEBUG] 2026/05/26 10:50:32.685068 WaitResult start
+[INFO ] 2026/05/26 10:50:32.685581 snd /almex/helper/sound/notice_status_service {"statusService":false,"idDevice":"","idExtSys":""}
+[DEBUG] 2026/05/26 10:50:37.683230 get(msgCtrl) msg.Timer.C
+[MUTEX] 2026/05/26 10:50:37.683743 lock msg.FindMessage
+[DEBUG] 2026/05/26 10:50:37.684267 GetMessage:{DeviceIdx:0 CountIdx:-99 FromInfo:{ProcessID: PcID: RequestID:} ToInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop13} ToDeviceNo:0a780ac907010001 Timer:0xc00035a7e0 Ch:0xc000103ce0 Topic:result_stop L3msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop13} DeviceNo:0a780ac907010001} L2msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:ALSA:ALLSTOP}}}
+[DEBUG] 2026/05/26 10:50:37.684267 FindMessage: delete tbl len:1 SndMsgTbl[0]:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop13}
+[DEBUG] 2026/05/26 10:50:37.684791 FindMessage: delete SndMsgTbl[0] comlpeted.
+[MUTEX] 2026/05/26 10:50:37.684791 unlock msg.FindMessage
+[TRACE] 2026/05/26 10:50:37.685297 WaitResult end:timeout message is {DeviceIdx:0 CountIdx:-99 FromInfo:{ProcessID: PcID: RequestID:} ToInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop13} ToDeviceNo:0a780ac907010001 Timer:0xc00035a7e0 Ch:0xc000103ce0 Topic:result_stop L3msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop13} DeviceNo:0a780ac907010001} L2msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:ALSA:ALLSTOP}}}
+[INFO ] 2026/05/26 10:50:38.864105 in ServiceController, AllStop Start.
+[MUTEX] 2026/05/26 10:50:38.865641 lock InitDeviceInfo
+[TRACE] 2026/05/26 10:50:38.865641 InitDeviceInfo start.
+[TRACE] 2026/05/26 10:50:38.866151 PlayController ClearInfo start.
+[TRACE] 2026/05/26 10:50:38.866670 PlayController ClearInfo end.
+[TRACE] 2026/05/26 10:50:38.866670 StopController ClearInfo start.
+[TRACE] 2026/05/26 10:50:38.866670 StopController ClearInfo end.
+[TRACE] 2026/05/26 10:50:38.867179 InitDeviceInfo end.
+[MUTEX] 2026/05/26 10:50:38.867179 unlock InitDeviceInfo
+[TRACE] 2026/05/26 10:50:38.867711 DeviceAllStopController RequestDeviceAllStop:{{00002930  ALSA:ALLSTOP}}
+[MUTEX] 2026/05/26 10:50:38.867711 lock msg.Regist
+[DEBUG] 2026/05/26 10:50:38.868219 Regist sndMsg: len:1  {DeviceIdx:0 CountIdx:-99 FromInfo:{ProcessID: PcID: RequestID:} ToInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop14} ToDeviceNo:0a780ac907010001 Timer:0xc00041a2a0 Ch:0xc0004929a0 Topic:result_stop L3msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:deviceRequestAllStop14} DeviceNo:0a780ac907010001} L2msg:{RequestInfo:{ProcessID:00002930 PcID: RequestID:ALSA:ALLSTOP}}}
+[MUTEX] 2026/05/26 10:50:38.868219 unlock msg.Regist
+[INFO ] 2026/05/26 10:50:38.868219 snd /almex/device/sound/request_all_stop {"requestInfo":{"processId":"00002930","pcId":"","requestId":"deviceRequestAllStop14"},"deviceNo":"0a780ac907010001"}
+[INFO ] 2026/05/26 10:50:38.868742 in ServiceController, AllStop End.
+[INFO ] 2026/05/26 10:50:38.868742 end program.
+[DEBUG] 2026/05/26 10:50:38.869256 WaitResult start

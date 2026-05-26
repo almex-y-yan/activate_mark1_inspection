@@ -1,0 +1,148 @@
+[INFO ] 2026/05/26 10:49:59.553804 snd /tex/unifunc/status/result_get_service {"requestInfo":{"processId":"00000e34","pcId":"10.120.10.201","requestId":"selfui_kpyp6_14"},"result":true,"statusService":true,"idDevice":"","idExtSys":""}
+[ERROR] 2026/05/26 10:50:00.096917 timeout:send message is processID:000018c0  requestID:request_device(multiRet)44_usecode1  deviceNo:request_device(multiRet)
+[TRACE] 2026/05/26 10:50:00.097440 msgCtrl WaitResult end.
+[INFO ] 2026/05/26 10:50:01.787098 snd /tex/ui/request_status_ui {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"request_status_ui11308"}}
+[INFO ] 2026/05/26 10:50:01.794663 rcv /tex/ui/result_status_ui {"operatorCode":"","operatorMode":0,"requestInfo":{"pcId":"","processId":"000018c0","requestId":"request_status_ui11308"},"result":true,"screenMode":0}
+[TRACE] 2026/05/26 10:50:01.795173 uiCmnStt ch.ste:true, ch.erCd: inNotice:{ScreenMode:0 ErrorCode: OperatorMode:0 OperatorCode:} bfrScrn:0 retScrn:false handFlg:false swkey:false retUi:0 cycleIdle:false errState:false code:23 door:false,
+[TRACE] 2026/05/26 10:50:01.795173 start reqGetService(type:uiMonitor), ReqGetCount is 22
+[TRACE] 2026/05/26 10:50:01.798322 end reqGetService(type:uiMonitor), ReqGetCount now is 22
+[TRACE] 2026/05/26 10:50:01.870477 return Monitor(get), ReqGetCount:0
+[TRACE] 2026/05/26 10:50:01.870994 notCng EvaluateDeviceErr bfrCD:, aftCD:, logErr:18, logRoute:0, devIdx:-1, j:-1
+[INFO ] 2026/05/26 10:50:02.553217 snd /tex/unifunc/status/result_get_service {"requestInfo":{"processId":"00000e34","pcId":"10.120.10.201","requestId":"selfui_kpyp6_15"},"result":true,"statusService":true,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:05.553785 snd /tex/unifunc/status/result_get_service {"requestInfo":{"processId":"00000e34","pcId":"10.120.10.201","requestId":"selfui_kpyp6_16"},"result":true,"statusService":true,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:06.871487 snd /tex/ui/request_status_ui {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"request_status_ui11309"}}
+[INFO ] 2026/05/26 10:50:06.874489 rcv /tex/ui/result_status_ui {"operatorCode":"","operatorMode":0,"requestInfo":{"pcId":"","processId":"000018c0","requestId":"request_status_ui11309"},"result":true,"screenMode":0}
+[TRACE] 2026/05/26 10:50:06.874489 uiCmnStt ch.ste:true, ch.erCd: inNotice:{ScreenMode:0 ErrorCode: OperatorMode:0 OperatorCode:} bfrScrn:0 retScrn:false handFlg:false swkey:false retUi:0 cycleIdle:false errState:false code:23 door:false,
+[TRACE] 2026/05/26 10:50:06.874999 start reqGetService(type:uiMonitor), ReqGetCount is 22
+[TRACE] 2026/05/26 10:50:06.879176 end reqGetService(type:uiMonitor), ReqGetCount now is 22
+[TRACE] 2026/05/26 10:50:06.959464 return Monitor(get), ReqGetCount:0
+[TRACE] 2026/05/26 10:50:06.959464 notCng EvaluateDeviceErr bfrCD:, aftCD:, logErr:18, logRoute:0, devIdx:-1, j:-1
+[INFO ] 2026/05/26 10:50:08.554098 snd /tex/unifunc/status/result_get_service {"requestInfo":{"processId":"00000e34","pcId":"10.120.10.201","requestId":"selfui_kpyp6_17"},"result":true,"statusService":true,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:11.553928 snd /tex/unifunc/status/result_get_service {"requestInfo":{"processId":"00000e34","pcId":"10.120.10.201","requestId":"selfui_kpyp6_18"},"result":true,"statusService":true,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:11.959924 snd /tex/ui/request_status_ui {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"request_status_ui11310"}}
+[INFO ] 2026/05/26 10:50:11.964033 rcv /tex/ui/result_status_ui {"operatorCode":"","operatorMode":0,"requestInfo":{"pcId":"","processId":"000018c0","requestId":"request_status_ui11310"},"result":true,"screenMode":0}
+[TRACE] 2026/05/26 10:50:11.964033 uiCmnStt ch.ste:true, ch.erCd: inNotice:{ScreenMode:0 ErrorCode: OperatorMode:0 OperatorCode:} bfrScrn:0 retScrn:false handFlg:false swkey:false retUi:0 cycleIdle:false errState:false code:23 door:false,
+[TRACE] 2026/05/26 10:50:11.964546 start reqGetService(type:uiMonitor), ReqGetCount is 22
+[TRACE] 2026/05/26 10:50:11.964546 end reqGetService(type:uiMonitor), ReqGetCount now is 22
+[TRACE] 2026/05/26 10:50:12.037189 return Monitor(get), ReqGetCount:0
+[TRACE] 2026/05/26 10:50:12.037189 notCng EvaluateDeviceErr bfrCD:, aftCD:, logErr:18, logRoute:0, devIdx:-1, j:-1
+[INFO ] 2026/05/26 10:50:14.553884 snd /tex/unifunc/status/result_get_service {"requestInfo":{"processId":"00000e34","pcId":"10.120.10.201","requestId":"selfui_kpyp6_19"},"result":true,"statusService":true,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:17.037536 snd /tex/ui/request_status_ui {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"request_status_ui11311"}}
+[INFO ] 2026/05/26 10:50:17.044154 rcv /tex/ui/result_status_ui {"operatorCode":"","operatorMode":0,"requestInfo":{"pcId":"","processId":"000018c0","requestId":"request_status_ui11311"},"result":true,"screenMode":0}
+[TRACE] 2026/05/26 10:50:17.044669 uiCmnStt ch.ste:true, ch.erCd: inNotice:{ScreenMode:0 ErrorCode: OperatorMode:0 OperatorCode:} bfrScrn:0 retScrn:false handFlg:false swkey:false retUi:0 cycleIdle:false errState:false code:23 door:false,
+[TRACE] 2026/05/26 10:50:17.044669 start reqGetService(type:uiMonitor), ReqGetCount is 22
+[TRACE] 2026/05/26 10:50:17.048527 end reqGetService(type:uiMonitor), ReqGetCount now is 22
+[TRACE] 2026/05/26 10:50:17.124571 return Monitor(get), ReqGetCount:0
+[TRACE] 2026/05/26 10:50:17.124571 notCng EvaluateDeviceErr bfrCD:, aftCD:, logErr:18, logRoute:0, devIdx:-1, j:-1
+[INFO ] 2026/05/26 10:50:17.553887 snd /tex/unifunc/status/result_get_service {"requestInfo":{"processId":"00000e34","pcId":"10.120.10.201","requestId":"selfui_kpyp6_20"},"result":true,"statusService":true,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:22.125385 snd /tex/ui/request_status_ui {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"request_status_ui11312"}}
+[ERROR] 2026/05/26 10:50:32.125827 timeout:send message is processID:000018c0  requestID:request_status_ui11312  deviceNo:/tex/ui/
+[TRACE] 2026/05/26 10:50:32.126347 WaitResult flgUiTimeout:true
+[TRACE] 2026/05/26 10:50:32.126347 TimeoutRequestStatusUi start
+[TRACE] 2026/05/26 10:50:32.126347 msgCtrl WaitResult end.
+[TRACE] 2026/05/26 10:50:32.126866 before mode change context:&{ServiceRepository:0x7ff74640e720 Logger:0x7ff74640e100 ModeReady:{RequestInfo:{ProcessID: PcID: RequestID:} ModeReady:0 ModeClear:0 ModeClose:0 InfoSales:{SalesAmount:0 ExchangeTotal:0 SalesTypeTbl:[]} InfoSafe:{CurrentStatusTbl:[0 0 0 0 0 0 0 0 0] SortInfotbl:[]}} ScreenMode:0 ScreenStatus:false InfoTerm:{StatusError:0 TermErrorCode:0 TermErrorState:0 StatusHandling:0 StatusSecurity:0 StatusDoor:0 StatuskeySw:2 StatusCall:0 PaymentMode:0} ErrorContent: ErrorDetailCode: ErrorDetailContent: RecoverGuideMessage: RecoverGuidePicture: RecoverGuideMovie: PrintErrorReceipt:true TradingModeReadyKind:-1 TradingModeReadyMsg: TradeType:0 InfoPayment:<nil> UIError: ProcessPowerOff:false OperatorMode:0 OperatorCode: NoticeErrorService:{ErrorCode: ErrorDetail:}}
+[TRACE] 2026/05/26 10:50:32.126866 TransStop Start.
+[TRACE] 2026/05/26 10:50:32.127378 TransStop phase 1.
+[TRACE] 2026/05/26 10:50:32.127909 TransStop phase 2.
+[TRACE] 2026/05/26 10:50:32.127909 TransStop phase 3.
+[TRACE] 2026/05/26 10:50:32.128921 TransStop phase 4.
+[TRACE] 2026/05/26 10:50:32.128921 before SetDeviceError tmp:{DeviceNo: DeviceName: DeviceKind: StatusReady:true StatusError:true ErrorCode: ErrorDetail: OutletNo:0 Status:<nil>}  termErrCode:0  errCntnt:  errDetailcd: errDetailCntnt:
+[TRACE] 2026/05/26 10:50:32.128921 after SetDeviceError termErrCode:0  errCntnt:  errDetailcd: errDetailCntnt:
+[TRACE] 2026/05/26 10:50:32.128921 TransStop phase 5.
+[TRACE] 2026/05/26 10:50:32.129941 TransStop phase 5-0 UNIFUNC
+[TRACE] 2026/05/26 10:50:32.129941 count ReqCtrlCount(UNIFUNC) is 2
+[ERROR] 2026/05/26 10:50:32.131980 result_control_service deviceId Error:{{000018c0  rqCtrSv_unifuncmoney_248945id21} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:32.147427 rcv /tex/unifunc/money/notice_status_service {"statusService":false}
+[TRACE] 2026/05/26 10:50:32.148440 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/tex/unifunc/money/ Id: MainteStop:true Category:UNIFUNC StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.148951 NoticeStatusService end, ReqCtrlCount:1
+[ERROR] 2026/05/26 10:50:32.154077 result_control_service deviceId Error:{{000018c0  rqCtrSv_unifuncpayment_248944id20} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:32.668463 rcv /tex/unifunc/payment/notice_status_service {"statusService":false}
+[TRACE] 2026/05/26 10:50:32.668463 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/tex/unifunc/payment/ Id: MainteStop:true Category:UNIFUNC StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.668975 NoticeStatusService end, ReqCtrlCount:0
+[TRACE] 2026/05/26 10:50:32.668975 ServiceController all notice receive. 5-0
+[TRACE] 2026/05/26 10:50:32.668975 TransStop phase 5-1 HELPER
+[TRACE] 2026/05/26 10:50:32.669519 count ReqCtrlCount(HELPER) is 8
+[ERROR] 2026/05/26 10:50:32.674022 result_control_service deviceId Error:{{000018c0  rqCtrSv_helperdbdata_248952id18} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:32.677190 result_control_service deviceId Error:{{000018c0  rqCtrSv_helperdbmaster_248951id17} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:32.678222 result_control_service deviceId Error:{{000018c0  rqCtrSv_helperled_248946id12} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:32.678222 result_control_service deviceId Error:{{000018c0  rqCtrSv_helpersystime_248950id16} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:32.679812 result_control_service deviceId Error:{{000018c0  rqCtrSv_helpercashctl_248953id19} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:32.680339 result_control_service deviceId Error:{{000018c0  rqCtrSv_helpersound_248949id15} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:32.680854 rcv /tex/helper/dbdata/notice_status_service {"statusService":false}
+[TRACE] 2026/05/26 10:50:32.681368 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/tex/helper/dbdata/ Id: MainteStop:false Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.681368 NoticeStatusService end, ReqCtrlCount:7
+[INFO ] 2026/05/26 10:50:32.681910 rcv /almex/helper/led/notice_status_service {"statusService":false,"idDevice":"","idExtSys":""}
+[TRACE] 2026/05/26 10:50:32.682422 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/helper/led/ Id: MainteStop:false Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.682422 NoticeStatusService end, ReqCtrlCount:6
+[ERROR] 2026/05/26 10:50:32.682950 result_control_service deviceId Error:{{000018c0  rqCtrSv_helperprint_248948id14} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:32.683491 rcv /tex/helper/cashctl/notice_status_service {"statusService":false,"idDevice":"","idExtSys":""}
+[TRACE] 2026/05/26 10:50:32.683491 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/tex/helper/cashctl/ Id: MainteStop:true Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.684002 NoticeStatusService end, ReqCtrlCount:5
+[INFO ] 2026/05/26 10:50:32.684529 rcv /tex/helper/dbmaster/notice_status_service {"statusService":false}
+[TRACE] 2026/05/26 10:50:32.685068 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/tex/helper/dbmaster/ Id: MainteStop:false Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.685581 NoticeStatusService end, ReqCtrlCount:4
+[INFO ] 2026/05/26 10:50:32.686106 rcv /almex/helper/systime/notice_status_service {"statusService":false}
+[TRACE] 2026/05/26 10:50:32.686106 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/helper/systime/ Id: MainteStop:false Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.686619 NoticeStatusService end, ReqCtrlCount:3
+[INFO ] 2026/05/26 10:50:32.687133 rcv /almex/helper/print/notice_status_service {"statusService":false}
+[TRACE] 2026/05/26 10:50:32.687133 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/helper/print/ Id: MainteStop:false Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.687648 NoticeStatusService end, ReqCtrlCount:2
+[INFO ] 2026/05/26 10:50:32.688166 rcv /almex/helper/sound/notice_status_service {"statusService":false,"idDevice":"","idExtSys":""}
+[TRACE] 2026/05/26 10:50:32.688166 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/helper/sound/ Id: MainteStop:true Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:32.688681 NoticeStatusService end, ReqCtrlCount:1
+[ERROR] 2026/05/26 10:50:32.688681 result_control_service deviceId Error:{{000018c0  rqCtrSv_helpercard_248947id13} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:33.200222 rcv /almex/helper/card/notice_status_service {"statusService":false}
+[TRACE] 2026/05/26 10:50:33.200222 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/helper/card/ Id: MainteStop:true Category:HELPER StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.200733 NoticeStatusService end, ReqCtrlCount:0
+[TRACE] 2026/05/26 10:50:33.200733 ServiceController all notice receive. 5-1
+[TRACE] 2026/05/26 10:50:33.201258 TransStop phase 5-2 DEVICE
+[TRACE] 2026/05/26 10:50:33.201258 count ReqCtrlCount(DEVICE) is 10
+[ERROR] 2026/05/26 10:50:33.203551 result_control_service deviceId Error:{{000018c0  rqCtrSv_devicecless_248956id2} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:33.206688 result_control_service deviceId Error:{{000018c0  rqCtrSv_devicecamera_248962id8} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:33.207699 result_control_service deviceId Error:{{000018c0  rqCtrSv_devicecash_248954id0} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:33.208746 result_control_service deviceId Error:{{000018c0  rqCtrSv_devicecash_248955id1} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:33.215831 result_control_service deviceId Error:{{000018c0  rqCtrSv_deviceprints_248959id5} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:33.218899 rcv /almex/device/cash/notice_status_service {"statusService":false,"idDevice":"0906"}
+[TRACE] 2026/05/26 10:50:33.219416 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/cash/ Id:0906 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.219943 NoticeStatusService end, ReqCtrlCount:9
+[ERROR] 2026/05/26 10:50:33.220972 result_control_service deviceId Error:{{000018c0  rqCtrSv_deviceboard_248961id7} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:33.221488 rcv /almex/device/cash/notice_status_service {"statusService":false,"idDevice":"0907"}
+[TRACE] 2026/05/26 10:50:33.221488 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/cash/ Id:0907 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.222501 NoticeStatusService end, ReqCtrlCount:8
+[INFO ] 2026/05/26 10:50:33.223035 rcv /almex/device/cless/notice_status_service {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_devicecless_248956id2"},"result":true,"statusService":false,"idDevice":"0a09"}
+[TRACE] 2026/05/26 10:50:33.223035 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/cless/ Id:0a09 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.223548 NoticeStatusService end, ReqCtrlCount:7
+[INFO ] 2026/05/26 10:50:33.226690 rcv /almex/device/board/notice_status_service {"statusService":false,"idDevice":"0603"}
+[TRACE] 2026/05/26 10:50:33.226690 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/board/ Id:0603 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.227700 NoticeStatusService end, ReqCtrlCount:6
+[ERROR] 2026/05/26 10:50:33.260227 result_control_service deviceId Error:{{000018c0  rqCtrSv_deviceiccard_248958id4} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:33.261263 result_control_service deviceId Error:{{000018c0  rqCtrSv_deviceppr_248963id9} true }, msg:%!s(MISSING)
+[ERROR] 2026/05/26 10:50:33.264849 result_control_service deviceId Error:{{000018c0  rqCtrSv_deviceqr_248957id3} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:33.716741 rcv /almex/device/camera/notice_status_service {"statusService":false,"idDevice":"0d01"}
+[TRACE] 2026/05/26 10:50:33.716741 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/camera/ Id:0d01 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.716741 NoticeStatusService end, ReqCtrlCount:5
+[INFO ] 2026/05/26 10:50:33.717753 rcv /almex/device/prints/notice_status_service {"statusService":false,"idDevice":"0401"}
+[TRACE] 2026/05/26 10:50:33.718320 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/prints/ Id:0401 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.718830 NoticeStatusService end, ReqCtrlCount:4
+[ERROR] 2026/05/26 10:50:33.718830 result_control_service deviceId Error:{{000018c0  rqCtrSv_devicesound_248960id6} true }, msg:%!s(MISSING)
+[INFO ] 2026/05/26 10:50:33.719341 rcv /almex/device/sound/notice_status_service {"statusService":false,"idDevice":"0701"}
+[TRACE] 2026/05/26 10:50:33.720357 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/sound/ Id:0701 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.720965 NoticeStatusService end, ReqCtrlCount:3
+[INFO ] 2026/05/26 10:50:33.766035 rcv /almex/device/ppr/notice_status_service {"statusService":false,"idDevice":"0e01"}
+[TRACE] 2026/05/26 10:50:33.766035 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/ppr/ Id:0e01 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.766546 NoticeStatusService end, ReqCtrlCount:2
+[INFO ] 2026/05/26 10:50:33.768620 rcv /almex/device/qr/notice_status_service {"statusService":false,"idDevice":"0206"}
+[TRACE] 2026/05/26 10:50:33.769129 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/qr/ Id:0206 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:33.769129 NoticeStatusService end, ReqCtrlCount:1
+[INFO ] 2026/05/26 10:50:35.320588 rcv /almex/device/iccard/notice_status_service {"statusService":false,"idDevice":"0c02"}
+[TRACE] 2026/05/26 10:50:35.320588 config get(notice)(%!s(uint8=47)):&{Enable:true Topic:/almex/device/iccard/ Id:0c02 MainteStop:false Category:DEVICE StatusService:true WaitNotice:2 Startup:true ErrorCode:}
+[TRACE] 2026/05/26 10:50:35.321111 NoticeStatusService end, ReqCtrlCount:0
+[TRACE] 2026/05/26 10:50:35.321111 ServiceController all notice receive. 5-2
+[TRACE] 2026/05/26 10:50:35.321624 TransStop end.
+[INFO ] 2026/05/26 10:50:35.321624 snd /tex/unifunc/status/notice_status_service {"statusService":false,"idDevice":"","idExtSys":""}
+[TRACE] 2026/05/26 10:50:35.321624 notCng EvaluateDeviceErr bfrCD:, aftCD:, logErr:18, logRoute:0, devIdx:-1, j:-1
+[INFO ] 2026/05/26 10:50:35.322138 snd /tex/unifunc/status/notice_status {"statusTerminal":2,"infoTerm":{"statusError":0,"termErrorCode":0,"termErrorState":0,"statusHandling":5,"statusSecurity":0,"statusDoor":0,"statuskeySw":1,"statusCall":0,"paymentMode":0},"errorContent":"","errorDetailCode":"","errorDetailContent":"","recoverGuideMessage":"","recoverGuidePicture":"","recoverGuideMovie":"","printErrorReceipt":true,"infoDeviceTbl":null}
+[TRACE] 2026/05/26 10:50:35.322138 context is &{ServiceRepository:0x7ff74640e720 Logger:0x7ff74640e100 ModeReady:{RequestInfo:{ProcessID: PcID: RequestID:} ModeReady:0 ModeClear:0 ModeClose:0 InfoSales:{SalesAmount:0 ExchangeTotal:0 SalesTypeTbl:[]} InfoSafe:{CurrentStatusTbl:[0 0 0 0 0 0 0 0 0] SortInfotbl:[]}} ScreenMode:3 ScreenStatus:false InfoTerm:{StatusError:0 TermErrorCode:0 TermErrorState:0 StatusHandling:5 StatusSecurity:0 StatusDoor:0 StatuskeySw:1 StatusCall:0 PaymentMode:0} ErrorContent: ErrorDetailCode: ErrorDetailContent: RecoverGuideMessage: RecoverGuidePicture: RecoverGuideMovie: PrintErrorReceipt:true TradingModeReadyKind:-1 TradingModeReadyMsg: TradeType:0 InfoPayment:<nil> UIError: ProcessPowerOff:false OperatorMode:0 OperatorCode: NoticeErrorService:{ErrorCode: ErrorDetail:}}
+[TRACE] 2026/05/26 10:50:35.322138 after mode change context(2):&{ServiceRepository:0x7ff74640e720 Logger:0x7ff74640e100 ModeReady:{RequestInfo:{ProcessID: PcID: RequestID:} ModeReady:0 ModeClear:0 ModeClose:0 InfoSales:{SalesAmount:0 ExchangeTotal:0 SalesTypeTbl:[]} InfoSafe:{CurrentStatusTbl:[0 0 0 0 0 0 0 0 0] SortInfotbl:[]}} ScreenMode:3 ScreenStatus:false InfoTerm:{StatusError:0 TermErrorCode:0 TermErrorState:0 StatusHandling:5 StatusSecurity:0 StatusDoor:0 StatuskeySw:1 StatusCall:0 PaymentMode:0} ErrorContent: ErrorDetailCode: ErrorDetailContent: RecoverGuideMessage: RecoverGuidePicture: RecoverGuideMovie: PrintErrorReceipt:true TradingModeReadyKind:-1 TradingModeReadyMsg: TradeType:0 InfoPayment:<nil> UIError: ProcessPowerOff:false OperatorMode:0 OperatorCode: NoticeErrorService:{ErrorCode: ErrorDetail:}}
+[INFO ] 2026/05/26 10:50:40.322272 snd /tex/ui/request_status_ui {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"request_status_ui11313"}}
+[INFO ] 2026/05/26 10:50:41.379653 end program.

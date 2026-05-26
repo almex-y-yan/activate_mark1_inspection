@@ -1,0 +1,4 @@
+[INFO ] 2026/05/26 10:50:32.670729 rcv /almex/helper/led/request_control_service {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helperled_248946id12"},"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:32.673439 snd /almex/helper/led/result_control_service {"requestInfo":{"processId":"000018c0","pcId":"","requestId":"rqCtrSv_helperled_248946id12"},"result":true}
+[INFO ] 2026/05/26 10:50:32.676672 snd /almex/helper/led/notice_status_service {"statusService":false,"idDevice":"","idExtSys":""}
+[INFO ] 2026/05/26 10:50:37.860110 end program.
