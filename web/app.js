@@ -3,7 +3,6 @@ const logsEl = document.getElementById("logs");
 
 const controls = {
   inspectionStartBtn: document.getElementById("inspection-start-btn"),
-  inspectionCompleteBtn: document.getElementById("inspection-complete-btn"),
   cardSelected: document.getElementById("card-selected"),
   cardCom: document.getElementById("card-com"),
   irsSelected: document.getElementById("irs-selected"),
@@ -220,51 +219,7 @@ async function runInspectionStart() {
   }
 }
 
-async function runInspectionComplete() {
-  const ok = window.confirm("出荷検査ツールを削除します。よろしいですか");
-  if (!ok) {
-    appendLogs(["出荷検査完了処理をキャンセルしました"]);
-    return;
-  }
-  controls.inspectionCompleteBtn.disabled = true;
-  controls.inspectionStartBtn.disabled = true;
-  controls.reloadBtn.disabled = true;
-  controls.applyBtn.disabled = true;
-  setStatus("出荷検査完了処理を実行中です...", true, true);
-  appendLogs([`--- ${new Date().toLocaleString()} 出荷検査完了処理開始 ---`]);
-  try {
-    const response = await fetch("/api/inspection/complete", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" }
-    });
-    const bodyText = await response.text();
-    const contentType = response.headers.get("content-type") || "";
-    const isJson = contentType.includes("application/json");
-    if (!isJson) {
-      const message = `サーバー応答がJSONではありません (HTTP ${response.status})`;
-      setStatus(message, false);
-      appendLogs([message, `応答本文: ${bodyText || "(空)"}`]);
-      return;
-    }
-    const body = bodyText === "" ? {} : JSON.parse(bodyText);
-    setStatus(
-      body.message || "出荷検査完了処理が完了しました",
-      body.statusError === true
-    );
-    appendLogs(body.logs);
-  } catch (err) {
-    setStatus(`通信エラー: ${err.message}`, false);
-    appendLogs([`通信エラー詳細: ${err.message}`]);
-  } finally {
-    controls.inspectionCompleteBtn.disabled = false;
-    controls.inspectionStartBtn.disabled = false;
-    controls.reloadBtn.disabled = false;
-    controls.applyBtn.disabled = false;
-  }
-}
-
 document.getElementById("apply-form").addEventListener("submit", applyRequest);
 controls.inspectionStartBtn.addEventListener("click", runInspectionStart);
-controls.inspectionCompleteBtn.addEventListener("click", runInspectionComplete);
 controls.reloadBtn.addEventListener("click", fetchState);
 fetchState().catch((err) => setStatus(`初期読込失敗: ${err.message}`, false));

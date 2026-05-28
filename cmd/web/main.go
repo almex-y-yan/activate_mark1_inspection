@@ -138,7 +138,6 @@ func main() {
 	mux.HandleFunc("/api/state", application.handleState)
 	mux.HandleFunc("/api/apply", application.handleApply)
 	mux.HandleFunc("/api/inspection/start", application.handleInspectionStart)
-	mux.HandleFunc("/api/inspection/complete", application.handleInspectionComplete)
 	mux.Handle("/", http.FileServer(http.Dir(application.webDir)))
 
 	address := "127.0.0.1:18080"
@@ -372,53 +371,6 @@ func (a *app) handleInspectionStart(w http.ResponseWriter, r *http.Request) {
 		Message:     message,
 		Logs:        logs,
 	})
-}
-
-func (a *app) handleInspectionComplete(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost {
-		writeJSON(w, http.StatusMethodNotAllowed, apiResponse{
-			StatusError: false,
-			Message:     "POST のみ許可されています",
-		})
-		return
-	}
-	logs := []string{"出荷検査完了処理を開始します"}
-	targetPath, err := resolveWebExePath()
-	if err != nil {
-		logOperation("inspection/complete", "web.exe の場所を特定できませんでした", append(logs,
-			fmt.Sprintf("削除対象特定失敗: %s", err.Error())))
-		writeJSON(w, http.StatusInternalServerError, apiResponse{
-			StatusError: false,
-			Message:     "web.exe の場所を特定できませんでした",
-			Logs: append(logs,
-				fmt.Sprintf("削除対象特定失敗: %s", err.Error())),
-		})
-		return
-	}
-	logs = append(logs, fmt.Sprintf("削除対象: %s", targetPath))
-	if err := scheduleDelete(targetPath); err != nil {
-		wrapped := wrapPermissionError(err, "削除予約", targetPath)
-		logOperation("inspection/complete", "web.exe の削除予約に失敗しました", append(logs,
-			fmt.Sprintf("削除予約失敗: %s", wrapped.Error())))
-		writeJSON(w, http.StatusInternalServerError, apiResponse{
-			StatusError: false,
-			Message:     "web.exe の削除予約に失敗しました",
-			Logs: append(logs,
-				fmt.Sprintf("削除予約失敗: %s", wrapped.Error())),
-		})
-		return
-	}
-	logOperation("inspection/complete", "web.exe の削除を予約しました。アプリを終了します", append(logs,
-		"削除予約完了",
-		"アプリを終了します"))
-	writeJSON(w, http.StatusOK, apiResponse{
-		StatusError: true,
-		Message:     "web.exe の削除を予約しました。アプリを終了します",
-		Logs: append(logs,
-			"削除予約完了",
-			"アプリを終了します"),
-	})
-	go shutdownSoon()
 }
 
 func (a *app) currentState() (*statePayload, error) {
@@ -705,34 +657,6 @@ func resolveWebDir() (string, error) {
 		return exeWeb, nil
 	}
 	return "", errors.New("web フォルダが見つかりません")
-}
-
-func resolveWebExePath() (string, error) {
-	cwdPath := filepath.Join(".", "web.exe")
-	if isFile(cwdPath) {
-		return cwdPath, nil
-	}
-	exePath, err := os.Executable()
-	if err != nil {
-		return "", err
-	}
-	exeDirPath := filepath.Join(filepath.Dir(exePath), "web.exe")
-	if isFile(exeDirPath) {
-		return exeDirPath, nil
-	}
-	return "", errors.New("web.exe が見つかりません")
-}
-
-func scheduleDelete(targetPath string) error {
-	quoted := fmt.Sprintf("\"%s\"", targetPath)
-	command := "ping 127.0.0.1 -n 3 >nul && del /f /q " + quoted
-	cmd := exec.Command("cmd", "/C", command)
-	return cmd.Start()
-}
-
-func shutdownSoon() {
-	time.Sleep(800 * time.Millisecond)
-	os.Exit(0)
 }
 
 func openBrowser(url string) {

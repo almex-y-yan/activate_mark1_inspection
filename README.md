@@ -3,6 +3,8 @@
 Go + ブラウザUIで、対象 `.ini` の `Com` を更新し、
 対応サービスを再起動するツールです。
 
+**操作手順（管理者実行・画面操作）:** [マニュアル.md](./マニュアル.md)
+
 ## 前提
 
 - Windows 環境
@@ -41,6 +43,18 @@ go build -o web.exe ./cmd/web
 `go generate ./cmd/web` で `cmd/web/resource.syso` が再生成され、
 次の `go build` で `web.exe` に埋め込まれます。
 
+## キオスク PC への配置
+
+PC に入れるときは、次のものだけを同じフォルダに配置してください。
+
+- `web.exe`
+- `web` フォルダ（`index.html` / `app.js`）
+- `scripts` フォルダ（初回のサービス権限付与など）
+- `bin` フォルダ（運用で必要な場合）
+
+リポジトリの `cmd/` は Go のソース用であり、キオスクには不要です。
+削除処理は Windows 標準の `cmd.exe` を利用しますが、これも OS 同梱のためコピー不要です。
+
 ## 対象ファイルとサービス
 
 - `almex_card_crl31.ini` -> `almdevcd7`
@@ -48,6 +62,16 @@ go build -o web.exe ./cmd/web
 - `almex_iccard_nm43.ini` -> `almdevic5`
 
 ## 画面の使い方
+
+### ボタン
+
+- **出荷検査ツール開始**: サービス停止・開始のあと `mark1_inspection.exe` を起動します（詳細は下記「出荷検査ツール開始時のサービス制御」）
+- **COM設定+サービス再起動実行**: 入力した COM 値で `.ini` を更新し、対応サービスを再起動します
+- **再読込**: 現在の `.ini` 値を画面に読み直します
+
+`web.exe` の自動削除機能は提供していません。キオスクから本ツールを外す場合は、運用手順に従い手動で削除してください。
+
+### COM 設定の入力
 
 - `Card対象` をチェックすると `Card Com` が必須
 - `IRS対象` をチェックすると `DEVICE1 Com` が必須
@@ -199,9 +223,10 @@ go build -o web.exe ./cmd/web
 
 ## API仕様
 
-- `GET /api/state`: 現在値取得（クエリ）
-- `POST /api/apply`: ini更新 + サービス再起動（コマンド）
-- 返却JSONの `statusError` は **`true` が正常**
+- `GET /api/state`: 現在値取得
+- `POST /api/apply`: ini 更新 + サービス再起動
+- `POST /api/inspection/start`: 出荷検査用のサービス制御 + `mark1_inspection.exe` 起動
+- 返却 JSON の `statusError` は **`true` が正常**
 
 ## 復旧手順
 
