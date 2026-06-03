@@ -119,7 +119,7 @@ var inspectionStartServices = []string{
 const inspectionToolPath = `d:\almex\tool\mark1_inspection\mark1_inspection.exe`
 const appLogFileName = "ini-web-tool.log"
 const nm43ServiceName = "almdevic5"
-const inspectionLaunchDelayAfterNM43Start = 2 * time.Second
+const inspectionLaunchDelayAfterNM43Start = 6 * time.Second
 
 func main() {
 	logPath, err := configureLogging(os.Getenv("ALMEXPATH"))
